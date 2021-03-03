@@ -4,19 +4,16 @@ title: About
 permalink: /
 ---
 
-## Ultra - Super fast Jekyll theme 
+## Daniel Ting 
 
-Super fast, minimal one-column portfolio/blog theme built for Jekyll. Theme weighs under <strong>2kb</strong>. Perfect for your personal website, blog and portfolio.
+You found my homepage!
 
-### Key features
+### Interests
+- Computing science, programming, algorithms
+- Computer engineering, hardware, tech
+- Occasional gaming
+- Casual ping pong
+- Classical piano
+- Twisty puzzles
 
-- seo optimized
-- weighs under 2kb
-- portfolio/blog pages
-- AAA, 100/100 scores on Lighthouse, Gmetrix and Webpagetest
-- responsive
-- inline css
-- compressed css, html
-- sitemap
-- robots.txt
-- atom feed
+You can find me on [email](mailto:danielzting@gmail.com), [GitHub](https://github.com/DanielZTing), and [Steam](https://steamcommunity.com/id/unixrubix).
