@@ -2,6 +2,7 @@
 layout: project
 title: Algorithm Simulator
 summary: Become your favorite sorting algorithm!
+category: Game
 ---
 
 ![Level select
