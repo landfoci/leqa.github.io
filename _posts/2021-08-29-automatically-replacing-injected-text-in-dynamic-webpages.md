@@ -51,14 +51,15 @@ To check for this, we create `valid()`:
 ```javascript
 function valid(node) {
     return (
-        // Sometimes the node is removed from the document before we can process it, so check for valid parent
+        // Sometimes the node is removed from the document before we can process it
         node.parentNode !== null
         // HTML tags that permit textual content but are not front-facing text
         && node.parentNode.tagName !== 'SCRIPT' && node.parentNode.tagName !== 'STYLE'
         // Ignore contentEditable elements as touching them messes up the cursor position
         && !node.parentNode.isContentEditable
         // HACK: workaround to avoid breaking icon fonts
-        && !window.getComputedStyle(node.parentNode).getPropertyValue('font-family').toUpperCase().includes('ICON')
+        && !window.getComputedStyle(node.parentNode)
+            .getPropertyValue('font-family').toUpperCase().includes('ICON')
     );
 }
 ```
@@ -111,8 +112,9 @@ while (elements.nextNode()) {
             const newClass = 'TextObserverHelperAssigned' + i;
             node.classList.add(newClass);
             // Substring is needed to cut off open and close quote
+            const result = callback(content.substring(1, content.length - 1));
             styles += `.${newClass}${pseudoClass} {
-                content: "${callback(content.substring(1, content.length - 1))}" !important;
+                content: "${result}" !important;
             }`;
         }
     }
@@ -126,7 +128,12 @@ styleElement.textContent = styles;
 Now that we have a way to robustly substitute text across a document, we can start working on the part that does the observation. The [`MutationObserver`](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver) interface provides a way to track updates in the DOM. We can extract all of our previous code to a `processNodes()` function and replace every instance of `document.body` with a single parameter representing the root node and leverage that in our observation callback.
 
 ```javascript
-const IGNORED = [Node.CDATA_SECTION_NODE, Node.PROCESSING_INSTRUCTION_NODE, Node.COMMENT_NODE];
+const IGNORED = [
+    Node.CDATA_SECTION_NODE,
+    Node.PROCESSING_INSTRUCTION_NODE,
+    Node.COMMENT_NODE,
+];
+
 const CONFIG = {
     subtree: true,
     childList: true,
@@ -137,7 +144,7 @@ const CONFIG = {
 
 const observer = new MutationObserver((mutations, observer) => {
     // Disconnect every observer after collecting their records
-    // Otherwise, the callback's mutations will trigger the observer and lead to an infinite feedback loop
+    // Otherwise, the callback's mutations will trigger an infinite feedback loop
     observer.disconnect();
 
     for (const mutation of mutations) {
@@ -157,14 +164,14 @@ const observer = new MutationObserver((mutations, observer) => {
                 }
                 break;
             case 'characterData':
-                if (!IGNORED.includes(target.nodeType) && valid(target) && target.nodeValue !== oldValue) {
+                if (!IGNORED.includes(target.nodeType) && valid(target)) {
                     target.nodeValue = callback(target.nodeValue);
                 }
                 break;
             case 'attributes':
                 const attribute = mutation.attributeName;
                 const value = target.getAttribute(attribute);
-                if (value !== undefined && value !== null && value !== oldValue) {
+                if (value !== undefined && value !== null) {
                     // Find if element with changed attribute matches a valid selector
                     const selectors = WATCHED_ATTRIBUTES[attribute];
                     let matched = false;
@@ -190,7 +197,7 @@ processNodes(document.body);
 observer.observe(document.body, CONFIG);
 ```
 
-The length may be intimidating but this part is relatively straightforward compared to what we've gone through. Believe it or not, we are now done! Hopefully this was helpful in documenting the thought process and structure behind `TextObserver`.
+The length may be intimidating but this part is relatively straightforward compared to what we've gone through. We check each mutation and if it's an added node, we process it recursively leveraging the `processNodes()` function we wrote previously. If it's a changed [`CharacterData`](https://developer.mozilla.org/en-US/docs/Web/API/CharacterData) node we have to check that it is a real `Text` node and not one of the other types that implement the more general `CharacterData` interface. And if it's an attribute we check if the changed element is one we're actually watching. Believe it or not, we are now done! Hopefully this was helpful in documenting the thought process and structure behind `TextObserver`.
 
 # Just kidding, the web is complicated
 
