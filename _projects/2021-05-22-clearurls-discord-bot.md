@@ -2,7 +2,7 @@
 layout: project
 title: ClearURLs Discord Bot
 summary: A Discord bot that uses ClearURLs to automatically strip out tracking parameters from messages with links.
-category: Bot
+category: Python, Bot
 ---
 
 Have you ever noticed those `utm` and `fbclid` snippets in links? Those are used to track your activity and unnecessary for the site to work. This bot uses the [Unalix](https://github.com/AmanoTeam/Unalix) library that is based off of the popular [ClearURLs](https://github.com/ClearURLs/Addon) browser extension to automatically strip out such parameters from links. This keeps URLs short and readable while enhancing the privacy of your server's members.

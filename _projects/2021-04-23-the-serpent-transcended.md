@@ -2,7 +2,7 @@
 layout: project
 title: THE SERPENT TRANSCENDED
 summary: Nobody knows what happened to the Milton Library Assistant. That is, until one day, as you were browsing the web, you stumble across a mysterious darknet server...
-category: Game
+category: JavaScript, Game
 ---
 
 ![ASCII art of blinking eye with caption Milton Library Assistant](https://raw.githubusercontent.com/DanielZTing/the-serpent-transcended/main/milton.gif)

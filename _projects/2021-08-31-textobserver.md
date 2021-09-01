@@ -2,7 +2,7 @@
 layout: project
 title: TextObserver
 summary: Find and replace text on a webpage with whatever you want.
-category: Library
+category: JavaScript, Library
 ---
 
 `TextObserver` replaces text on a webpage with whatever you want, including text injected dynamically after initial page load.
