@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Automatically replacing injected text in dynamic webpages (or: have web standards become too bloated?)"
+title: "Automatically replacing injected text in dynamic webpages"
 summary: A walkthrough of how my TextObserver microlibrary works and a brief rant-flection on the state of the web.
 ---
 

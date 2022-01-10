@@ -18,7 +18,7 @@ When I first heard of the Incompleteness Theorem, I found the idea that math can
 
 A statement of number theory can be represented by a set of symbols. For example, the famous Goldbach conjecture can be expressed as follows:
 
-$$\forall a:\exists b:\exists c:\neg(\exists d:\exists e:SSd \cdot SSe=b ∨ SSd \cdot SSe=c) ∧ a+a=b+c$$
+$$\forall a:\exists b:\exists c:\neg(\exists d:\exists e:SSd \cdot SSe=b \lor SSd \cdot SSe=c) \land a+a=b+c$$
 
 This roughly translates as "for all a, there exist b and c such that there are no d and e where b or c is equal to the product of d plus two and e plus two and b plus c equals a plus a." More succinctly, "for all a, there exist b and c such that their only factors are one and themselves and a doubled equals b plus c". Or, finally: "for all even numbers a, there exist two primes b and c that sum up to a." The spark of genius is the idea of assigning each symbol to a number, known as Gödel numbering. Using the coding in the book, the above would be mapped by an absolutely massive integer that starts with 626 (code for the "for all" symbol) and ends with 262,163,163 (code for the variable "c").
 
@@ -26,11 +26,11 @@ With that out of the way, we need two more concepts. The first is the notion of 
 
 Now all the pieces are assembled. Consider the following string:
 
-$$\neg \exists a:\exists b:\text{PROOF-PAIR}(a, b) ∧ \text{ARITHMOQUINE}(c, b)$$
+$$\neg \exists a:\exists b:\text{PROOF-PAIR}(a, b) \land \text{ARITHMOQUINE}(c, b)$$
 
 This has a Gödel number which we can call u. Now what happens if arithmoquine this very sentence? Substituting u into c, its only free variable, results in the below. (Assume there are u S's.)
 
-$$\neg \exists a:\exists b:\text{PROOF-PAIR}(a, b) ∧ \text{ARITHMOQUINE}(SSS..SSS0, b)$$
+$$\neg \exists a:\exists b:\text{PROOF-PAIR}(a, b) \land \text{ARITHMOQUINE}(SSS..SSS0, b)$$
 
 We have finally obtained Gödel's sentence. Literally, it says "there are no numbers a and b such that a is the derivation of b and b is the arithmoquinification of u." In other words, "there is no proof for the arithmoquinification of u." But this very sentence was obtained by arithmoquining u! So in essence, Gödel's sentence translates into "this sentence has no proof."
 
