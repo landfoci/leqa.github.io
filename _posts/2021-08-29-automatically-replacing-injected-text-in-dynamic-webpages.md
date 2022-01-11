@@ -12,7 +12,7 @@ Find and replace.
 
 This operation is something every programmer is familiar with. It is ubiquitous in a huge variety of apps due to its incredible versatility yet simple implementation. At least, you would think it would be simple. In many programs, it probably is. But in the domain of websites, it is anything but. My inspiration for this library came from [XKCD 2112: Night Shift](https://xkcd.com/2112).
 
-![Chatlog with very bland messages](https://imgs.xkcd.com/comics/night_shift.png)
+<img src="https://imgs.xkcd.com/comics/night_shift_2x.png" alt="Chatlog with very bland messages" width="327" height="618">
 
 My idea was to create a browser extension that does some primitive version of that by, say, substituting strong words with softer ones ("extremely" to "a little") and cutting out swear words entirely. To do this, I would need a reliable and performant way to manipulate the text on a webpage. Not only that, I would need to monitor the DOM and process any text added or modified after initial load, because almost every site nowadays has the ability to dynamically request new content with background AJAX calls (think about when you press "more comments" on Reddit or switch channels in Discord: these actions don't need to refresh the entire page). This turned out to be quite a nontrivial problem and `TextObserver` was born out of the resulting rabbit hole.
 

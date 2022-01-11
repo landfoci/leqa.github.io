@@ -1,18 +1,18 @@
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+// html {
+//   box-sizing: border-box;
+// }
+// *, *:before, *:after {
+//   box-sizing: inherit;
+// }
 body {
     margin: 0 auto;
     max-width: 50rem;
     padding: 1rem;
 }
 
-strong, b, h1, h2, h3, h4 {
-	font-weight: bold;
-}
+// strong, b, h1, h2, h3, h4 {
+// 	font-weight: bold;
+// }
 
 hr {
     background: black;
@@ -22,19 +22,19 @@ hr {
     width: 100%;
 }
 
-table {
-    border-collapse: collapse;
-    text-align: left;
-    width: 100%;
+// table {
+//     border-collapse: collapse;
+//     text-align: left;
+//     width: 100%;
 
-    tr {
-        border-bottom: 1px solid black;
-    }
+//     tr {
+//         border-bottom: 1px solid black;
+//     }
 
-    td {
-        padding: 0.5rem;
-    }
-}
+//     td {
+//         padding: 0.5rem;
+//     }
+// }
 
 img {
     margin: auto;
@@ -58,6 +58,6 @@ nav {
     }
 }
 
-footer {
-    margin: 2rem 0;
-}
+// footer {
+//     margin: 2rem 0;
+// }
