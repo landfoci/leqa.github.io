@@ -1,12 +1,31 @@
 $primary: #00A600;
 
+:root {
+  --foreground: black;
+  --background: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: white;
+    --background: black;
+  }
+}
+
+hr {
+    background: var(--foreground);
+    border: 0;
+    height: 2px;
+    margin: 2rem 0;
+    width: 100%;
+}
+
 body {
+  color: var(--foreground);
+  background-color: var(--background);
   font-size: 1rem;
   line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  -webkit-text-size-adjust: 100%;
-  zoom: 1;
   font-family: sans-serif;
 }
 
@@ -23,7 +42,7 @@ body {
 // }
 
 a,a:visited {
-  color: black;
+  color: inherit;
   font-weight: bold;
 
   &:hover {
@@ -76,5 +95,5 @@ pre {
 }
 
 .date {
-  opacity: 0.6;
+  opacity: 0.8;
 }
