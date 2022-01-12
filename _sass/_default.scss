@@ -1,0 +1,109 @@
+$primary: #00A600;
+
+:root {
+  --foreground: black;
+  --background: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: white;
+    --background: black;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+  font-size: 1rem;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  font-family: sans-serif;
+  margin: 0 auto;
+  max-width: 50rem;
+  padding: 1rem;
+}
+
+nav {
+    ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+
+        li {
+            display: inline-block;
+        }
+    }
+    a {
+        margin: 0.5rem;
+        text-decoration: none;
+    }
+}
+
+hr {
+    background: var(--foreground);
+    border: 0;
+    height: 2px;
+    margin: 2rem 0;
+    width: 100%;
+}
+
+a,a:visited {
+  color: inherit;
+  font-weight: bold;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+a.active {
+    background: var(--foreground);
+    padding: 0.5rem;
+    color: var(--background);
+    font-weight: bold;
+}
+
+blockquote {
+  border-left: 5px solid var(--foreground);
+  margin: 0;
+  padding: 0 1rem;
+
+  p {
+    margin: 0;
+  }
+}
+
+code, pre {
+	font-family: "Fira Code", monospace;
+	font-size: 90%;
+}
+
+pre {
+  overflow: auto;
+  padding: 1em;
+}
+
+img {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+
+    tr {
+        border-bottom: 1px solid var(--foreground);
+    }
+
+    th, td {
+        padding: 0.5rem;
+    }
+}
+
+.date {
+  opacity: 0.8;
+}
