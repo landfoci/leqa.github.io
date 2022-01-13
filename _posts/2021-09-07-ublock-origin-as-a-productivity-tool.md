@@ -1,7 +1,6 @@
 ---
 layout: post
 title: uBlock Origin as a productivity tool
-summary: Content filtering can be used beyond blocking ads.
 ---
 
 There are about a million bajillion articles already about maximizing

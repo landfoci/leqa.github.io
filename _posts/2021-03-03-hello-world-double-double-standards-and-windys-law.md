@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Hello, world! Double double standards, and Windy's Law
-summary: Check yourself before accusing someone of a double standard.
 ---
 
 Hello, world! This is where I will write down any interesting thoughts I come across or things I've learned that might prove helpful to others.

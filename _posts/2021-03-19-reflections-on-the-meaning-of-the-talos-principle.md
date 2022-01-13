@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Reflections on the meaning of The Talos Principle
-summary: An essay on the message behind Croteam's philosophical puzzler.
 ---
 
 In my last semester of high school, I had the privilege of taking ENGL 4680: Game Narratives as Literature with Dr. Marshall Needleman Armintor. I wrote my midterm on the theme of *The Talos Principle*. In doing so, I found myself reflecting a lot about life, identity, hope, and the human condition. I hope it will do a little bit of the same for you.

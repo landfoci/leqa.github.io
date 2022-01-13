@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Thoughts on Gödel, Escher, Bach
-summary: My personal review and what I got out of this influential book of enormous scope.
 ---
 
 I checked out Douglas Hofstadter's *Gödel, Escher, Bach* at the beginning of the (fall 2021) semester, reading a bit most nights before bed. Coming in at a hefty 777 pages (nice), I only managed to finish it this winter break. It was the most unique book I've ever read in many ways, so I've tried to collect my thoughts as documentation for anybody interested in reading it as well and my future self.
@@ -41,4 +40,3 @@ What are the implications of this? If we say that Gödel's sentence is a lie, th
 If I had to review the book in one sentence, I would say "incredible concepts, lengthy presentation." At times, I felt like the book was written just for me. It's literally a collection of everything I'm interested in. I loved the first ten chapters on formal systems, meaning in math, figure and ground, recursion and self-reference, and computer organization. Some people thought the dialogues were unnecessary and pretentious, but I thought they added a funny and often amazingly clever element to the formal-ness of the rest of the book. (I never thought I would laugh at a story about a tortoise repeatedly destroying a crab's record player as a metaphor for Gödel's theorem.) I also enjoyed chapters thirteen through seventeen which introduce Gödel's proof, its philosophical implications, and related ideas in computer science like primitive/general/partial recursive functions, the Church-Turing thesis, the halting problem, and the Entscheidungsproblem (took me several tries just to Google how to spell that).
 
 On the other hand, I found the four chapters where the author speculates on brain processes and AI relatively boring and I would not miss them at all if they were cut out. I'd say the book's biggest flaw is that I'm still not sure what its trying to say, which would be a lot less of a problem if it weren't over 700 pages long. A minor detail is that the section on AI is quite dated. For instance, the author asserts that chess programs will never surpass humans until general intelligence is achieved, but this is a reasonable viewpoint given the book was published in 1979. The rest of the book is timeless and absolutely worth reading if you like the feeling of your brain physically expanding.
-

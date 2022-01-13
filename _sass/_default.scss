@@ -50,6 +50,10 @@ hr {
   width: 100%;
 }
 
+time {
+  font-style: italic;
+}
+
 a, a:visited {
   color: inherit;
 
@@ -65,36 +69,47 @@ a.active {
   font-weight: bold;
 }
 
+.posts {
+  padding: 0;
+
+  li {
+    display: flex;
+    line-height: 2;
+
+    div {
+      min-width: 12ch;
+    }
+  }
+}
+
 .projects {
-  ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 1rem;
-    list-style: none;
-    padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+  list-style: none;
+  padding: 0;
 
-    li {
-      border: 2px solid var(--foreground);
+  li {
+    border: 2px solid var(--foreground);
 
-      img {
-        max-height: 200px;
-        overflow: hidden;
-        position: relative;
-        margin: 0;
-        width: 100%;
+    img {
+      max-height: 200px;
+      overflow: hidden;
+      position: relative;
+      margin: 0;
+      width: 100%;
+    }
+
+    div {
+      margin: 1rem;
+
+      a {
+        font-weight: bold;
+        font-size: 128%;
       }
 
-      div {
-        margin: 1rem;
-
-        a {
-          font-weight: bold;
-          font-size: 128%;
-        }
-
-        p {
-          margin: 0.5rem 0;
-        }
+      p {
+        margin: 0.5rem 0;
       }
     }
   }
@@ -140,7 +155,6 @@ table {
   }
 }
 
-.date {
-  font-style: italic;
-  padding-right: 1rem;
+.MathJax_Display, .MJXc-display, .MathJax_SVG_Display {
+    overflow-x: auto;
 }
