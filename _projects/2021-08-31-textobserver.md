@@ -1,8 +1,10 @@
 ---
 layout: project
 title: TextObserver
-summary: Find and replace text on a webpage with whatever you want.
+summary: A tiny JavaScript library to automatically find and replace text on dynamic webpages with whatever you want.
 category: JavaScript, Library
+image: https://imgs.xkcd.com/comics/substitutions_2x.png
+alt: Mocking SpongeBob
 ---
 
 `TextObserver` replaces text on a webpage with whatever you want, including text injected dynamically after initial page load.
@@ -12,6 +14,9 @@ const badWordFilter = new TextObserver(text => text.replaceAll(/heck/gi, 'h*ck')
 ```
 
 Inspired by [`findAndReplaceDOMText`](https://github.com/padolsey/findAndReplaceDOMText), but with a different use case. Use `findAndReplaceDOMText` if you need to robustly substitute or wrap text that may span across multiple nodes a set number of times. `TextObserver` uses the [`MutationObserver`](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver) interface to keep track of changes in the DOM. Any dynamically updated content will automatically be processed in time linear to the amount of changes, not to the total amount of nodes. This enables usage on modern infinite-scrolling websites that make heavy use of AJAX like Reddit and Discord without performance degrading as more content is added.
+
+<img src="https://imgs.xkcd.com/comics/substitutions_2x.png" alt="Funny word substitutions" width="438" height="376">
+<p align="center">Image credit to <a href="https://xkcd.com/1288">xkcd 1288: Substitutions</a></p>
 
 See the [repository README](https://github.com/DanielZTing/TextObserver) for more details. Here's an example of a more advanced regex that uses capturing groups/backreferences to convert miles to kilometers:
 

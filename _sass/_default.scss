@@ -25,32 +25,33 @@ body {
 }
 
 nav {
-    ul {
-        list-style: none;
-        padding: 0;
-        text-align: center;
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
 
-        li {
-            display: inline-block;
-        }
+    li {
+      display: inline-block;
     }
-    a {
-        margin: 0.5rem;
-        text-decoration: none;
-    }
+  }
+
+  a {
+    margin: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
 }
 
 hr {
-    background: var(--foreground);
-    border: 0;
-    height: 2px;
-    margin: 2rem 0;
-    width: 100%;
+  background: var(--foreground);
+  border: 0;
+  height: 2px;
+  margin: 2rem 0;
+  width: 100%;
 }
 
-a,a:visited {
+a, a:visited {
   color: inherit;
-  font-weight: bold;
 
   &:hover {
     color: $primary;
@@ -58,10 +59,45 @@ a,a:visited {
 }
 
 a.active {
-    background: var(--foreground);
-    padding: 0.5rem;
-    color: var(--background);
-    font-weight: bold;
+  background: var(--foreground);
+  padding: 0.5rem;
+  color: var(--background);
+  font-weight: bold;
+}
+
+.projects {
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    list-style: none;
+    padding: 0;
+
+    li {
+      border: 2px solid var(--foreground);
+
+      img {
+        max-height: 200px;
+        overflow: hidden;
+        position: relative;
+        margin: 0;
+        width: 100%;
+      }
+
+      div {
+        margin: 1rem;
+
+        a {
+          font-weight: bold;
+          font-size: 128%;
+        }
+
+        p {
+          margin: 0.5rem 0;
+        }
+      }
+    }
+  }
 }
 
 blockquote {
@@ -85,25 +121,26 @@ pre {
 }
 
 img {
-    margin: auto;
-    display: block;
-    max-width: 100%;
+  margin: auto;
+  display: block;
+  max-width: 100%;
 }
 
 table {
-    border-collapse: collapse;
-    text-align: left;
-    width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
 
-    tr {
-        border-bottom: 1px solid var(--foreground);
-    }
+  tr {
+    border-bottom: 1px solid var(--foreground);
+  }
 
-    th, td {
-        padding: 0.5rem;
-    }
+  th, td {
+    padding: 0.5rem;
+  }
 }
 
 .date {
-  opacity: 0.8;
+  font-style: italic;
+  padding-right: 1rem;
 }
