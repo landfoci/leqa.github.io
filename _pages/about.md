@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /
 ---
 
 ## Daniel Ting 
 
-You found my homepage!
+You discovered my homepage!
 
 ### Interests
 - Computing science, programming, algorithms

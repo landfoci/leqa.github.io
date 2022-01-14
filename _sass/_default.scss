@@ -123,6 +123,11 @@ a.active {
   }
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
 blockquote {
   border-left: 5px solid var(--foreground);
   margin: 0;

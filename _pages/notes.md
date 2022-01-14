@@ -1,5 +1,4 @@
 ---
-layout: blog
+layout: posts
 title: Notes
 ---
-
