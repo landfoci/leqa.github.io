@@ -173,6 +173,10 @@ table {
   th, td {
     padding: 0.5rem;
   }
+
+  td:first-child {
+    font-weight: bold;
+  }
 }
 
 .MathJax_Display, .MJXc-display, .MathJax_SVG_Display {

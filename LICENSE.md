@@ -4,12 +4,9 @@ title: Licenses
 permalink: /licenses
 ---
 
-The website's *text* (that is, files ending in the `.md` Markdown extension in the repository) is licensed under a
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+The website's writing (excluding outside works cited under a free license, with the author's permission, or the fair use doctrine) is released under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0).
 
-This website's *code* (that is, the HTML and everything else) is forked from [Ronalds Vilciņš](https://github.com/ronv)'s
-[Ultra](https://github.com/ronv/ultra) Jekyll theme with some improvements made by myself, both under the MIT license,
-whose text is below.
+This website's code (that is, the HTML and CSS) is forked from [Ronalds Vilciņš](https://github.com/ronv)'s [Ultra](https://github.com/ronv/ultra) Jekyll theme with some improvements made by myself, both under the MIT license, whose text is below.
 
 `MIT License`
 
@@ -21,6 +18,4 @@ whose text is below.
 
 `THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.`
 
-JavaScript from [Utterances](https://utteranc.es/) ([MIT License](https://raw.githubusercontent.com/utterance/utterances/master/LICENSE.md))
-and [MathJax](https://www.mathjax.org/) ([Apache License 2.0](https://raw.githubusercontent.com/mathjax/MathJax/master/LICENSE))
-are used to power comments and math display output, respectively.
+JavaScript from [Utterances](https://utteranc.es/) and [MathJax](https://www.mathjax.org/) are used to power comments and rendering math, respectively.
