@@ -13,6 +13,15 @@ The bigger your display, the more stuff you can see at once without scrolling. S
 
 Technically, the amount of stuff (lines of code, pages of documentation, app windows, etc.) you can fit on your screen depends not on its size but its resolution. That makes the number of pixels the most important factor when it comes to productivity. A picture is worth a thousand words:
 
+![Screenshot of Visual Studio Code on a 1080p workspace](/assets/fhd.png)
+<p align="center"><em>At 1080p, the lowest I'd go, I can comfortably fit 50 lines of code and a file explorer along with two files open side by side, or in my case, one file next to a terminal.</em></p>
+
+![Screenshot of Visual Studio Code on a 1440p workspace](/assets/qhd.png)
+<p align="center"><em>At 1440p, that jumps to 70 lines of code. I can also squeeze another file in. Alternatively, I could put an HTML/CSS/JS file next to a browser window to test on the same monitor.</em></p>
+
+![Screenshot of Visual Studio Code on a 4K workspace](/assets/uhd.png)
+<p align="center"><em>At 4K (if I had the eagle eyes to use it at 100% scaling), I could fit a massive 110 LOC and three files plus a terminal. I could also have HTML source code and a browser testing window with enough room to even show devtools, all on the same monitor. Or I could fit four (4!) 1080p editor windows on each quadrant of the screen.</em></p>
+
 So why did I discuss size first? For any fixed-sized monitor, pixels can only get so dense before the whole interface is too small to practically use. For the average person with healthy vision and sitting an arm's length away from their screen, this threshold is in the ballpark of 110 [pixels per inch](https://dpi.lv/). So your chosen size will limit what resolutions you should shoot for. A 27-inch 1440p is 109 PPI, which is why this size and resolution pairing is so common.
 
 A monitor with a PPI lower than 110 will have the same amount of virtual real estate as a smaller one of equivalent resolution while being less sharp. For example, the ubiquitous 24-inch 1080p (92 PPI) won't fit any more lines of code than a 21-inch 1080p (105 PPI), and media will be slightly more pixelated. So in my opinion there isn't much point in going lower than 110 PPI. On the other hand, you can go for higher PPIs and use scaling, and I'll explain later why I think you should. Below is a table of PPIs for common monitor sizes and resolutions. I've put checkmarks next to recommended combos.
@@ -32,9 +41,14 @@ Although 110 PPI is OK, there are two reasons why I suggest going higher. The fi
 <img src="/assets/retina.png" alt="Two lowercase g's, one at 1x rendering and the other at 2x" width="250" height="150">
 <p align="center"><em>A lowercase g rendered at 1x and 2x in 12 point Menlo, the default on VS Code for macOS.</em></p>
 
-A programmer's job is to stare at text for eight hours a day. So the second most important thing to consider after a big virtual desktop is clear and readable text. It is simply impossible to render letterforms to any degree of fidelity when the amount of pixels you have to work with can be counted on your fingers. As you can see in the image above, the g on the left looks more like a blob of pixel soup than a letter. Windows' aggressive hinting and subpixel antialiasing will [help a bit](https://tonsky.me/blog/monitors/), but nothing beats increasing the raw number of pixels the computer has to paint with.
+A programmer's job is to stare at text for eight hours a day. So the second most important thing to consider after a big virtual desktop is clear and readable text. It is simply impossible to render letterforms to any degree of fidelity when the amount of pixels you have to work with can be counted on your fingers. As you can see in the image above, the g on the left looks more like a blob of pixel soup than a letter. And the English alphabet is on the simple side. It's even worse with CJK characters:
 
-The second and more minor reason is that you'll instantly see if you forgot to ship 2x assets, or if your app isn't resolution independent in general. There is another side to this coin, though: apps that haven't been updated to play well with HiDPI will look wonky. This is a non-issue on macOS, where the first Retina MacBook is soon turning a decade old at the time of writing. In fact I would avoid low PPI monitors like the plague if you're on macOS since [Apple killed subpixel antialiasing in Mojave](https://www.reddit.com/r/apple/comments/9inu3e/if_the_font_rendering_on_mojave_looks_odd_to_you/), so text looks terrible on non-Retina displays. But Windows and Linux are still usable at low resolutions and given their slow adoption of HiDPI support, a low PPI monitor still makes sense if it means your apps won't break. That being said, software support has come a long way and is continually improving, so I would suggest at least trying out a HiDPI monitor and returning it if too many apps are unusable.
+![CJK characters at 498, 244, and 132 PPI](/assets/cjk.jpg)
+<p align="center"><em>The last row is an absolute abomination to look at.</em></p>
+
+(I have no idea where this image originated. Google reverse image search turns up dozens of matches on different websites. If you are the creator let me know and I will credit you.) Windows' aggressive hinting and subpixel antialiasing will [help a bit](https://tonsky.me/blog/monitors/), but nothing beats increasing the raw number of pixels the computer has to paint with.
+
+The second and more minor reason is that you'll instantly see if you forgot to ship 2x assets, or if your app isn't resolution independent in general. There is another side to this coin, though: apps that haven't been updated to play well with HiDPI will look wonky. This is a non-issue on macOS, where the first Retina MacBook is soon turning a decade old at the time of writing. In fact I would avoid low PPI monitors like the plague if you're on macOS since [Apple killed subpixel antialiasing in Mojave](https://www.reddit.com/r/apple/comments/9inu3e/if_the_font_rendering_on_mojave_looks_odd_to_you/), so text looks terrible on non-Retina displays. But Windows and Linux are still usable at low resolutions and given their slow adoption of HiDPI support, a low PPI monitor still makes sense if it means your apps won't break.
 
 # Fractional scaling is perfectly fine
 
@@ -43,7 +57,7 @@ If your chosen size-resolution combo has a PPI that's not close to a multiple of
 <img src="/assets/windows95.png" alt="Windows 95 start menu, normal size and blurry scaled up version" width="324" height="220">
 <p align="center"><em>Yuck! Thankfully, modern operating systems handle fractional scaling much better.</em></p>
 
-[Some](https://medium.com/elementaryos/what-is-hidpi-and-why-does-it-matter-b024eabea20d) [people](https://bjango.com/articles/macexternaldisplays/) [insist](https://tonsky.me/blog/monitors/) that integer scaling is the only way to go for this reason. This is where I will have to disagree. This effect is only really noticeable in UIs with a ton of pixel perfect assets. For example, Windows 95 looks awful with non-integer scaling because the whole OS is rendered with bitmap fonts and pixel art. Antialiased fonts and vector icons that scale well to any size are much more common in modern OSes. Speaking from experience, I use a 4K display running at 2560x1440@2x (equivalent to 150% in Windows) every day and have no complaints about sharpness.
+[Some](https://medium.com/elementaryos/what-is-hidpi-and-why-does-it-matter-b024eabea20d) [people](https://bjango.com/articles/macexternaldisplays/) [insist](https://tonsky.me/blog/monitors/) that integer scaling is the only way to go for this reason. This is where I will have to disagree. This effect is only really noticeable in UIs with a ton of pixel perfect assets. For example, Windows 95 looks awful with non-integer scaling because the whole OS is rendered with bitmap fonts and pixel art. Antialiased fonts and vector icons that scale well to any size dominate modern OSes. Speaking from experience, I use a 4K display running at 2560x1440@2x (equivalent to 150% in Windows) every day and have no complaints about sharpness.
 
 There are other valid reasons to avoid fractional scaling, however; it is reportedly not as polished as integer scaling in Linux. And macOS implements fractional scaling by doing 2x integer scaling internally and then downsampling. So in my case, the GPU is actually pushing 5120x2880, which is nearly 80% more pixels than 4K. In essence, I'm wasting computational power, and the increased load puts noticeably more lag on pre-Xe Intel integrated graphics.
 
@@ -65,19 +79,17 @@ Finally, some expensive high-end IPS displays can dim individual backlighting zo
 
 # Refresh rate
 
-Almost every regular display refreshes 60 times per second, while there are gaming monitors that go up to 120 or more hertz. Fast motion handling is a competitive advantage for gamers, but programmers still benefit from buttery smooth scrolling and responsive mousing. That being said, high refresh rate doesn't meaningfully improve productivity and is more of a nice-to-have. If I had to chose between resolution and refresh rate, I would prioritize resolution.
+Almost every regular display refreshes 60 times per second, while there are gaming monitors that go up to 120 hertz and beyond. Fast motion handling is a competitive advantage for gamers, but programmers still benefit from buttery smooth scrolling and responsive mousing. That being said, high refresh rate doesn't meaningfully improve productivity and is more of a nice-to-have. If I had to chose between resolution and refresh rate, I would prioritize resolution.
 
 # Coating
 
-Almost every monitor comes with a matte layer applied in front of the panel, while almost every other device (phones, tablets, TVs) are glossy. Matte is a must-have if you work in a bright, reflective environment. But if you can control your lighting conditions, glossy gives far superior picture quality. Dave2D has a [great video](https://www.youtube.com/watch?v=3mTV1TOblbA) about the subject.
+Almost every monitor comes with a matte layer applied in front of the panel, while almost every other device (phones, tablets, TVs) are glossy. Matte is a must-have if you work in a bright, reflective environment. But if you can control your lighting conditions, glossy gives far superior picture quality. Dave2D has a [great video](https://www.youtube.com/watch?v=3mTV1TOblbA) about the subject that I've pulled the following two images from.
 
 ![Matte versus glossy screen showing Cyberpunk 2077](/assets/coating-games.jpg)
-<p align="center"><em>Image credit to Dave2D, four minutes into the video</em></p>
 
-The glossy panel on the right has so much more vibrancy, but it's not just about contrast or colors. A matte finish gives a bit of fuzziness to all text as well:
+As this Cyberpunk 2077 footage shows, matte coatings kill vibrancy. But it's not just about contrast or colors. Matte gives a bit of fuzziness to all text as well:
 
 ![Matte versus glossy screen showing text on Discord](/assets/coating-text.jpg)
-<p align="center"><em>Image credit to Dave2D, two minutes into the video</em></p>
 
 Sharp text is essential for programmers, but unfortunately nobody sells glossy desktop monitors. I'm not asking matte to be killed off, I am just hoping manufacturers will give consumers more choice.
 
@@ -87,7 +99,7 @@ Brightness should not be a problem for desktop monitors, but it is useful if you
 
 A color gamut close to 100% sRGB should be enough as that is what the web and games are mastered in. Higher coverage may be useful if you do photo or video editing.
 
-As for contrast, higher is better, but it's not something you can choose independently since contrast level is pretty much exclusively determined by panel type. TN and IPS offer 1000:1, VA 3000:1, mini-LED 1,000,000:1 and OLED infinite.
+As for contrast, higher is better, but it's not something you can choose independently since contrast ratio is pretty much exclusively determined by panel type. TN and IPS offer 1000:1, VA 3000:1, mini-LED 1,000,000:1 and OLED infinite.
 
 # Aspect ratio
 
