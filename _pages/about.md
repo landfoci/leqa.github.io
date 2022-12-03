@@ -5,7 +5,7 @@ permalink: /
 description: My notes and personal projects.
 ---
 
-## Daniel Ting 
+## Daniel Ting
 
 You discovered my homepage!
 
@@ -23,6 +23,7 @@ You can find me on [email](mailto:danielzting@gmail.com), [GitHub](https://githu
 Check out the sites of these other cool people (randomly ordered):
 
 - [https://prydt.xyz/](https://prydt.xyz/)
+- [https://jeongwoo.xyz/](https://jeongwoo.xyz/)
 
 Contact me if you want your site to be added to the webring!
 
