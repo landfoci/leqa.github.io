@@ -27,6 +27,7 @@
         day(s) since Pranay's last tech incident.
         <h4>Incident Log</h4>
         <ul id="log">
+            <li>2022-11-29-Ongoing: Headphones don't connect on Linux</li>
             <li>2022-12-04: Mic can't pick up on Discord</li>
             <li>2022-11-17: Windows blue screen of death and laptop doesn’t even boot into grub for 10 minutes</li>
             <li>2022-11-15: A wild Fedora update breaks Vim! Also temporarily broke headphone audio</li>
@@ -40,11 +41,16 @@
             <li>2022-01-20: The BitTorrent Incident of 2022</li>
         </ul>
         <script>
-            var today = new Date();
-            var lastIncident = new Date(document.getElementById("log").children[0].textContent.split(":")[0]);
-            var diff = Math.abs(today - lastIncident);
-            var days = Math.floor(diff / (1000 * 60 * 60 * 24));
-            document.getElementById("days").textContent = Math.max(0, days - 1);
+            var date = document.getElementById("log").children[0].textContent.split(":")[0];
+            if (date.includes("Ongoing")) {
+                document.getElementById("days").textContent = "0";
+            } else {
+                var today = new Date();
+                var lastIncident = new Date(date);
+                var diff = Math.abs(today - lastIncident);
+                var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                document.getElementById("days").textContent = Math.max(0, days - 1);
+            }
         </script>
     </body>
 </html>
