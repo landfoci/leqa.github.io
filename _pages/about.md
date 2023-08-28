@@ -28,7 +28,7 @@ Check out the sites of these other cool people (randomly ordered):
 Contact me if you want your site to be added to the webring!
 
 <script>
-var webring = document.getElementsByTagName('ul')[2];
+let webring = document.getElementsByTagName('ul')[2];
 for (let i = webring.children.length; i >= 0; i--) {
     webring.appendChild(webring.children[Math.random() * i | 0]);
 }
