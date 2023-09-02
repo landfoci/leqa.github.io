@@ -5,7 +5,7 @@ title: Search
 
 <style>
 	#search-container {
-	    max-width: 80%;
+	    max-width: 50%;
 	}
 
 	input[type=text] {
@@ -13,7 +13,7 @@ title: Search
 	  outline: none;
 	  padding: 1rem;
           background: rgb(236, 237, 238);
-	  width: 80%;
+	  width: 50%;
 		-webkit-appearance: none;
 		font-family: inherit;
 		font-size: 100%;
