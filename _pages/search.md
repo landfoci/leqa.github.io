@@ -5,7 +5,7 @@ title: Search
 
 <style>
 	#search-container {
-	    max-width: 35rem;
+	    max-width: 80%;
 	}
 
 	input[type=text] {
@@ -13,7 +13,7 @@ title: Search
 	  outline: none;
 	  padding: 1rem;
           background: rgb(236, 237, 238);
-	  width: 100%;
+	  width: 80%;
 		-webkit-appearance: none;
 		font-family: inherit;
 		font-size: 100%;
@@ -26,7 +26,7 @@ title: Search
 
 <!-- Html Elements for Search -->
 <div id="search-container">
-<input type="text" id="search-input" placeholder="Search...">
+<input type="text" id="search-input" placeholder="Tìm...">
 <ol id="results-container"></ol>
 </div>
 
@@ -40,7 +40,7 @@ SimpleJekyllSearch({
   resultsContainer: document.getElementById('results-container'),
   json: '/search.json',
   searchResultTemplate: '<li><a href="{url}" title="{description}">{title}</a></li>',
-  noResultsText: 'No results found',
+  noResultsText: 'Không tìm thấy',
   limit: 10,
   fuzzy: false,
   exclude: ['Welcome']
