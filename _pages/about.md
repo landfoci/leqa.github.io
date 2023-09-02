@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About
+title: Giới thiệu
 description: Gioi thieu ve blog.
 ---
 
