@@ -111,33 +111,6 @@ a.active {
   }
 }
 
-.projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 1rem;
-  list-style: none;
-  padding: 0;
-
-  li {
-    border: 2px solid var(--foreground);
-
-    figure {
-      overflow: hidden;
-      margin: 0;
-
-      img {
-        max-height: 200px;
-        width: 100%;
-        transition: 0.25s all ease-in-out;
-
-        @media (prefers-reduced-motion: no-preference) {
-          &:hover {
-            transform: scale(1.3);
-          }
-        }
-      }
-    }
-
     div {
       margin: 1rem;
 
