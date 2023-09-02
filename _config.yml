@@ -1,8 +1,10 @@
-site: Caoanchay
+site: Cáo ăn chay
 url: https://caoanchay.github.io
-title: Caoanchay
-description: Don gian chi la ghi va chep!
+title: Cáo ăn chay
+description: Đơn giản chỉ là ghi và chép.
 
+// Not used anymore
+enforce_ssl: caoanchay.github.io
 
 permalink: pretty
 
