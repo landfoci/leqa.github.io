@@ -1,6 +1,6 @@
 
 ---
-layout: default
+layout: post
 title: About
 description: Gioi thieu ve blog.
 ---
