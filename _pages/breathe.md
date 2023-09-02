@@ -3,7 +3,6 @@ layout: post
 title: Thở
 ---
 
-
 Nếu bạn cảm thấy choáng ngợp, hãy thở. Nó sẽ giúp bạn bình tĩnh và giải tỏa căng thẳng.
 
 Nếu bạn lo lắng về điều gì đó sắp xảy ra hoặc bị cuốn vào điều gì đó đã xảy ra, hãy thở. Nó sẽ đưa bạn trở lại hiện tại.
