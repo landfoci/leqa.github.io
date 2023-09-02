@@ -6,6 +6,8 @@ description: Don gian chi la ghi va chep!
 
 permalink: pretty
 
+paginate:            5
+paginate_path:       "/page:num/"
 baseurl:             ""
 
 compress_html:
