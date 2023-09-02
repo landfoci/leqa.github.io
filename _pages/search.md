@@ -5,15 +5,15 @@ title: Search
 
 <style>
 	#search-container {
-	    max-width: 100%;
+	    max-width: 35rem;
 	}
 
 	input[type=text] {
-		font-size: normal;
-	    outline: none;
-	    padding: 1rem;
-		background: rgb(236, 237, 238);
-	    width: 100%;
+	  font-size: normal;
+	  outline: none;
+	  padding: 1rem;
+          background: rgb(236, 237, 238);
+	  width: 100%;
 		-webkit-appearance: none;
 		font-family: inherit;
 		font-size: 100%;
