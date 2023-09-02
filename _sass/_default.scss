@@ -27,9 +27,9 @@ body::after {
 
 #container {
   position: relative;
-  background: black;
+  background: white;
   z-index: 100;
-  border: 1px solid var(--foreground);
+  border: none;
   padding: 1rem;
   margin: 1rem;
 }
