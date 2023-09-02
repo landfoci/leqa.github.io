@@ -55,11 +55,9 @@ Nắm trong mình kiến thức này, Thích Ca do dự về việc sẽ truyề
 
 Ông có bài giảng pháp đầu tiên với những người này và một số người khác.
 
-Ở đó ông nói về ✦ _Four Noble Truths_ - **4 Sự Thật Cao Quý** (Hán Việt gọi là "Tứ Diệu Đế" nghe hoa mỹ một cách không cần thiết)
+Ở đó ông nói về _Four Noble Truths_ - **4 Sự Thật Cao Quý** (Hán Việt gọi là "Tứ Diệu Đế" nghe hoa mỹ một cách không cần thiết) và _The Eightfold Path_ - **8 Con Đường** (Hán Việt gọi là "Bát Chánh Đạo" nghe hoa mỹ một cách không cần thiết)
 
-Và ✦ The Eightfold Path—8 Con Đường (Hán Việt gọi là "Bát Chánh Đạo" nghe hoa mỹ một cách không cần thiết)
-
-Thay vì dịch là Tứ Diệu Đế, Bát Chánh Đạo nghe phản cảm theo ngôn ngữ Hán Tàu. Chúng ta hãy gọi đây là
+Thay vì dịch là Tứ Diệu Đế, Bát Chánh Đạo nghe phản cảm theo ngôn ngữ Hán Tàu. Chúng ta hãy gọi đây là:
 
 ✦ **4 Sự Thật**
 
