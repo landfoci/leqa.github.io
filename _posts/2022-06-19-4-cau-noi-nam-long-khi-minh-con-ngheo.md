@@ -3,7 +3,7 @@ layout: post
 title: 4 câu nói nằm lòng khi mình còn nghèo
 ---
 
->*Cuộc sống tồi tệ đến mấy thì cũng sẽ khởi sắc vào một lúc nào đó, bởi vì cuộc sống ấy không thể tồi tệ hơn được nữa. Sau mọi cố gắng thì tôi mới hiểu ra nhiều chuyện, chỉ cần kiên trì thì mọi thứ sẽ qua”.* **- Miyazaki Hayao**_
+>*Cuộc sống tồi tệ đến mấy thì cũng sẽ khởi sắc vào một lúc nào đó, bởi vì cuộc sống ấy không thể tồi tệ hơn được nữa. Sau mọi cố gắng thì tôi mới hiểu ra nhiều chuyện, chỉ cần kiên trì thì mọi thứ sẽ qua”.* **- Miyazaki Hayao**
 
 Thật ra nếu ta nghèo không có gì là ghê gớm, điều đáng sợ nhất chính là ta bằng lòng và chấp nhận cái nghèo này. Vì vậy, nghèo không phải là cái cớ để ta trốn tránh công việc khó khăn, ngược lại nghèo phải trở thành động lực để ta nỗ lực kiếm tiền, phấn đấu để thay đổi cuộc sống.
 
