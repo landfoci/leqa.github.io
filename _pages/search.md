@@ -40,7 +40,7 @@ SimpleJekyllSearch({
   resultsContainer: document.getElementById('results-container'),
   json: '/search.json',
   searchResultTemplate: '<li><a href="{url}" title="{description}">{title}</a></li>',
-  noResultsText: 'Không tìm thấy',
+  noResultsText: 'Không tìm thấy bài viết!',
   limit: 10,
   fuzzy: false,
   exclude: ['Welcome']
