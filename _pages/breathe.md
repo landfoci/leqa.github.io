@@ -11,7 +11,7 @@ Nếu bạn di chuyển quá nhanh, hãy thở. Nó sẽ nhắc nhở bạn số
 
 Hãy hít thở và tận hưởng từng khoảnh khắc của cuộc sống này. Chúng quá phù du và ít để lãng phí.
 
->Tôi tạo ra trang này vì chính bản thân tôi và cũng có thể nhiều người đang thở sai cách, chúng ta thở mà không thở! Tôi bắt đầu nghĩ về việc thở khi tình cờ biết vị bác sĩ Nguyễn Khắc Viện bị lao phổi vào thời điểm mà bệnh lao chưa có thuốc chữa như bây giờ. Trải qua 7 lần phẫu thuật, cắt bỏ 8 cái xương sườn, cắt một phần ba lá phổi bên trái và toàn bộ lá phổi bên phải, sự sống của ông ở vào thế “ngàn cân treo sợi tóc”. Lúc đó, các bác sĩ tiên lượng ông chỉ sống thêm chừng 2 năm nữa nhưng ông đã sống thọ tới 85 tuổi, thứ mà ông để lại cho đời chính là bài vè về cách thở bên dưới.
+## Hãy thực hành theo phương pháp sau
 
 Thót bụng thở ra
 
