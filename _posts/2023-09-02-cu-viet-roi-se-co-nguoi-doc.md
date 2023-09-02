@@ -1,6 +1,8 @@
 ---
-published: false
+layout: post
+title: Cứ viết rồi sẽ có người đọc
 ---
+
 Tui không biết phải viết gì” và “Tui sợ sẽ không có ai đọc”. Đây là hai rào cản lớn nhất ngăn cản mọi người bắt đầu viết blog cá nhân. Trước đây tui cũng đã từng có những suy nghĩ như vậy và hôm nay tui ở đây để nói với bạn rằng chúng không phải là vấn đề thực sự.
 
 Vấn đề đầu tiên rất dễ giải quyết, nếu bạn không biết phải viết gì thì hãy bắt đầu viết. Viết về bất cứ điều gì bạn quan tâm, ngay cả khi đó chỉ là suy nghĩ của bạn về thời tiết, về món ăn, về bất kì một câu chuyện nào vừa xảy đến với bạn. Viết càng nhiều, bạn càng có nhiều ý tưởng và càng dễ dàng nghĩ ra chủ đề mới.
