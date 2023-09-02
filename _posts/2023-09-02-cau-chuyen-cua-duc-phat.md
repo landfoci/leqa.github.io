@@ -5,9 +5,9 @@ title: Câu chuyện của Đức Phật
 
 Sinh ra vào thế kỷ thứ 6, trước công nguyên, tại vùng nay là Lumbini của Nepal.
 
-Thích Ca Mâu Ni (Siddhartha Gautama), sinh ra là con trai của người cai trị thị tộc Shakya Clan (thị tộc Thích Ca) ở Ấn Độ.
+Đức Phật Mâu Ni (Siddhartha Gautama), sinh ra là con trai của người cai trị thị tộc Shakya Clan (thị tộc Đức Phật) ở Ấn Độ.
 
-Tương truyền một người tiên tri phán rằng những điều tuyệt vời sẽ xảy đến với cuộc đời Thích Ca Mâu Ni. Sau này lớn lên ông sẽ trở thành 1 trong 3.
+Tương truyền một người tiên tri phán rằng những điều tuyệt vời sẽ xảy đến với cuộc đời Đức Phật Mâu Ni. Sau này lớn lên ông sẽ trở thành 1 trong 3.
 
 **1. Một người cai trị vĩ đại**
 
@@ -17,7 +17,7 @@ Tương truyền một người tiên tri phán rằng những điều tuyệt v
 
 Để bảo vệ con trai mình khỏi bể khổ, cha của ông nuôi ông trong một cung điện xa hoa, sang trọng và biệt lập với thế giới bên ngoài.
 
-Vì vậy Thích Ca Mâu Ni lớn lên với rất ít trải nghiệm đời thực phía sau những bức tường cung điện. Nhưng một ngày nọ, ông quyết định mạo hiểm chu du ra bên ngoài cùng với một người lái xe ngựa và đối diện với thực trạng nhu nhược, yếu đuối của con người.
+Vì vậy Đức Phật Mâu Ni lớn lên với rất ít trải nghiệm đời thực phía sau những bức tường cung điện. Nhưng một ngày nọ, ông quyết định mạo hiểm chu du ra bên ngoài cùng với một người lái xe ngựa và đối diện với thực trạng nhu nhược, yếu đuối của con người.
 
 Một ngày ông nhìn thấy một ông lão già. Người lái xe ngựa phải giải thích với ông rằng "Tất cả chúng ta đều sẽ già"
 
@@ -29,13 +29,13 @@ Người lái xe ngựa giải thích với ông rằng đây là những ngư�
 
 Bất ngờ về những gì nhìn thấy và tò mò. Ông quyết định chính thức rời cung điện, để vợ con lại để theo đuổi con đường về giác ngộ tâm hồn.
 
-Trong vòng 6 năm sau đó, Thích Ca Mâu Ni thực hành lối sống khắc khổ, học và thiền dưới rất nhiều hướng dẫn của các thầy tôn giáo khác nhau.
+Trong vòng 6 năm sau đó, Đức Phật Mâu Ni thực hành lối sống khắc khổ, học và thiền dưới rất nhiều hướng dẫn của các thầy tôn giáo khác nhau.
 
 Ông thực hành cùng với 5 người tu hành khắc khổ khác. Sự hiến dâng của ông gây ấn tượng đến mức 5 nhà tu hành kia quyết định trở thành đệ tử của ông.
 
 Khi câu trả lời cho những câu hỏi trong đầu của ông mãi không xuất hiện. Ông quyết định nỗ lực gấp đôi, chịu sự khắc khổ nhiều hơn nữa và nhịn đói đến gần chết và thậm chí bỏ nước.
 
-Càng cố gắng, Thích Ca Mâu Ni càng không tìm thấy sự giác ngộ mà ông đang tìm. Cho đến một ngày, một cô gái đưa cho ông một bát cơm. Ông chấp nhận nó và chợt nhận ra rằng sự khắc khổ trên cơ thể KHÔNG phải là cách để đạt được sự khai phóng nội tâm.
+Càng cố gắng, Đức Phật Mâu Ni càng không tìm thấy sự giác ngộ mà ông đang tìm. Cho đến một ngày, một cô gái đưa cho ông một bát cơm. Ông chấp nhận nó và chợt nhận ra rằng sự khắc khổ trên cơ thể KHÔNG phải là cách để đạt được sự khai phóng nội tâm.
 
 Sống trong sự khắc khổ với những tiêu chuẩn khắt khe không giúp ông đạt được trạng thái giải thoát về tâm hồn.
 
@@ -43,13 +43,13 @@ Và ông ăn, uống nước sau đó tắm dưới sông.
 
 5 nhà tu hành khắc khổ kia sau khi thấy vậy nhanh chóng rời bỏ ông.
 
-Tối hôm đó, Thích Ca Mâu Ni ngồi một mình dưới cây bồ đề, thề sẽ không đứng dậy nếu chân lý không đến. Và ông ngồi thiền đến lúc mặt trời mọc. Ông tiếp tục thiền sau hôm sau đó, thanh lọc tâm trí và quan sát cuộc đời của ông và các suy nghĩ của ông.
+Tối hôm đó, Đức Phật Mâu Ni ngồi một mình dưới cây bồ đề, thề sẽ không đứng dậy nếu chân lý không đến. Và ông ngồi thiền đến lúc mặt trời mọc. Ông tiếp tục thiền sau hôm sau đó, thanh lọc tâm trí và quan sát cuộc đời của ông và các suy nghĩ của ông.
 
-Dần dần, những hình ảnh hiện lên trong tâm trí ông và Thích Ca đã thấy những câu trả lời cho sự khổ hạnh mà ông tìm kiếm suốt bao nhiêu năm. Đây là trạng thái sự giác ngộ hiểu biết (The Enlightenment)
+Dần dần, những hình ảnh hiện lên trong tâm trí ông và Đức Phật đã thấy những câu trả lời cho sự khổ hạnh mà ông tìm kiếm suốt bao nhiêu năm. Đây là trạng thái sự giác ngộ hiểu biết (The Enlightenment)
 
-Nắm trong mình kiến thức này, Thích Ca do dự về việc sẽ truyền lại cho người khác, vì ông nhận ra rất khó để giao tiếp thông qua từ ngữ bấy giờ.
+Nắm trong mình kiến thức này, Đức Phật do dự về việc sẽ truyền lại cho người khác, vì ông nhận ra rất khó để giao tiếp thông qua từ ngữ bấy giờ.
 
-Đi khoảng 100 dặm, ông bắt gặp 5 người tu khắc khổ đã rời bỏ ông vào đêm giác ngộ. Thích Ca khuyến khích 5 người này theo con đường của sự Cân Bằng thay vì Cực Khổ hoặc Buông Thả.
+Đi khoảng 100 dặm, ông bắt gặp 5 người tu khắc khổ đã rời bỏ ông vào đêm giác ngộ. Đức Phật khuyến khích 5 người này theo con đường của sự Cân Bằng thay vì Cực Khổ hoặc Buông Thả.
 
 Ông gọi đây là The Middle Way (Theo Hán Việt gọi là Trung Đạo, nghe có vẻ hoa mỹ nhưng thực chất chỉ là con đường chính giữa—sự cân bằng)
 
@@ -69,9 +69,9 @@ Các nhà tu khắc khổ sau đó quyết định trở thành đệ tử của
 
 Chỉ cần duy nhất khao khát giác ngộ thông qua việc chối bỏ sự khổ hạnh và chối bỏ một tâm hồn trống rỗng (Có sự tương đồng với Nietzsche’s Passive Nihilism)
 
-Những năm còn lại, Thích Ca đi chu du, dạy giảng Pháp (Dharma) và hướng người khác đến sự giác ngộ.
+Những năm còn lại, Đức Phật đi chu du, dạy giảng Pháp (Dharma) và hướng người khác đến sự giác ngộ.
 
-Thích Ca Mâu Ni chết vào năm 80 tuổi do một căn bệnh. Trước khi chết, ông dặn các đệ tử
+Đức Phật Mâu Ni chết vào năm 80 tuổi do một căn bệnh. Trước khi chết, ông dặn các đệ tử
 
 "Đừng đi theo sự dẫn dắt bởi người khác, hãy trở thành ánh sáng của chính mình"
 
@@ -89,7 +89,7 @@ Là cốt lõi của triết lý Phật, gồm 4 sự thật.
 
 **4. Sự thật về Con Đường Kết Thúc Sự Đau Khổ (Path)**
 
-4 sự thật này đều xoay quanh Sự Đau Khổ. Đây là thời kỳ tiền khoa học nhưng Thích Ca đã sử dụng lý trí phân tích một cách rất logic.
+Bốn sự thật này đều xoay quanh Sự Đau Khổ. Đây là thời kỳ tiền khoa học nhưng Đức Phật đã sử dụng lý trí phân tích một cách rất logic.
 
 Ông đi từ Bản Chất (hiểu và định nghĩa, Sự Thật 1), đến Nguyên Nhân (nguồn gốc, Sự Thật 2), đến Kết Thúc (Sự thật 3) và Giải Pháp (Sự thật 4).
 
@@ -143,12 +143,12 @@ Nếu đi sâu hơn vào 8 con đường bạn sẽ thấy đây là những l�
 
 Trái với cách hiểu thông thường trong xã hội về Nhân Quả. Nhân quả không liên quan gì đến các "kiếp" như tôn giáo đương đại.
 
-Nhân quả theo Thích Ca Mâu Ni về bản chất là Quan hệ nhân quả chứ không phải "Luật" nhân quả (cũng giải thích rất kỹ trong Tư Duy Phản Biện). Quan Hệ Nhân Quả khác với "Luật" Nhân Quả.
+Nhân quả theo Đức Phật Mâu Ni về bản chất là Quan hệ nhân quả chứ không phải "Luật" nhân quả (cũng giải thích rất kỹ trong Tư Duy Phản Biện). Quan Hệ Nhân Quả khác với "Luật" Nhân Quả.
 
 Quan Hệ Nhân Quả là quan hệ có thật và hiện hữu. Có nguyên nhân kết quả.
 
 "Luật" Nhân Quả là giáo điều tôn giáo u mê dùng trong cãi nhau hoặc hù dọa trẻ em hóa kiếp súc sinh để làm việc "thiện" vốn rất hại.
 
-Thích Ca Mâu Ni cho rằng người làm việc tốt sẽ dễ dàng nhận lại những điều tốt. Người làm việc ác sẽ dễ dàng nhận lại những điều ác. Đây là cốt lõi của Quan Hệ Nhân Quả (không phải "Luật" nhân quả)
+Đức Phật Mâu Ni cho rằng người làm việc tốt sẽ dễ dàng nhận lại những điều tốt. Người làm việc ác sẽ dễ dàng nhận lại những điều ác. Đây là cốt lõi của Quan Hệ Nhân Quả (không phải "Luật" nhân quả)
 
-Hi vọng bài này có thể giúp các bạn hiểu hơn về Triết Lý Thích Ca Mâu Ni phiên bản bớt u mê.
+Hi vọng bài này có thể giúp các bạn hiểu hơn về Triết Lý Đức Phật Mâu Ni phiên bản bớt u mê.
