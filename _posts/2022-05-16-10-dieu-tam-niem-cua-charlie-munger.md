@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mười điều tâm niệm của Charlie Munger
+title: 10 điều tâm niệm của Charlie Munger
 ---
 
 1. **“Tham vọng làm giàu nhanh ẩn chứa khá nhiều nguy hiểm”**
