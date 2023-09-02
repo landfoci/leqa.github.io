@@ -140,14 +140,12 @@ Làm thế nào để gia tăng thu nhập để thỏa mãn nhu cầu hiện t�
 
 Thoreau nói:
 
-    Nếu tự tin tiến bước với định hướng mà con người mong muốn..họ sẽ đạt được thành công ngay tức khắc
+>Nếu tự tin tiến bước với định hướng mà con người mong muốn..họ sẽ đạt được thành công ngay tức khắc
 
 Định hướng mà chúng ta mong muốn chính là những gì được mặc định trong gen, trong tiềm thức, hoặc là khuynh hướng tự nhiên hướng chúng ta đi theo một con đường riêng. Ngay khi chúng ta bắt đầu hành trình đó, mọi thứ sẽ trở nên theo cách chúng ta muốn. Do đó, chúng ta cần hỏi bản thân:
 
-    Tôi đang đi theo con đường của mình? Hay đi theo con đường của người khác – người không biết gì nhiều hơn tôi
+>Tôi đang đi theo con đường của mình? Hay đi theo con đường của người khác – người không biết gì nhiều hơn tôi
 
 Một điều quan trọng nữa là liên tục xem xét đáng giá lại các ưu tiên của chúng ta. Người thành công hiểu cái nào quan trọng cái nào không – mục tiêu, mong muốn. Họ sẽ không mù quáng làm theo số đông. Họ sẽ đồng ý với câu nói này của Carl Jung:
 
-    Mục tiêu tối thượng của con người là hoàn thành sứ mệnh của anh ta như là một cá nhân độc đáo nhất trong khả năng và giới hạn của thực tế
-
-#phattrienbanthan
+>Mục tiêu tối thượng của con người là hoàn thành sứ mệnh của anh ta như là một cá nhân độc đáo nhất trong khả năng và giới hạn của thực tế
