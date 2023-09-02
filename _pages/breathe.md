@@ -11,7 +11,7 @@ Nếu bạn di chuyển quá nhanh, hãy thở. Nó sẽ nhắc nhở bạn số
 
 Hãy hít thở và tận hưởng từng khoảnh khắc của cuộc sống này. Chúng quá phù du và ít để lãng phí.
 
-## Hãy thực hành theo phương pháp sau
+### Hãy thực hành theo phương pháp sau
 
 Thót bụng thở ra
 
