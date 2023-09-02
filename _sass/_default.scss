@@ -93,10 +93,11 @@ a:visited {
 }
 
 a.active {
-  background: var(--foreground);
+  background: #fff;
   padding: 0.5rem;
-  color: var(--background);
+  color: #333;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .posts {
