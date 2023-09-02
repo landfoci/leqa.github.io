@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Thở
+title: Thở.
 ---
 
-Thở.
 
 Nếu bạn cảm thấy choáng ngợp, hãy thở. Nó sẽ giúp bạn bình tĩnh và giải tỏa căng thẳng.
 
