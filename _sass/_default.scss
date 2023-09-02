@@ -1,18 +1,18 @@
 :root {
-  --foreground: #999;
+  --foreground: #333;
   --background: white;
   --accent: #f4af2d;
 }
 
 body {
-  color: #333;
+  color: var(--foreground);
   background-color: var(--background);
   font-size: 15px;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
   font-family: Verdana;
   margin: 0 auto;
-  max-width: 38rem;
+  max-width: 40rem;
 }
 
 body::after {
