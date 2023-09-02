@@ -26,7 +26,7 @@ title: Search
 
 <!-- Html Elements for Search -->
 <div id="search-container">
-<input type="text" id="search-input" placeholder="Tìm...">
+<input type="text" id="search-input" placeholder="Tìm kiếm...">
 <ol id="results-container"></ol>
 </div>
 
