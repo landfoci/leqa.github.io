@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 11 nguyên tắc sống thực tế
+title: 10 điều tâm đắc của Charlie Munger
 ---
 
 1/ **“Tham vọng làm giàu nhanh ẩn chứa khá nhiều nguy hiểm”**
