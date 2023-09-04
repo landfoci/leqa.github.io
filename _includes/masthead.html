@@ -1,6 +1,6 @@
 <header role="banner">
   <nav role="navigation">
-    <img src="/favicon.png"></a>
+    <a href="/" {% if page.url=="/" %}class="active" {% endif %}><img src="/favicon.png"></a>
     <ul>
       <li><a href="/" {% if page.url=="/" %}class="active" {% endif %}>trang chủ</a></li>
       <li><a href="/about" {% if page.url=="/about" %}class="active" {% endif %}>giới thiệu</a></li>
