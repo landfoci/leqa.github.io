@@ -1,7 +1,7 @@
 ---
-published: false
+layout: post
+title: Lời dạy của Khổng Tử
 ---
-## A New Post
 
 Hình hài của mẹ của cha
 Trí khôn đời dạy, đói no tự mình
