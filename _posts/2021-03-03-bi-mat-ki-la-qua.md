@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bí mật kì lạ quá
+title: Bí mật kì lạ nhất
 ---
 
 > “Chúng ta trở thành những gì mình nghĩ. - **Earl Nightingale**” 
