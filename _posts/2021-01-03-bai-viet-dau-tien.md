@@ -11,4 +11,4 @@ Và nhân tiện bài viết này tôi cũng cám ơn một người anh, một 
 
 Tôi cũng muốn bắt đầu thử thách _#100DaysToOffload_ và tôi cho rằng điều đó khiến bài đăng này trở thành bài đăng đầu tiên trong số 100 bài đăng.
 
-Tôi hy vọng bạn thích đọc khi tôi đưa trang web này vào những tháng tới :)
+Tôi hy vọng bạn thích đọc những bài viết mới khi tôi đưa nó lên trang web này vào những tháng tới :)
