@@ -3,7 +3,7 @@ layout: post
 title: Bài viết đầu tiên
 ---
 
-Bài viết đầu tiên bao giờ cũng rất khó viết. Bài đăng này chắc chắn mang tính chất giữ chỗ hơn là một dịp trọng đại và có thể bị xóa sau một thời gian nào đó nhưng dù sao thì đó cũng là bài đăng đầu tiên.
+Bài viết đầu tiên bao giờ cũng rất khó viết. Bài đăng này chắc chắn mang tính chất giữ chỗ hơn là một dịp trọng đại và có thể bị xóa ở một thời điểm nào đó nhưng dù sao thì đó cũng là bài đăng đầu tiên.
 
 Tôi đã trì hoãn việc thiết lập blog cá nhân này trong nhiều năm rồi! Ngày xưa tôi tạo blog trên Yahoo 360, chuyển sang Wordpress rồi nhảy sang Tumblr nhưng cuối cùng cũng chẳng nên trò trống gì! Hôm nay tôi rất vui mừng khi cuối cùng cũng có một nơi để đưa lên những ghi chú của mình trong một thời gian dài hay một số ý tưởng bài viết mà tôi đã lưu vào tài khoản của mình.
 
