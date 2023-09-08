@@ -9,6 +9,6 @@ Tôi đã trì hoãn việc thiết lập blog cá nhân này trong nhiều năm
 
 Và nhân tiện bài viết này tôi cũng cám ơn một người anh, một blogger của ngày xưa, một người truyền cảm hứng và một bạn "đồng tu" là anh **[Trí Thông](https://trithong.tumblr.com/)**. Chúc anh và gia đình nhiều niềm vui và hạnh phúc trong cuộc sống này!
 
-Tôi cũng muốn bắt đầu thử thách #100DaysToOffload và tôi cho rằng điều đó khiến bài đăng này trở thành bài đăng đầu tiên trong số 100 bài đăng.
+Tôi cũng muốn bắt đầu thử thách _#100DaysToOffload_ và tôi cho rằng điều đó khiến bài đăng này trở thành bài đăng đầu tiên trong số 100 bài đăng.
 
 Tôi hy vọng bạn thích đọc khi tôi đưa trang web này vào những tháng tới :)
