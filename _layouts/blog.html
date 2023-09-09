@@ -4,9 +4,7 @@ title: Trang chủ
 ---
 
 {% or post in paginator.posts %}
-<article role="article">
   <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-</article>
 {% endfor %}
 
 <!-- pagination -->
