@@ -1,5 +1,5 @@
 ---
 layout: blog
-title: Home
+title: Trang chủ
 permalink: /
 ---
