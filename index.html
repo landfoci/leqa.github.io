@@ -4,7 +4,7 @@ title: Trang chủ
 permalink: /
 ---
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
 <article role="article">
   <h2><a href="{{ site.baseurl }}{{ post.url }}">
     {{ post.title }}
