@@ -1,4 +1,4 @@
 ---
-layout: posts
+layout: archive
 title: Lưu trữ
 ---
