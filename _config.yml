@@ -5,8 +5,8 @@ description: Đơn giản chỉ là ghi và chép.
 
 permalink: pretty
 
-paginate: 7
-paginate_path: "/page:num/"
+paginate: 4
+paginate_path: /page:num/
 
 
 compress_html:
