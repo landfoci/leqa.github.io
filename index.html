@@ -4,11 +4,10 @@ title: Trang chủ
 permalink: /
 ---
 
-<ul class="posts">
-  {% for post in site.posts %}
-  <li>
-    <span>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
+{% for post in site.posts %}
+<article role="article">
+  <h2><a href="{{ site.baseurl }}{{ post.url }}">
+    {{ post.title }}
+  </a></h2>
+</article>
+{% endfor %}
