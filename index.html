@@ -4,11 +4,20 @@ title: Trang chủ
 permalink: /
 ---
 
-{% for post in paginator.posts %}
-<article role="article">
-<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-</article>
-{% endfor %}
+<ul class="posts">
+  {% for post in paginator.posts %}
+  <li>
+    <div>
+      <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d.%m.%y" }}</time>
+    </div>
+    <span>
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </span>
+  </li>
+  {% endfor %}
+</ul>
 
 <!-- pagination -->
 {% if paginator.total_pages > 1 %}
