@@ -6,7 +6,7 @@ description: Đơn giản chỉ là ghi và chép.
 permalink: pretty
 
 
-paginate: 7
+paginate: 999
 paginate_path: "/page:num/"
 
 
