@@ -11,6 +11,7 @@ title: Notes
   <p>{{ post.summary }}</p>
     <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d-%m-%Y" }}</time>
 </article>
+{% endfor %}
 
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
@@ -38,4 +39,3 @@ title: Notes
 </div>
 {% endif %}
 
-{% endfor %}
