@@ -4,7 +4,7 @@ title: Notes
 ---
 
 <ul class="posts">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
   <li>
     <div>
       <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d.%m.%y" }}</time>
@@ -17,3 +17,4 @@ title: Notes
   </li>
   {% endfor %}
 </ul>
+{% include paginator.html %}
