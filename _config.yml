@@ -2,13 +2,10 @@ site: Leqa's blog
 url: https://leqa.xyz
 title: Leqa's blog
 description: Đơn giản chỉ là ghi và chép.
-
 permalink: pretty
-
 
 paginate: 5
 paginate_path: "/page:num/"
-
 
 compress_html:
   clippings: all
