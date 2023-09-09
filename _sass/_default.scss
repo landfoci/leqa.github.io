@@ -171,3 +171,6 @@ table {
   overflow-x: auto;
   overflow-y: hidden;
 }
+
+
+.pagination{text-align:center;}.pagination a.current{color:red;border:solid red 1px;pointer-events:none;cursor:not-allowed;}.pagination a.disabled{color:#dee0e1;pointer-events:none;cursor:not-allowed;border: none;padding: 3px 0;}.pagination a {border: solid #ddd 1px;padding: 3px 5px;line-height: 1.8em;}
