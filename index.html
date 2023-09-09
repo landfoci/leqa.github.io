@@ -3,11 +3,11 @@ layout: default
 permalink: /
 ---
 
-<div class="posts">
+
 {% for post in site.posts %}
 <article role="article">
 <a href="{{ site.baseurl }}{{ post.url }}"><h2>{{ post.title }}</h2></a>
 </article>
 {% endfor %}
-</div>
+
 
