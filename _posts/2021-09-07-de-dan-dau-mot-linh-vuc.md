@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Để dẫn đầu một lĩnh vực
+published: false
 ---
 
 > Thành công chỉ là vấn đề kiên trì theo đuổi một vài nguyên lý phổ biến mà bất kỳ ai cũng có thể làm chủ được. Sau đây là 12 nguyên lý giúp bạn đứng đầu một lĩnh vực, bất kỳ lĩnh vực nào mà bạn chọn.
