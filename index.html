@@ -4,17 +4,12 @@ title: Home
 permalink: /
 ---
 
-<ul class="posts">
-  {% for post in site.posts limit:1 %}
-  <li>
-    <div>
-      <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d.%m.%y" }}</time>
-    </div>
-    <span>
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </span>
-  </li>
-  {% endfor %}
-</ul>
+{% for post in site.posts limit:1 %}
+<article role="article">
+  <h2><a href="{{ site.baseurl }}{{ post.url }}">
+    {{ post.title }}
+  </a></h2>
+    <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+   {{ content }}
+</article>
+{% endfor %}
