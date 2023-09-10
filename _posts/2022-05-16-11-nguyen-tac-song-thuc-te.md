@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 11 nguyên tắc sống thực tế
-published: false
+published: true
 ---
 
  **1. Về thu nhập:** Không bao giờ phụ thuộc vào một nguồn thu nhập duy nhất. Hãy đầu tư để tạo ra một cơ hội thứ hai.
