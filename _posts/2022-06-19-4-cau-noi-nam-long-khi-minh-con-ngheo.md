@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 4 câu nói nằm lòng khi mình còn nghèo
+published: false
 ---
 
 >*Cuộc sống tồi tệ đến mấy thì cũng sẽ khởi sắc vào một lúc nào đó, bởi vì cuộc sống ấy không thể tồi tệ hơn được nữa. Sau mọi cố gắng thì tôi mới hiểu ra nhiều chuyện, chỉ cần kiên trì thì mọi thứ sẽ qua”.* **- Miyazaki Hayao**
