@@ -3,11 +3,10 @@ layout: default
 title: Home
 permalink: /
 ---
-
-{% for post in site.posts limit:1 %}
 <article role="article">
+{% for post in site.posts limit:1 %}
   <h1>{{ post.title }}</h1>
   <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d-%m-%Y" }}</time>
   {{ content }}
-  </article>
 {% endfor %}
+   </article>
