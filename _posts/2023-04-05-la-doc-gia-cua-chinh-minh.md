@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tui sẽ đọc và bạn cũng thế
+title: Là đọc giả của chính mình
 ---
 
 Tui không biết phải viết gì” và “Tui sợ sẽ không có ai đọc”. Đây là hai rào cản lớn nhất ngăn cản mọi người bắt đầu viết blog cá nhân. Trước đây tui cũng đã từng có những suy nghĩ như vậy và hôm nay tui ở đây để nói với bạn rằng chúng không phải là vấn đề quá to tát.
@@ -11,4 +11,4 @@ Vấn đề thứ hai thì hơi phức tạp hơn một chút xíu nhưng không
 
 Bạn đang chờ đợi điều gì? Bắt đầu viết ngay hôm nay! Tui hứa với bạn, tui sẽ là một trong những đọc giả đầu tiên của bạn.
 
-Nếu bạn quyết định viết ngay hôm nay, hãy viết một cái gì đó bạn thích, gửi nó cho tôi qua email và tôi sẽ đọc nó và thêm blog của bạn vào trình đọc RSS của tôi.
+Nếu bạn quyết định viết ngay hôm nay, hãy viết một cái gì đó bạn thích, gửi nó cho tôi qua email và tôi sẽ đọc nó hoặc bạn là đọc giả của chính mình!
