@@ -1,13 +1,20 @@
 ---
 layout: default
+title: Home
 permalink: /
 ---
 
-
-{% for post in site.posts %}
-<article role="article">
-<a href="{{ site.baseurl }}{{ post.url }}"><h2>{{ post.title }}</h2></a>
-</article>
-{% endfor %}
-
-
+<ul class="posts">
+  {% for post in site.posts %}
+  <li>
+    <div>
+      <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d.%m.%y" }}</time>
+    </div>
+    <span>
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </span>
+  </li>
+  {% endfor %}
+</ul>
