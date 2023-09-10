@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bí mật kì lạ nhất
-published: false
+published: true
 ---
 
 > “Chúng ta trở thành những gì mình nghĩ. - **Earl Nightingale**” 
