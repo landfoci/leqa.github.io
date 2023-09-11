@@ -3,7 +3,7 @@ layout: default
 permalink: /
 ---
 
-{% for post in paginator.posts %}
+{% for post in site.posts limit:8 %}
   <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
 {% endfor %}
-{% include paginator.html %}
+
