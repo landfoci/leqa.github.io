@@ -4,7 +4,7 @@ title: Leqa's blog
 description: Đơn giản chỉ là ghi và chép.
 permalink: pretty
 
-paginate: 8
+paginate: 5
 paginate_path: "/page:num/"
 
 compress_html:
