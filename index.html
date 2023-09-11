@@ -4,6 +4,8 @@ permalink: /
 ---
 
 {% for post in site.posts limit:8 %}
-  <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+<article role="article">
+  <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+  <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+</article>
 {% endfor %}
-
