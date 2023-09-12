@@ -11,9 +11,17 @@ permalink: /
       <h2 id="{{ this_year }}-ref" class="post-year">{{this_year}}</h2>
       <ul>
       {% endif %}
-<article role="article">
-  <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-</article>
+            
+<li>
+    <div>
+      <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d.%m.%y" }}</time>
+    </div>
+    <span>
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </span>
+  </li>
 
   {% if forloop.last %}
       </ul>
