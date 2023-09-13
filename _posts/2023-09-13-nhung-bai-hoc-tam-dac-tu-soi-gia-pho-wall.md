@@ -1,5 +1,6 @@
 ---
-published: false
+layout: post
+title: Những bài học tâm đắc từ Sói già phố Wall
 ---
 
 
