@@ -16,7 +16,7 @@ title: Search
 	  width: 100%;
 		-webkit-appearance: none;
 		font-family: inherit;
-		font-size: 100%;
+		font-size: 85%;
 		border: none;
 	}
 	#results-container {
