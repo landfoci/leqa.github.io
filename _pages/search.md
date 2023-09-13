@@ -13,10 +13,10 @@ title: Search
 	  outline: none;
 	  padding: 1rem;
           background: rgb(236, 237, 238);
-	  width: 100%;
+	  width: 85%;
 		-webkit-appearance: none;
 		font-family: inherit;
-		font-size: 85%;
+		font-size: 100%;
 		border: none;
 	}
 	#results-container {
