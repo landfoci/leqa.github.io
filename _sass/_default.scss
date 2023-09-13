@@ -1,3 +1,11 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;700&display=swap');
+</style>
+
+
+
+
+
 :root {
   --foreground: #333;
   --background: white;
@@ -10,7 +18,7 @@ body {
   font-size: 1rem;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
-  font-family: 'Times New Roman', serif;
+  font-family: 'IBM Plex Mono', monospace;
   margin: 0 auto;
   max-width: 35rem;
 }
