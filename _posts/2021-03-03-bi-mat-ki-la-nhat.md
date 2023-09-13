@@ -11,7 +11,7 @@ Earl Nightingale (1921 – 1989) được mệnh danh là “Dean of Personal De
 Earl Nightingale được sinh ra trong thời kỳ khủng hoảng về kinh tế. Khi còn nhỏ và bởi vì gia cảnh rất nghèo khó, ông muốn tìm hiểu vì sao có người sống trong thịnh vượng trong khi số khác thì chật vật kiếm sống. Cho đến lúc dần trưởng thành, ông bắt đầu đọc tất cả những gì có thể để tìm kiếm câu trả lời.
 Earl Nightingale – Bí mật kỳ lạ nhất
 
-Sau nhiềm năm tìm kiếm, Earl Nightingale đã tìm ra câu trả lời và gọi nó là “The Strangest Secret” – bí mật kỳ lạ nhất – và bắt đầu phổ biến rộng rãi đến công chúng bắt đầu từ năm 1956.
+Sau nhiều năm tìm kiếm, Earl Nightingale đã tìm ra câu trả lời và gọi nó là “The Strangest Secret” – bí mật kỳ lạ nhất – và bắt đầu phổ biến rộng rãi đến công chúng bắt đầu từ năm 1956.
 
 Bí mật kỳ lạ nhất chỉ là một bài giảng ngắn nhưng nó cũng chính là tác phẩm tạo nên danh tiếng cho ông và cũng chính nó là nền tảng tạo nên thành công cho rất nhiều người.
 Tại sao lại là bí mật kỳ lạ?
