@@ -8,7 +8,7 @@
 body {
   color: var(--foreground);
   background-color: var(--background);
-  font-size: .8rem;
+  font-size: .875rem;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
   font-family: 'Roboto Mono', monospace;
@@ -57,7 +57,7 @@ nav {
     list-style: none;
     padding-bottom: 40px;
     text-align: center;
-    font-size: 14px;
+    font-size: .813rem;
 
     li {
       display: inline-block;
