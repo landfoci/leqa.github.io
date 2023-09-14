@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 27 thói quen tốt nằm lòng
+published: false
 ---
 
 1/ Ăn no không gội đầu, đói không tắm. Rửa mặt nước lạnh, vừa đẹp vừa khỏe. Mồ hôi chưa khô, đừng tắm nước lạnh. Đánh răng nước ấm, chống ê răng.
