@@ -8,7 +8,7 @@
 body {
   color: var(--foreground);
   background-color: var(--background);
-  font-size: .875rem;
+  font-size: 1rem;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
   font-family: 'Inconsolata', monospace;
@@ -48,8 +48,8 @@ body::after {
 
 nav {
   img {
-    height: 3rem;
-    transform: translateY(1rem);
+    height: 4rem;
+    transform: translateY(0rem);
     float: left;
   }
 
