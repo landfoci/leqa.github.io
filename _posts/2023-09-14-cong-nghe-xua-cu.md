@@ -10,7 +10,7 @@ Tui có một niềm yêu thích những đồ công nghệ xưa cũ, mặc dù 
 
 Hôm nay được một người anh chia sẻ về những tác hại của "công nghệ màn hình" hiện đại đến với sức khỏe đôi mắt nói riêng và cơ thể con người nói chung. Mấy bạn có thể đọc ở [bài viết này!](https://www.androidcentral.com/phones/what-is-pwm-display-flicker-tips-and-tricks#:~:text=For%20this%20reason%2C%20manufacturers%20like,no%20matter%20the%20brightness%20level)
 
-Hiện tại thì có 3 thứ tui đang sở hữu và mang theo nó hàng ngày bên mình mà dân chơi ngày nay gọi là EDC, sở dĩ lúc nào cũng mang theo là vì nó giúp tui hoài niệm lại ngày xưa và tránh xao nhãng vào mạng xã hội. Đó là những thức sau đây:
+Hiện tại thì có 3 thứ tui đang sở hữu và mang theo nó hàng ngày bên mình mà dân chơi ngày nay gọi là EDC, sở dĩ lúc nào cũng mang theo là vì nó giúp tui hoài niệm lại ngày xưa và tránh xao nhãng vào mạng xã hội. Đó là những thứ sau đây:
 
 ![Nokia 1280](/images/5c9ee2b73b6706571eddfa588a11278a.jpg){:width="100%" height="50%"}
 ![Máy đọc sách Kobo](/images/kobo-clara-hd-15.jpg){:width="100%" height="100%"}
