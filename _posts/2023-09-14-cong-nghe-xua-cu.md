@@ -1,7 +1,10 @@
 ---
-published: false
+layout: post
+title: Công nghệ xưa cũ
+published: true
 ---
-## Công nghệ xưa cũ
+
+
 
 Tui có một niềm yêu thích những đồ công nghệ xưa cũ, mặc dù mới thì chắc chắn tốt hơn cũ nhưng xưa cũ nó thường gắn liền với những kỉ niệm xưa cũ mà thường là vì ngày xưa không có tiền để sở hữu :v
 
