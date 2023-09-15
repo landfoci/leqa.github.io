@@ -9,12 +9,8 @@ title: Archive
       {% if forloop.first %}
       <h2 id="{{ this_year }}-ref" class="post-year">{{this_year}}</h2>
       <ul>
-      {% endif %}           
-<span>
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>(<time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d.%m" }}</time>)
-</span>            
+      {% endif %} 
+<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>(<time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d.%m" }}</time>)      
   {% if forloop.last %}
       </ul>
       {% else %}
