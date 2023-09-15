@@ -17,8 +17,11 @@ Bài viết này hướng dẫn các bạn tạo một trang blog đơn giản m
 
 3. Mua một tên miền ưa thích để tạo phong cách riêng cho blog của bạn mặc dù jekyll đã cho bạn một tên miền miễn phí. Gõ trên google cách để mua tên miền nhé! Và đọc cách thêm tên miền vào blog [tại đây!](https://caodem.com/su-dung-ten-mien-tuy-chinh-cho-blog-jekyll/ "Add tên miền vào blog"). Tuy nhiên bạn hãy tạo A records bằng 4 địa chỉ IP này để có thể kích hoạt SSL cho blog của mình!
 > 185.199.108.153
+
 > 185.199.109.153
+
 > 185.199.110.153
+
 > 185.199.111.153
 
 Nếu có bất kì thắc mắc nào thì hãy email cho mình tại: quocanh127@gmail.com nhé!
