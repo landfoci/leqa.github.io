@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: Cách tạo một trang blog
 published: true
 ---
