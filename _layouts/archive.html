@@ -7,7 +7,7 @@ title: Archive
   {% for post in site.posts %}
  {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
-    <li id="y{{currentdate}}">{{ currentdate }}</li>
+    <b></b><li id="y{{currentdate}}">{{ currentdate }}</li></b>
     {% assign date = currentdate %} 
   {% endif %}
   <li>
