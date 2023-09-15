@@ -1,5 +1,7 @@
 ---
-published: false
+layout: posts
+title: Cách tạo một trang blog
+published: true
 ---
 
 ![Viết blog nè!](/images/blogging.jpg)
