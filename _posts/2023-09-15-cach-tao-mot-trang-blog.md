@@ -25,8 +25,6 @@ Bài viết này hướng dẫn các bạn tạo một trang blog đơn giản m
 
 + 185.199.111.153
 
-Nếu có bất kì thắc mắc nào thì hãy email cho mình tại: quocanh127@gmail.com nhé!
-
 Tại sao mình chọn Jekyl vì những lí do sau:
 
 > Jekyll là công cụ sinh ra website tĩnh (static website), nói một cách chính xác nhất thì nó là text transformation engine (cỗ máy chuyển đổi text). Jekyll sẽ chuyển đổi từ các file markdown, liquid quen thuộc với lập trình viên thành các file HTML để hiển thị trên trình duyệt.
