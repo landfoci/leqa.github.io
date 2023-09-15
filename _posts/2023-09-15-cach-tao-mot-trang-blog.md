@@ -1,7 +1,8 @@
 ---
 published: false
 ---
-## Một cách để bắt đầu viết blog
+
+![Viết blog nè!](/images/blogging.jpg)
 
 Chỉ cần gõ vài từ lên google bạn sẽ tìm được cách tạo một trang blog, có rất nhiều nền tảng để viết blog như: **Wordpress**, **Blogger**, **Microblog**, **Tumblr**, **Jekyll**, **Hugo**, **Gatsby**, **Bear**...
 
