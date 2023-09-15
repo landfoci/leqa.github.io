@@ -25,9 +25,9 @@ Nếu có bất kì thắc mắc nào thì hãy email cho mình tại: quocanh12
 
 Tại sao mình chọn Jekyl vì những lí do sau:
 
-Jekyll là công cụ sinh ra website tĩnh (static website), nói một cách chính xác nhất thì nó là text transformation engine (cỗ máy chuyển đổi text). Jekyll sẽ chuyển đổi từ các file markdown, liquid quen thuộc với lập trình viên thành các file HTML để hiển thị trên trình duyệt. Ngoài ra nó cũng hộ trỡ phát triển frontend với CoffeeScript thay vì Javascript, SASS, SCSS thay vì CSS thuần.
-Vì là website tĩnh, nên tất cả nội dung sẽ được viết trong source code, không có database. Cách làm việc này giúp hệ thống đơn giản khi bạn chỉ cần làm với 1 lượng thông tin nhỏ, không cần tương tác nhiều với người dùng. (Trường hợp website to thì đương nhiên là ko dùng Jekyll được).
-Jekyll hỗ trợ phát triển blog rất tốt (blog-aware). Các chức năng tạo liên kết giữa các bài viết, quản lý phân trang, phân chia category đều được Jekyll hỗ trợ một cách mặc định.
+Jekyll là công cụ sinh ra website tĩnh (static website), nói một cách chính xác nhất thì nó là text transformation engine (cỗ máy chuyển đổi text). Jekyll sẽ chuyển đổi từ các file markdown, liquid quen thuộc với lập trình viên thành các file HTML để hiển thị trên trình duyệt.
+Vì là website tĩnh, nên tất cả nội dung sẽ được viết trong source code, không có database. Cách làm việc này giúp hệ thống đơn giản khi bạn chỉ cần làm với 1 lượng thông tin nhỏ, không cần tương tác nhiều với người dùng.
+Jekyll hỗ trợ phát triển blog rất tốt (blog-aware). Các chức năng tạo liên kết giữa các bài viết, quản lý phân trang, phân chia category đều được Jekyll hỗ trợ một cách mặc định. Và nó hoàn toàn miễn phí!
 
 
 
