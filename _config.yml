@@ -59,3 +59,5 @@ comment-post-fields: [ entry.178337117, entry.1080728814, entry.1200453189]
 
 google_forms_comments:
   chunked_comment_loading: false
+  lazy_load_comments: true
+  
