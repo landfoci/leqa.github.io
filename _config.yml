@@ -52,3 +52,6 @@ defaults:
       path: "assets/images"
     values:
       image: true
+
+comment-post: https://docs.google.com/forms/d/e/1FAIpQLSd8kuq8XPRmrHv2uIsM-X8qPR0jWriAhslXs3QweM40tLxU_A/viewform?usp=sf_link
+comment-read: https://docs.google.com/spreadsheets/d/1yeBdrkYcDw2hvTpGavtKHvew-81sLZQFXDYr9156J94/edit?usp=sharing
