@@ -1,7 +1,7 @@
-site: Leqa's blog
+site: Leqa
 url: https://leqa.xyz
-title: Leqa's blog
-description: Đơn giản chỉ là ghi và chép.
+title: Leqa
+description: I write
 permalink: pretty
 
 paginate: 999
