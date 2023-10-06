@@ -1,5 +1,7 @@
 ---
-published: false
+layout: post
+title: Viết blog bằng AI
+published: true
 ---
 > Mấy ngày trước được ông anh [https://hithesun.com/](https://hithesun.com/ "Hi.thesun") giới thiệu một con AI, nên sử dụng thử coi nó ra sao! Vài bài viết này được viết bởi AI:
 
