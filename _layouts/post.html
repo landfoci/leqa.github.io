@@ -6,6 +6,6 @@ layout: default
   <h1>{{ page.title }}</h1>
   {{ content }}
   <br>
-  → <time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d.%m.%Y" }}</time> | {% include reading-time.html %}
+  <time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d.%m.%Y" }}</time> | {% include reading-time.html %}
 </article>
 
