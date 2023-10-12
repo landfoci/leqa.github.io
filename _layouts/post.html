@@ -4,7 +4,7 @@ layout: default
 
 <article role="article">
   <h1>{{ page.title }}</h1>
-<time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d.%m.%y" }}</time>
+<time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d/%m/%Y" }}</time>
   {{ content }}
 </article>
 
