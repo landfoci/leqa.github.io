@@ -5,6 +5,6 @@ layout: default
 <article role="article">
   <h1>{{ page.title }}</h1>
   {{ content }}
-  → <time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d.%m.%Y" }}</time> | {% include read_time.html %}
+  → <time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d.%m.%Y" }}</time> | {% include reading-time.html %}
 </article>
 
