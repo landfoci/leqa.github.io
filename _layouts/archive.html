@@ -4,8 +4,11 @@ title: Archive
 ---
 
 <ul class="posts">
-  {% for post in site.posts %}
+  {% for post in site.posts limit: 12 %}
   <li>
+    <div>
+      <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d-%m-%y" }}</time> →
+    </div>
     <span>
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
