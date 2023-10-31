@@ -1,5 +1,7 @@
 ---
-published: false
+layout: post
+title: Kết nối tốt hơn
+published: true
 ---
 Liệu chúng ta có dành đủ thời gian với những người mà chúng ta thật sự có thể học hỏi từ họ không? Chúng ta có những cuộc trò chuyện giúp chúng ta tiến bộ thay vì buôn chuyện về những điều trần tục trong cuộc sống không?
 
