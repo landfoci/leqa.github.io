@@ -18,7 +18,7 @@ Dạo gần đây đang đọc **An Sĩ Toàn Thư**__ quyển _Khuyên Người
 
 **#6**: Người thì uống từng hớp nước chứ không giống như loài ăn thịt liếm nước bằng lưỡi :v
 
-**#7**: Người ăn thực vật và động vật ăn cỏ thu nạp Vitamin C từ nguồn dinh dưỡng chay. Tất cả các loài ăn thịt thì tự tạo Vitamin C cho chúng.
+**#7**: Người ăn thực vật và động vật ăn cỏ thu nạp Vitamin C từ nguồn dinh dưỡng bên ngoài. Tất cả các loài ăn thịt thì tự tạo Vitamin C cho chúng.
 
 **#8**: Con người cũng như loài ăn cỏ có bàn tay nắm lại được và sử dụng một cách khéo léo chứ không giống như loài động vật ăn thịt.
 
