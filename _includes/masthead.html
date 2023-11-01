@@ -2,6 +2,8 @@
   <nav role="navigation">
     <a href="/" {% if page.url=="/" %}{% endif %}><img src="/favicon.png"></a>
     <ul>
+      <li><a href="/about" {% if page.url=="/about" %}class="active" {% endif %}>About</a></li>
+      <li><a href="/search" {% if page.url=="/search" %}class="active" {% endif %}>Search</a></li>
     </ul>
   </nav>
 </header>
