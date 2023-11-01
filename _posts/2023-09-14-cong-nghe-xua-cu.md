@@ -10,11 +10,7 @@ Tui có một niềm yêu thích những đồ công nghệ xưa cũ, mặc dù 
 
 Hôm nay được một người anh chia sẻ về những tác hại của "công nghệ màn hình" hiện đại đến với sức khỏe đôi mắt nói riêng và cơ thể con người nói chung. Mấy bạn có thể đọc ở [bài viết này!](https://www.androidcentral.com/phones/what-is-pwm-display-flicker-tips-and-tricks#:~:text=For%20this%20reason%2C%20manufacturers%20like,no%20matter%20the%20brightness%20level)
 
-Hiện tại thì có 3 thứ tui đang sở hữu và mang theo nó hàng ngày bên mình mà dân chơi ngày nay gọi là EDC, sở dĩ lúc nào cũng mang theo là vì nó giúp tui hoài niệm lại ngày xưa và tránh xao nhãng vào mạng xã hội. Đó là những thứ sau đây:
-
-![Nokia 1280](/images/5c9ee2b73b6706571eddfa588a11278a.jpg)
-![Máy đọc sách Kobo](/images/kobo-clara-hd-15.jpg)
-![iPod Mini](/images/IPod_Mini_with_headphones.jpg)
+Hiện tại thì có 3 thứ tui đang sở hữu và mang theo nó hàng ngày bên mình mà dân chơi ngày nay gọi là EDC, sở dĩ lúc nào cũng mang theo là vì nó giúp tui hoài niệm lại ngày xưa và tránh xao nhãng vào mạng xã hội. Đó là những thứ sau đây: Nokia 1280; máy đọc sách Kobo và máy nghe nhạc Ipod.
 
 Những thứ này ra đời rất lâu rồi, những thứ mà ngày xưa hồi còn bé tui chưa biết tới hoặc là đã biết tới nhưng không có tiền để mua. Cái nokia 1280 là cái điện thoại "nồi đồng cối đá" đúng nghĩa, bao rớt, bao chọi... là cái điện thoại cơ bản nhất dùng để nghe gọi, nhắn tin và tôi yêu công nghệ màn hình đen trắng đó. Còn cái máy nghe nhạc iPod là cái mà hồi bé tui ham nhất, nhớ ngày xưa đi học tin học văn phòng, có thằng bạn học chung mang máy nghe nhạc để nghe những bài hát trong game Audition, lúc đó thèm gần chết mà không có tiền mua, về nhà xin tiền đóng phí nhưng không đi học mà để dành mua cái máy nghe nhạc Tàu rồi bị mẹ phát hiện chửi thì thôi!
 
