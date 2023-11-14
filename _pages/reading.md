@@ -1,5 +1,5 @@
 ---
-title: Reading List
+title: Sách đang đọc
 subtitle: a list of books I read
 layout: page
 
