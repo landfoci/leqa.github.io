@@ -1,6 +1,6 @@
 ---
 title: Sách đang đọc
-subtitle: a list of books I read
+subtitle: Sách tui đang đọc
 layout: page
 published: true
 ---
@@ -9,8 +9,8 @@ Thỉnh thoảng tui cũng đọc sách! Đây là những sách tui đang đọ
 
 ## 2023
 
-1. **Yoshinori Nagumo**: *Ăn ít để khỏe*
-2. **Stuart Avery Gold**: *Ping - Vượt khỏi ao tù*
-3. **Brian Tracy**: *Nghệ thuật quản lí tài chính cá nhân*
-4. **George S.Clason**: *Người giàu có nhất thành Babylon*
-5. **Greg McKeown**: *Nghệ thuật theo đuổi sự tối giản*
+1. **Ăn ít để khỏe** - *Yoshinori Nagumo* 
+2. **Ping - Vượt khỏi ao tù** - *Stuart Avery Gold*
+3. **Nghệ thuật quản lí tài chính cá nhân** - *Brian Tracy*
+4. **Người giàu có nhất thành Babylon** - *George S.Clason*
+5. **Nghệ thuật theo đuổi sự tối giản** - *Greg McKeown*
