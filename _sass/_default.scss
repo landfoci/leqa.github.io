@@ -12,6 +12,8 @@ body {
   line-height: 1.625;
   text-rendering: optimizeLegibility;
   font-family: 'helvetica', arial, clean, sans-serif;
+  margin: 0 0 0 40px;
+  max-width: 33rem;
 }
 
 body::after {
@@ -30,8 +32,6 @@ body::after {
   background: white;
   z-index: 100;
   padding: 1rem;
-  margin: 0 0 0 40px;
-  max-width: 33rem;
 }
 
 #container::after {
@@ -43,7 +43,6 @@ body::after {
   content: "";
   background: none;
   pointer-events: none;
-  margin: 0 auto;
 }
 
 nav {
