@@ -80,7 +80,6 @@ hr {
 
 time {
   font-style: italic;
-  padding-left: 10px;
 }
 
 a,
@@ -112,6 +111,7 @@ a.active {
 
     div {
       min-width: 12ch;
+      padding-left: 10px;
     }
   }
 }
