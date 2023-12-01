@@ -13,9 +13,14 @@ body {
   text-rendering: optimizeLegibility;
   font-family: 'Inconsolata', monospace;
   margin: 0 auto;
-  max-width: 35rem;
 }
 
+@media all and (min-width: 320px) and (max-width: 860px) {
+   body {
+      background: #fff;
+   }
+}
+  
 body::after {
   position: absolute;
   top: 0;
