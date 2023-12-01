@@ -6,7 +6,7 @@ permalink: /
   {% for post in site.posts limit: 12 %}
   <li>
     <div>
-      <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b-%d,%y" }}</time>
+      <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d,%y" }}</time>
     </div>
     <span>
       <a href="{{ site.baseurl }}{{ post.url }}">
