@@ -1,6 +1,6 @@
 <header role="banner">
   <nav role="navigation">
-    <a href="/" {% if page.url=="/" %}{% endif %}>{{ site.title}}</a>
+    <a href={{ '/' | prepend: site.baseurl | prepend: site.url }}">{{ site.title}}</a>
     <ul>
       
     </ul>
