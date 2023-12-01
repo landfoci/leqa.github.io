@@ -13,12 +13,7 @@ body {
   text-rendering: optimizeLegibility;
   font-family: 'Inconsolata', monospace;
   margin: 0 auto;
-}
-
-@media all and (max-width: 320px){
-   body {
-      background: #fff;
-   }
+  max-width: 320px
 }
   
 body::after {
