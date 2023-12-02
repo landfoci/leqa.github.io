@@ -18,7 +18,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-paginate: 5
+paginate: 10
 paginate_path: "/page:num/"
 
 collections:
