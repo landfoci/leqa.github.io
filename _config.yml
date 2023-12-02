@@ -19,6 +19,7 @@ plugins:
   - jekyll-sitemap
 
 paginate: 6
+paginate_path: "/page:num/"
 
 collections:
   pages:
