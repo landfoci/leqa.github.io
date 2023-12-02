@@ -4,9 +4,6 @@ title: leqa·xyz
 description: I write
 permalink: pretty
 
-paginate: 999
-paginate_path: "/page:num/"
-
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
@@ -22,7 +19,7 @@ plugins:
   - jekyll-sitemap
 
 paginate: 6
-paginate_path: /page-:num
+paginate_path: "/page:num/"
 
 collections:
   pages:
