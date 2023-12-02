@@ -2,7 +2,7 @@
 layout: default
 permalink: /
 ---
-
+ <ul class="posts">
   {% for post in paginator.posts %}
   <li>
     <span>
@@ -15,20 +15,32 @@ permalink: /
     </div>
   </li>
   {% endfor %}
-
+</ul>
 
 <!-- Pagination links -->
-<div class="pagination">
+{% if paginator.total_pages > 1 %}
+<div class=pagination>
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+    <span><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></span>
   {% else %}
-    <span class="previous">Previous</span>
+    <span>&laquo;</span>
   {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <span>{{ page }}</span>
+    {% elsif page == 1 %}
+      <span><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></span>
+    {% else %}
+      <span><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></span>
+    {% endif %}
+  {% endfor %}
+
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    <span><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></span>
   {% else %}
-    <span class="next ">Next</span>
+    <span>&raquo;</span>
   {% endif %}
 </div>
+{% endif %}
 
