@@ -21,7 +21,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-paginate: 10
+paginate: 6
 paginate_path: /page-:num
 
 collections:
