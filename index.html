@@ -4,7 +4,7 @@ permalink: /
 ---
 
 <ul class="posts">
-  {% for post in site.posts %}
+  {% for post in site.posts limit: 12 %}
   <li>
     <span>
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
