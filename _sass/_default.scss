@@ -55,8 +55,9 @@ nav {
 
   ul {
     list-style: none;
-    padding: 0 0 40px 70px;
     font-size: .813rem;
+    padding: 0;
+    text-align: center;
 
     li {
       display: inline-block;
@@ -102,7 +103,7 @@ a:visited {
 
 a.active {
   background: none;
-  padding: 0;
+  padding: 0.5rem;
   color: #333;
   font-weight: bold;
   text-decoration: underline;
