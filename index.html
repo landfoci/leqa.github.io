@@ -7,7 +7,10 @@ permalink: /
   {% for post in site.posts %}
   <li>
     <span>
-    <h2>{{ page.date | date: "%Y" }}</h2>
+      <h2>{{ page.date | date: "%Y" }}</h2>
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
     </span>
     <div>
       <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b-%d" }}</time>
