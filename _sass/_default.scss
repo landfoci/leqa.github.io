@@ -56,7 +56,7 @@ nav {
   ul {
     list-style: none;
     font-size: .813rem;
-    padding: 0.5rem;
+    padding: 0;
     text-align: center;
 
     li {
@@ -65,7 +65,7 @@ nav {
   }
 
   a {
-    margin: 0;
+    margin: 0.5rem;
     text-decoration: none;
     font-weight: bold;
   }
