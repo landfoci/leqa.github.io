@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Nhức đầu với cái blog
+title: Bạn có thể học bất cứ điều gì
 published: true
 ---
 
-Blog này được tạo bởi nền tảng Jekyll và được lưu trữ miễn phí trên Github, kể từ khi xiên (forks) cái giao diện này về và tùy chỉnh nhiều thứ nên được cái diện mạo như hiện tại. Giao diện mặc định thì hơi rườm rà nhưng tùy chỉnh mãi mới ra được cái giao diện tối giản nhưng cùi bắp như thế này.
-
-Mặc định của giao diện này là xổ một loạt bài viết dài từ mới tới cũ theo một danh sách dài thòn, kiểm tra sơ code thì thấy có tích hợp plugin phân trang nhưng làm theo hướng dẫn trên web đủ kiểu nhưng mà cũng không hiển thị được. Đúng là tiền ít thì không thể hít được đồ thơm và free thì lại dễ nhức đầu nếu không thể tùy chỉnh theo ý thích của bản thân. Ghi chú lại để biết mình vẫn còn kiên trì để sửa lỗi cho nó, nếu như ngày xưa là xóa code nghỉ dùng blog rồi :)
+“Không ai sinh ra đã thông minh. Tất cả chúng ta đều bắt đầu từ con số 0. Không nói được, không đi được, chắc chắn không làm được đại số. Cộng, đọc, viết, đạp xe, ban đầu không ai giỏi môn nào cả. Đã có lúc Einstein không thể đếm đến 10 và Shakespeare phải học bảng chữ cái ABC giống như tất cả chúng ta. Rất may, chúng ta sinh ra để học hỏi. Chậm rãi, chắc chắn, bạn vấp ngã, trượt, trườn, ngã và thất bại, và ngã. Bực bội, bối rối, cố gắng, chật vật, cho đến một ngày, bạn bước đi. Một chân trước chân kia. Một ý tưởng chồng lên ý tưởng tiếp theo. Mỗi câu trả lời sai sẽ khiến bộ não của bạn mạnh mẽ hơn một chút. Thất bại chỉ là một từ khác để chỉ sự trưởng thành. Và bạn tiếp tục đi. Đây là học tập. Biết rằng bạn sẽ có được nó, ngay cả khi bạn chưa có được nó. Bởi vì những khái niệm phức tạp, đẹp đẽ nhất trong toàn vũ trụ đều được xây dựng trên những ý tưởng cơ bản mà bất cứ ai ở bất cứ đâu cũng có thể hiểu được. Dù bạn là ai, ở đâu, bạn chỉ cần biết một điều là có thể học được bất cứ điều gì.”
