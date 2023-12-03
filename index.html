@@ -10,7 +10,7 @@ permalink: /
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </span>
     <div>
-      <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
+      <time class="date" datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: "%d %b %Y" }}</a></time>
     </div>
   </li>
   {% endfor %}
