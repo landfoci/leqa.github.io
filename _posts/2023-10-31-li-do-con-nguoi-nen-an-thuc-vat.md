@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 15 lí do con người nên ăn thực vật
+title: Lí do con người nên ăn thực vật
 published: true
 ---
 
