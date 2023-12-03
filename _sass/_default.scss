@@ -92,8 +92,8 @@ time {
 a,
 a:visited {
   color: inherit;
-  text-underline-offset: 0.3rem;
-  text-decoration-color: #e6e6e6;
+  text-underline: none;
+
 
   &:hover {
     color: var(--accent);
