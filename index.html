@@ -2,7 +2,7 @@
 layout: default
 permalink: /
 ---
- <ul class="posts">
+ <section class="posts">
   {% for post in site.posts %}
       {% unless post.next %}
         <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
@@ -18,5 +18,5 @@ permalink: /
         <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></div>
       </article>
     {% endfor %}
-</ul> 
+</section>
 
