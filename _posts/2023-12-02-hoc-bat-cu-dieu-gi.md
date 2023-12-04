@@ -1,5 +1,6 @@
 ---
-layout: no-title-post
+layout: post
+title: Học bất cứ điều gì
 published: true
 ---
 
