@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tạo blog không tốn tiền
+title: Tạo blog miễn phí
 published: true
 ---
 
