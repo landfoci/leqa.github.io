@@ -1,7 +1,7 @@
 
 :root {
   --foreground: #333;
-  --background: #f7f7f7;
+  --background: #f7f5ed;
   --accent: #f17b7b;
 }
 
@@ -30,7 +30,7 @@ body::after {
 
 #container {
   position: relative;
-  background: #f7f5ed;
+  background: #fff;
   z-index: 100;
   padding: 2rem;
   margin: 2rem;
