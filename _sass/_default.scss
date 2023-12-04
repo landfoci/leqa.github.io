@@ -33,7 +33,9 @@ body::after {
   background: white;
   z-index: 100;
   padding: 2rem;
-  margin: 1rem;
+  margin: 2rem;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 #container::after {
