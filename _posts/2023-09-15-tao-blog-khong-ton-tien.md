@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cách tạo một trang blog
+title: Tạo blog không tốn tiền
 published: true
 ---
 
