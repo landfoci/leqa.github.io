@@ -1,13 +1,13 @@
 
 :root {
   --foreground: #333;
-  --background: #fff;
+  --background: #ffd;
   --accent: #f17b7b;
 }
 
 body {
   color: var(--foreground);
-  background-color: #ffd;
+  background-color: #fff;
   font-size: 0.875rem;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
