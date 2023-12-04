@@ -1,0 +1,13 @@
+---
+layout: no-title-post
+---
+
+{% for post in paginator.posts %}
+    {% if post.layout != 'no-title-post' %}
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    {% endif %}
+
+    <div class="postContent">
+    {{ post.content }}
+    </div>
+{% endfor %}
