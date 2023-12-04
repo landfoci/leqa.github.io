@@ -17,8 +17,8 @@ Bí mật kỳ lạ nhất chỉ là một bài giảng ngắn nhưng nó cũng 
 Tại sao lại là bí mật kỳ lạ?
 
 Vì các lý do sau đây:
->
 > Nó kỳ lạ vì nó là quy luật dẫn đến thành công, nhưng cùng lúc nó cũng là quy luật dẫn đến thất bại.
+> 
 > Nó kỳ lạ vì nó đã được nhắc đến rất nhiều lần từ Kinh thánh và nhiều nhà thông thái nhưng rất ít người hiểu được.
 
 Hãy cùng xem nguyên văn bài giảng Earl Nightingale – Bí mật kỳ lạ nhất (phụ đề tiếng Việt).
