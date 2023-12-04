@@ -30,7 +30,7 @@ body::after {
 
 #container {
   position: relative;
-  background: #fff;
+  background: var(--background);
   z-index: 100;
   padding: 2rem;
   margin: 1rem;
