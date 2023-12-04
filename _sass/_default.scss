@@ -110,6 +110,11 @@ a.active {
   li {
     display: flex;
     line-height: 2;
+    background-image: linear-gradient(gray, gray);
+    background-size: 100% 1px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+
 
     div {
       min-width: 10ch;
