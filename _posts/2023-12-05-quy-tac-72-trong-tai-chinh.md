@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Quy tắc 72 trong tài chính cá nhân
+title: Quy tắc 72 trong tài chính
 published: true
 ---
 
