@@ -28,7 +28,7 @@ Rút gọn cả 2  vế ta được: (1 + r)^n = 2
 
 Lấy log cho cả hai vế, ta sẽ được:  n x ln(1+r) = ln(2) => n = ln(2)/ln(1+r)
 
-_Thí dụ 1_: Giả sử lãi suất mỗi kì r = 8%, ta sẽ được: 
+**_Thí dụ 1_:** Giả sử lãi suất mỗi kì r = 8%, ta sẽ được: 
 n = ln(2) / ln(1+r) = (0.69/r) x (0.08 / ln(1.08)=(0.69/r) x 1.0395 => rt=0.69 x 1.0395 = 0.72
 
 Khi nhân cả hai vế với 100 theo tỷ lệ thập phân thì r x n = 72 hay n = 72/r
@@ -37,7 +37,7 @@ Khi áp dụng công thức này ta sẽ có thời gian cần thiết để g�
 
 Độ sai lệch ở cả hai cách tính gần như không đáng kể cho nên phần lớn mọi người vẫn sử dụng công thức rút gọn để tính toán. 
 
-Thí dụ 2: Tui đang có 200 triệu tiền nhàn rỗi và tui muốn tìm hiểu kênh đầu tư hiệu quả nhằm gấp đôi số tiền vốn:
+**_Thí dụ 2:_** Tui đang có 200 triệu tiền nhàn rỗi và tui muốn tìm hiểu kênh đầu tư hiệu quả nhằm gấp đôi số tiền vốn:
 - Gửi tiết kiệm ngân hàng với lãi suất 6%/năm thì mất 72/6=12 năm
 - Nếu gửi vào chứng chỉ quỹ hay mua trái phiếu với mức lãi suất 9%/ năm thì mất 72/9=8 năm
 - Nếu đầu tư vào chứng khoán hay coin với mức lãi suất 12%/năm thì mất 72/12= 6 năm.
@@ -54,6 +54,4 @@ Thật ra tui dùng qt72 để tính với mức lãi suất nọ thì sau bao l
 
 - Qt72 còn được áp dụng khi trong điều kiện tỷ suất sinh lợi được cộng hàng năm. Ví dụ: lãi suất mỗi quý là 4% thì cần 18 quý (khoảng 4.5 năm) để khoản tiền gốc tăng gấp đôi. 
 
-Có một lưu ý rằng: qt72 khá đơn giản khi chỉ đề cập đến 1 yếu tố duy nhất là lãi suất mà không chú trọng đến các yếu tố khác như rủi ro, biến động thị trường, thay đổi lãi suất trong thời gian tính toán. Ai trade coin hay lướt sóng mà tính toán theo qt72 thì sẽ sớm đi Bình Dương bán nước tương nhe.
-
-Ngoài ra, quy tắc này khá đúng cho lãi suất trong biên độ 6%-8%. Các trường hợp lãi suất thấp hơn hoặc cao hơn thì không chính xác nữa. Một lưu ý khác bạn cần quan tâm là qt72 chỉ ứng dụng cho lãi kép chứ không phải lãi đơn. 
+Nhìn sơ qua thì thấy qt72 khá đơn giản khi chỉ đề cập đến 1 yếu tố duy nhất là lãi suất mà không chú trọng đến các yếu tố khác như rủi ro, biến động thị trường, thay đổi lãi suất trong thời gian tính toán. Ai trade coin hay lướt sóng mà tính toán theo qt72 thì sẽ sớm đi Bình Dương bán nước tương nhe. Có một điều cần lưu ý là qt72 này khá đúng cho lãi suất trong biên độ 6%-8%, các trường hợp lãi suất thấp hơn hoặc cao hơn thì không chính xác nữa và _qt72 chỉ ứng dụng cho lãi kép chứ không phải lãi đơn_. 
