@@ -8,9 +8,9 @@ Hôm nay tình cờ xem được cái clip về thử thách tiết kiệm trong
 
 **1. Nguồn gốc quy tắc 72 (qt72):**
 
-Qt72 được áp dụng để tính nhanh mức sinh lời từ các kênh đầu tư, qt72 này được giản lược từ rất nhiều bước tính toán phức tạp của lãi suất kép.
+Qt72 được áp dụng để tính nhanh mức sinh lời từ các kênh đầu tư, qt72 này được giản lược từ rất nhiều bước tính toán phức tạp của lãi suất kép như sau:
 
-Công thức lãi suất kép: **A = P x (1 + r)^n**
+_Công thức lãi suất kép: **A = P x (1 + r)^n**_
 
 Trong đó
 
