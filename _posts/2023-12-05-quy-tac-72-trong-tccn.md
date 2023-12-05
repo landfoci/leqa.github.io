@@ -1,5 +1,7 @@
 ---
-published: false
+layout: post
+title: Quy tắc 72 trong tài chính cá nhân
+published: true
 ---
 
 Hôm nay tình cờ xem được cái clip về thử thách tiết kiệm trong năm 2024 của một người anh chia sẻ và tình cờ tui biết về quy tắc 72, bài viết này với mục đích là tui ghi chép lại để sau này cần dùng và chia sẻ nó với những ai chưa biết. Còn những ai biết rồi nếu muốn đọc cũng không sao!
