@@ -4,7 +4,7 @@ title: Quy tắc 72 trong tài chính cá nhân
 published: true
 ---
 
-Hôm nay tình cờ xem được cái clip về thử thách tiết kiệm trong năm 2024 của một người anh chia sẻ và thật tình cờ tui biết đến quy tắc 72 (qt72), bài viết này với mục đích ghi chép lại để khi cần thì dùng và chia sẻ nó với những ai chưa biết.
+> Hôm nay tình cờ xem được cái clip về thử thách tiết kiệm trong năm 2024 của một người anh chia sẻ và thật tình cờ tui biết đến quy tắc 72 (qt72), bài viết này với mục đích ghi chép lại để khi cần thì dùng và chia sẻ nó với những ai chưa biết.
 
 **1. Nguồn gốc quy tắc 72 (qt72):**
 
@@ -54,4 +54,4 @@ Thật ra tui dùng qt72 để tính với mức lãi suất nọ thì sau bao l
 
 - Qt72 còn được áp dụng khi trong điều kiện tỷ suất sinh lợi được cộng hàng năm. Ví dụ: lãi suất mỗi quý là 4% thì cần 18 quý (khoảng 4.5 năm) để khoản tiền gốc tăng gấp đôi. 
 
-Nhìn sơ qua thì thấy qt72 khá đơn giản khi chỉ đề cập đến 1 yếu tố duy nhất là lãi suất mà không chú trọng đến các yếu tố khác như rủi ro, biến động thị trường, thay đổi lãi suất trong thời gian tính toán. Ai trade coin hay lướt sóng mà tính toán theo qt72 thì sẽ sớm đi Bình Dương bán nước tương nhe. Có một điều cần lưu ý là qt72 này khá đúng cho lãi suất trong biên độ 6%-8%, các trường hợp lãi suất thấp hơn hoặc cao hơn thì không chính xác nữa và _qt72 chỉ ứng dụng cho lãi kép chứ không phải lãi đơn_. 
+> Nhìn sơ qua thì thấy qt72 khá đơn giản khi chỉ đề cập đến 1 yếu tố duy nhất là lãi suất mà không chú trọng đến các yếu tố khác như rủi ro, biến động thị trường, thay đổi lãi suất trong thời gian tính toán. Ai trade coin hay lướt sóng mà tính toán theo qt72 thì sẽ sớm đi Bình Dương bán nước tương nhe. Có một điều cần lưu ý là qt72 này khá đúng cho lãi suất trong biên độ 6%-8%, các trường hợp lãi suất thấp hơn hoặc cao hơn thì không chính xác nữa và _qt72 chỉ ứng dụng cho lãi kép chứ không phải lãi đơn_. 
