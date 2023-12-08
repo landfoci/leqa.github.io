@@ -1,7 +1,6 @@
 ---
-title: Sách đang đọc
-subtitle: Đọc
 layout: page
+title: Đọc
 published: true
 ---
 
