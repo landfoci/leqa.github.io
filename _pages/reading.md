@@ -1,11 +1,11 @@
 ---
 title: Sách đang đọc
-subtitle: Sách tui đang đọc
+subtitle: Đọc
 layout: page
 published: true
 ---
 
-Thỉnh thoảng tui cũng đọc sách! Đây là những sách tui đang đọc:
+Thỉnh thoảng tui cũng đọc sách, đây là sách tui đang đọc, tui cập nhật ở đây để lưu lại những tên sách đã đọc và chia sẻ với mọi người để tìm đọc chung.
 
 ## 2023
 
