@@ -13,7 +13,7 @@ body {
   text-rendering: optimizeLegibility;
   font-family: 'Roboto Mono', monospace;
   margin: 0 auto;
-  max-width: 35rem;
+  max-width: 40rem;
 }
   
 body::after {
@@ -31,8 +31,8 @@ body::after {
   position: relative;
   background: #fff;
   z-index: 100;
-  padding: 2rem;
-  margin: 1rem;
+  padding: 3rem;
+  margin: 2rem;
 }
 
 #container::after {
