@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Giới thiệu
+title: Tui
 published: true
 ---
 Tui muốn tạo cho mình một trang blog thật đơn giản, nơi tui có thể chia sẻ về bất kì điều gì tui muốn. Nó có thể là một bài viết hay, một mẹo vặt hay hoặc có thể là một vài dòng suy nghĩ cá nhân của bản thân.
