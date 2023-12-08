@@ -1,11 +1,3 @@
 <footer class="footer" role="contentinfo">
-<nav role="navigation">
-    <a rel="license" href="/archive"><b>Tất cả bài viết »</b></a>
-    <ul>
-      <li><a href="/about" {% if page.url=="/about" %}class="active" {% endif %}>About</a></li>
-      <li><a href="/breathe" {% if page.url=="/breathe" %}class="active" {% endif %}>Breathe</a></li>
-      <li><a href="/search" {% if page.url=="/search" %}class="active" {% endif %}>Search</a></li>
-      <li><a href="/reading" {% if page.url=="/reading" %}class="active" {% endif %}>Reading</a></li>
-    </ul>
-  </nav>
+<span>&copy; {{ site.time | date: '%Y' }} <a href="/" class="black">leqa.xyz</a></span>
 </footer>
