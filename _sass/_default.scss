@@ -87,7 +87,10 @@ time {
 a,
 a:visited {
   color: inherit;
-  text-decoration: none;
+  text-decoration-style: dashed;
+  text-decoration-color: #d3d3d3;
+  text-underline-offset: 0.25em;
+  text-decoration-thickness: 1px;
 
   &:hover {
     color: var(--accent);
