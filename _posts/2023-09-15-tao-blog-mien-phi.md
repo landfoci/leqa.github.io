@@ -4,8 +4,6 @@ title: Tạo blog miễn phí
 published: true
 ---
 
-![Viết blog nè!](/images/blogging.jpg)
-
 Chỉ cần gõ vài từ lên google bạn sẽ tìm được cách tạo một trang blog, có rất nhiều nền tảng để viết blog như: **Wordpress**, **Blogger**, **Microblog**, **Tumblr**, **Jekyll**, **Hugo**, **Gatsby**, **Bear**...
 
 Bài viết này hướng dẫn các bạn tạo một trang blog đơn giản mà không tốn gì ngoài tốn công sức và đây là một bài viết hướng dẫn rất _giản đơn_ vì tôi sẽ cập nhật những bài viết có liên quan về cách tạo blog hơn là nói chuyện vòng vo tam quốc làm tốn thời gian của bạn. Nền tảng để viết blog mình sẽ chọn Jekyll, vì sao mình chọn Jekyll mình sẽ nói ở phần cuối bài.
