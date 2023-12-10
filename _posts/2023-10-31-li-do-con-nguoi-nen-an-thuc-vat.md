@@ -4,7 +4,7 @@ title: Lí do con người nên ăn thực vật
 published: true
 ---
 
-Dạo gần đây đang đọc **An Sĩ Toàn Thư**__ quyển _Khuyên Người Bỏ Sự Giết Hại_ nên mới có sự xuất hiện của bài này! Bài này viết ra vì mục đích sức khỏe, còn vì tâm linh và tín ngưỡng tui xin không bàn tới. Vì tự do tôn giáo và tự do ăn uống là quyền cá nhân hết sức cơ bản, bài này không có đúng sai, chỉ có sự chia sẻ, chưa hợp lí chỗ nào xin hãy tìm hiểu thêm.
+Dạo gần đây đang đọc **An Sĩ Toàn Thư** quyển _Khuyên Người Bỏ Sự Giết Hại_ nên mới có sự xuất hiện của bài này! Bài này viết ra vì mục đích sức khỏe, còn vì tâm linh và tín ngưỡng tui xin không bàn tới. Vì tự do tôn giáo và tự do ăn uống là quyền cá nhân hết sức cơ bản, bài này không có đúng sai, chỉ có sự chia sẻ, chưa hợp lí chỗ nào xin hãy tìm hiểu thêm.
 
 **#1**: Răng hàm con người giống y chang loài ăn cỏ, thuộc loại nhai nghiền thức ăn, không giống như loài ăn thịt có răng nhọn và bén dùng để xé thịt. Có một số người coi phim ma cương thi Hongkong rồi cho rằng sự tồn tại của răng nanh chứng tỏ rằng con người thích hợp với việc ăn thịt. Những con khỉ đột và khỉ đầu chó là loài động vật không ăn thịt, răng nanh của chúng được dùng như vũ khí tự vệ chứ không phải để ăn thịt.
 
