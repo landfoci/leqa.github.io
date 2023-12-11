@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Là đọc giả của chính mình
-tag: diary
+tag: blogging
 published: true
 ---
 
