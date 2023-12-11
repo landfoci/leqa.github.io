@@ -3,15 +3,15 @@ layout: page
 title: Thở
 ---
 
-Nếu bạn cảm thấy choáng ngợp, hãy thở. Nó sẽ giúp bạn bình tĩnh và giải tỏa căng thẳng.
+Nếu bạn cảm thấy choáng ngợp, hãy tập thở. Nó sẽ giúp bạn bình tĩnh và giải tỏa căng thẳng.
 
-Nếu bạn lo lắng về điều gì đó sắp xảy ra hoặc bị cuốn vào điều gì đó đã xảy ra, hãy thở. Nó sẽ đưa bạn trở lại hiện tại.
+Nếu bạn lo lắng về điều gì đó sắp xảy ra hoặc bị cuốn vào điều gì đó đã xảy ra, hãy tập thở. Nó sẽ đưa bạn trở lại hiện tại.
 
-Nếu bạn di chuyển quá nhanh, hãy thở. Nó sẽ nhắc nhở bạn sống chậm lại và tận hưởng cuộc sống nhiều hơn.
+Nếu bạn di chuyển quá nhanh, hãy tập thở. Nó sẽ nhắc nhở bạn sống chậm lại và tận hưởng cuộc sống nhiều hơn.
 
-Hãy hít thở và tận hưởng từng khoảnh khắc của cuộc sống này. Chúng quá phù du và ít để lãng phí.
+Hãy hít thở và tận hưởng từng khoảnh khắc của cuộc sống này. Chúng quá phù du và ít nên đừng lãng phí.
 
-### Hãy thực hành theo phương pháp sau
+### Hãy thực hành tập thở theo phương pháp của bác sĩ Nguyễn Khắc Viện
 
 Thót bụng thở ra
 
