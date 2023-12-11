@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Bài viết đầu tiên
+tag: diary
 ---
 
 Bài viết đầu tiên bao giờ cũng khó viết. Bài viết này chắc chắn mang tính chất giữ chỗ hơn là một dịp trọng đại và có thể bị xóa ở một thời điểm nào đó nhưng dù sao thì đó cũng là bài viết đầu tiên.
