@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Tui
+title: Tôi
 published: true
 ---
-Tui muốn tạo cho mình một trang blog thật đơn giản, nơi tui có thể chia sẻ về bất kì điều gì tui muốn. Nó có thể là một bài viết hay, một mẹo vặt hay hoặc có thể là một vài dòng suy nghĩ cá nhân của bản thân.
+Tôi muốn tạo cho mình một trang blog thật đơn giản, nơi tôi có thể chia sẻ về bất kì điều gì tôi muốn. Nó có thể là một bài viết hay, một mẹo vặt hay hoặc có thể là một vài dòng suy nghĩ cá nhân của bản thân.
 
 Đúng với tiêu chí đã đặt ra, blog này chỉ bao gồm một tệp văn bản toàn chữ là chữ (text only iz da bezt!) mà khi hứng thú có thể chèn thêm một vài hình ảnh khi thật cần thiết. 
 
