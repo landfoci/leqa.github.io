@@ -2,6 +2,7 @@
 layout: post
 title: Viết đủ tốt
 published: true
+tag: blogging
 ---
 
 Trên mạng có câu nói rất hay: "đừng để sự hoàn hảo là kẻ thù của năng suất". Khi nói đến việc viết trên blog cá nhân, tui nghĩ cũng nên áp dụng tư duy “đủ tốt”. Có những lúc tui dành quá nhiều thời gian để tinh chỉnh bài viết của mình, chọn từ ngữ hoàn hảo và viết lại cùng một câu cho đến khi nó hoàn hảo rất rất nhiều lần để rồi cuối cùng nó mãi mãi trở thành bản "nháp". Tui cho rằng blog cá nhân không phải là nơi dành quá nhiều thời giờ cho việc đó, không phải vì nó không đáng mà vì nó không cần thiết. Blog cá nhân đối với tui giống như những cuộc trò chuyện hơn, khi nói chuyện với ai đó, chúng ta không nói cùng một điều bốn lần khác nhau cho đến khi tìm được cụm từ hoàn hảo. Bạn chỉ cần nói chuyện, giao tiếp và nếu có điều gì chưa rõ ràng, bạn sẽ làm rõ nó. Vì thực tế thì nói dài + nói dai = nói dại.
