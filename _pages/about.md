@@ -3,10 +3,11 @@ layout: page
 title: Tôi
 published: true
 ---
-Tôi muốn tạo cho mình một trang blog thật đơn giản, nơi tôi có thể chia sẻ về bất kì điều gì tôi muốn. Nó có thể là một bài viết hay, một mẹo vặt hay hoặc có thể là một vài dòng suy nghĩ cá nhân của bản thân.
 
-Đúng với tiêu chí đã đặt ra, blog này chỉ bao gồm một tệp văn bản toàn chữ là chữ (text only iz da bezt!) mà khi hứng thú có thể chèn thêm một vài hình ảnh khi thật cần thiết. 
+Tôi muốn tạo cho mình một trang blog thật đơn giản, nơi tôi có thể chia sẻ về bất kì điều gì tôi muốn, đó có thể là một bài viết, một mẹo vặt hoặc có thể là một vài dòng cảm xúc và suy nghĩ cá nhân.
 
-Rất vui khi một ai đó ghé thăm trang này và đọc được những dòng chia sẻ này và cũng rất hân hạnh khi được một ai đó để tâm về blog này để khi vui buồn đều tìm đọc :)
+Đúng với tiêu chí đã đặt ra, blog này chỉ bao gồm một tệp văn bản mà khi cần thiết tôi có thể chèn thêm một vài hình ảnh. 
 
-Quốc Anh (cự giải) vì hưởng ứng theo ca sĩ Đen Vâu mà về quê nuôi cá và trồng thêm rau. Thích trắng đen, yêu đơn giản, tâm hồn đầy mộng mơ nhưng đôi khi sáo rỗng :v
+Rất vui khi một ai đó ghé thăm trang này và đọc được những dòng chia sẻ này! 
+
+Quốc Anh (cự giải 93) vì hưởng ứng theo ca sĩ Đen Vâu mà về quê nuôi cá và trồng thêm rau. Thích trắng đen, yêu đơn giản, tâm hồn đầy mộng mơ nhưng đôi khi sáo rỗng.
