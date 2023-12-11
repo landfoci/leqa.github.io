@@ -12,4 +12,4 @@ Rất vui khi một ai đó ghé thăm trang này và đọc được những d�
 
 Quốc Anh (cự giải 93) vì hưởng ứng theo ca sĩ Đen Vâu mà về quê nuôi cá và trồng thêm rau. Thích trắng đen, yêu đơn giản, tâm hồn đầy mộng mơ nhưng đôi khi sáo rỗng.
 
-![Đây là tui](/assets/images/about.jpg){:height="36px" width="36px"}
+![Đây là tui](/assets/images/about.jpg){:height="300px" width="300px"}
