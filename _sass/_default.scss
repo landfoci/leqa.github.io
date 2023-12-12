@@ -119,6 +119,11 @@ a.active {
     display: flex;
     line-height: 2;
     font-size: .875rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-inline-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
   
     div {
       min-width: 10ch;
