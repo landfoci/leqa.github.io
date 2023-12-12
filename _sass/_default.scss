@@ -51,14 +51,14 @@ body::after {
 nav {
   img {
     height: 1.5rem;
-    transform: translateY(-1rem);
+    transform: translateY(1.5rem);
     float: left;
   }
 
   ul {
     list-style: none;
     font-size: .813rem;
-    padding: 0 0 20px 85px;
+    padding: 0 0 20px 40px;
     text-align: left;
 
     li {
