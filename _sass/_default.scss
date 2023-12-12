@@ -114,15 +114,15 @@ a.active {
 
 .posts {
   padding: 0;
+  max-width: 100%;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
 
   li {
     line-height: 2;
     font-size: .875rem;
-    display: inline-block;
-    max-width: 100%;
-    white-space: nowrap; 
-    overflow: hidden;
-    text-overflow: ellipsis;
+    display: flex;
   
     div {
       min-width: 10ch;
