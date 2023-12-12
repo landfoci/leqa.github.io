@@ -3,7 +3,7 @@ layout: default
 permalink: /
 ---
 
-<ul class="posts">
+<div class="posts">
   {% for post in paginator.posts %}
   <li>
     <div>
@@ -14,7 +14,7 @@ permalink: /
     </span>
   </li>
   {% endfor %}
-</ul> 
+</div> 
 
 <div class="pagination">
   {% if paginator.next_page %}
