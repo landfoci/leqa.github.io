@@ -5,7 +5,7 @@ published: true
 tag: taichinhcanhan
 ---
 
-> Hôm nay tình cờ xem được cái clip về thử thách tiết kiệm trong năm 2024 của một người anh chia sẻ và thật tình cờ tui biết đến quy tắc 72 (qt72), bài viết này với mục đích ghi chép lại để khi cần thì dùng và chia sẻ nó với những ai chưa biết.
+Hôm nay tình cờ xem được cái clip về thử thách tiết kiệm trong năm 2024 của một người anh chia sẻ và thật tình cờ tui biết đến quy tắc 72 (qt72), bài viết này với mục đích ghi chép lại để khi cần thì dùng và chia sẻ nó với những ai chưa biết.
 
 **1. Nguồn gốc quy tắc 72 (qt72):**
 
