@@ -13,7 +13,7 @@ title: Tìm
 	  outline: none;
 	  padding: 1rem;
           background: rgb(236, 237, 238);
-	  width: 70%;
+	  width: 80%;
 		-webkit-appearance: none;
 		font-family: inherit;
 		font-size: 100%;
