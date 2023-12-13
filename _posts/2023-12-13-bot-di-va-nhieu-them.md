@@ -6,7 +6,7 @@ published: true
 ---
 Thời gian trôi qua đúng nhanh và hôm nay tôi chợt nảy ra sự tự suy ngẫm nhân dịp cuối năm 2023. Một bài tập đơn giản để xác định những gì tôi cần bớt đi và những gì tôi cần thêm vào trong năm 2024.
 
-### BỚT
+### Bớt
 
 - Công nghệ 
 - Stress 
@@ -20,7 +20,7 @@ Thời gian trôi qua đúng nhanh và hôm nay tôi chợt nảy ra sự tự s
 - Việc cần làm 
 - Cài ứng dụng
 
-### THÊM
+### Thêm
 
 - Đi bộ nhiều 
 - Gần thiên nhiên nhiều 
