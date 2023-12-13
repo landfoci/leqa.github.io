@@ -23,7 +23,7 @@ Thời gian trôi qua đúng nhanh và hôm nay tôi chợt nảy ra sự tự s
 ### Thêm
 
 - Đi bộ nhiều 
-- Gần thiên nhiên nhiều 
+- Gần thiên nhiên 
 - Luyện tập chăm chỉ 
 - Tự tin 
 - Nhiều nước  (cảnh báo cho những lúc ít uống nước)
