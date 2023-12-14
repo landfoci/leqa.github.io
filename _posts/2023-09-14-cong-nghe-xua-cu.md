@@ -2,6 +2,7 @@
 layout: post
 title: Công nghệ xưa cũ
 published: true
+tag: diary
 ---
 
 
