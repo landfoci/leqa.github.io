@@ -4,7 +4,7 @@ title: Bớt đi và nhiều thêm
 tag: diary
 published: true
 ---
-Thời gian trôi qua đúng nhanh và hôm nay tôi chợt nảy ra sự tự suy ngẫm nhân dịp cuối năm 2023. Một bài tập đơn giản để xác định những gì tôi cần bớt đi và những gì tôi cần thêm vào trong năm 2024.
+Thời gian trôi qua đúng nhanh và hôm nay tôi chợt nảy ra sự tự suy ngẫm nhân dịp cuối năm 2023. Một danh sách đơn giản để xác định những gì tôi cần bớt đi và những gì tôi cần thêm vào trong năm 2024.
 
 ### Bớt
 
@@ -36,8 +36,6 @@ Thời gian trôi qua đúng nhanh và hôm nay tôi chợt nảy ra sự tự s
 - Thử nghiệm sáng tạo hơn
 - Tiết kiệm
 - Tình bạn
-
-Lưu ý: Tôi có thể chỉnh sửa điều này theo thời gian.
 
 
 
