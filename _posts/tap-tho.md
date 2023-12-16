@@ -1,0 +1,39 @@
+---
+layout: post
+title: Tập thở 
+tag: suckhoe
+---
+
+Nếu bạn cảm thấy choáng ngợp, hãy tập thở. Nó sẽ giúp bạn bình tĩnh và giải tỏa căng thẳng.
+
+Nếu bạn lo lắng về điều gì đó sắp xảy ra hoặc bị cuốn vào điều gì đó đã xảy ra, hãy tập thở. Nó sẽ đưa bạn trở lại hiện tại.
+
+Nếu bạn di chuyển quá nhanh, hãy tập thở. Nó sẽ nhắc nhở bạn sống chậm lại và tận hưởng cuộc sống nhiều hơn.
+
+Hãy hít thở và tận hưởng từng khoảnh khắc của cuộc sống này. Chúng quá phù du và ít nên đừng lãng phí.
+
+Hãy thực hành tập thở theo phương pháp của bác sĩ Nguyễn Khắc Viện
+
+Thót bụng thở ra
+
+Phình bụng thở vào
+
+Hai vai bất động
+
+Chân tay thả lỏng
+
+Êm chậm sâu đều
+
+Tập trung theo dõi
+
+Luồng ra luồng vào
+
+Bình thường qua mũi
+
+Khi gấp qua mồm
+
+Đứng ngồi hay nằm
+
+Ở đâu cũng được
+
+Lúc nào cũng được!
