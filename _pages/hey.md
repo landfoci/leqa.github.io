@@ -3,6 +3,7 @@ layout: page
 title: Hey
 published: true
 ---
+Tôi là Quốc Anh!
 
 Tôi muốn tạo cho mình một trang blog thật đơn giản, nơi tôi có thể ghi chép và chia sẻ bất kì điều gì tôi muốn về: tài chính, về nông nghiệp, về tôn giáo, về mẹo vặt, một bài viết hay nào đó... hoặc cũng có thể là vài dòng suy nghĩ bất chợt.
 
