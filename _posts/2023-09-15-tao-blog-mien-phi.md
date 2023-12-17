@@ -24,7 +24,7 @@ Bài viết này hướng dẫn các bạn tạo một trang blog đơn giản m
 
 + 185.199.111.153
 
-> Có rất nhiều nền tảng blog từ miễn phí đến trả phí nhưng tôi vẫn chọn jekyll vì đây là công cụ sinh ra website tĩnh (static website), nói một cách nôm na thì nó là cỗ máy chuyển đổi văn bản. Nó sẽ chuyển đổi các file markdown, liquid thành các file HTML để hiển thị trên trình duyệt, vì là website tĩnh, nên tất cả nội dung sẽ được viết trong source code, không có database. Cách làm việc này giúp hệ thống đơn giản khi bạn chỉ cần làm với 1 lượng thông tin nhỏ, dùng để viết blog cá nhân rất tuyệt.
+> Có rất nhiều nền tảng blog từ miễn phí đến trả phí nhưng tôi vẫn chọn jekyll vì đây là công cụ sinh ra website tĩnh (static website), nói một cách nôm na thì nó là cỗ máy chuyển đổi văn bản. Nó sẽ chuyển đổi các file markdown, liquid thành các file HTML để hiển thị trên trình duyệt, vì là website tĩnh, nên tất cả nội dung sẽ được viết trong source code, không có database. Cách làm việc này giúp hệ thống đơn giản khi bạn chỉ cần làm với một lượng thông tin nhỏ, dùng để viết blog cá nhân rất tuyệt.
 Jekyll hỗ trợ phát triển blog rất tốt, các chức năng tạo như: tạo liên kết giữa các bài viết, quản lý phân trang, phân chia category đều được Jekyll hỗ trợ một cách mặc định và hoàn toàn miễn phí! Ngoài ra thì nó còn cài đặt rất dễ dàng, bạn nào cần tạo blog thì có thể liên hệ mình qua email quocanh127@gmail.com nhé!
 
 
