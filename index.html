@@ -4,7 +4,7 @@ permalink: /
 ---
 
 <ul class="posts">
-  {% for post in site.posts limit:10 %}
+  {% for post in site.posts limit:12 %}
   <li>
     <div>
       <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d-%m-%y" }}</time>
