@@ -9,7 +9,7 @@ Thế là một mùa nước lũ tràn bờ đã qua, cũng như mọi năm là 
 
 Năm ngoái thì tôi pha humic với phân bón dạng nước để tưới cây, cũng thấy cây đỡ đỡ nhưng kết quả không được khả quan lắm nên lần này tôi tự pha dung dịch đạm cá để tưới. Tập quán của nông dân trồng xoài chỉ chú trọng năng suất chứ không quan tâm đến sức khỏe và dinh dưỡng của cây, mấy năm trước năng suất cũng được nhưng từ hồi dịch covid xảy ra khủng hoảng kinh tế trầm trọng dường như cũng lây lan sang làm khủng hoảng năng suất của cây xoài và đặc biệt là rất khó ra bông.
 
-Hôm nay tôi pha dinh dưỡng tưới cây theo 2 liều lượng như sau:
+Hôm nay tôi pha dinh dưỡng tưới cây theo 2 liều lượng khác nhau trong 200L nước:
 
 - Liều lượng 1: 1.5L đạm cá ủ vi sinh + 100 gam dịch rong biển + 100 gam Fulvic
 - Liều lượng 2: 1L đạm cá ủ vi sinh + 50 gam dịch rong biển + 50 gam Fulvic
