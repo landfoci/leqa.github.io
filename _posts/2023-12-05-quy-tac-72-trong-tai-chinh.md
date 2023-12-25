@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quy tắc 72 trong tài chính
-published: true
+published: false
 tag: taichinhcanhan
 ---
 
