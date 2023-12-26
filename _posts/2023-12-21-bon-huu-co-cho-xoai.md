@@ -5,7 +5,7 @@ published: true
 tag: diary
 ---
 
-Hai năm nay cứ hễ đến mùa lũ là vườn cây nhà tôi đều bị ngập nước gần cả tháng trời, năm 2022 vừa qua lượng cây chết khoảng 45% và năm 2023 tuy ngập nhưng bơm nước kịp thời nên một vài cây có dấu hiệu bị suy yếu và vàng lá. Một vườn nước ra vô tự nhiên theo thủy triều nên phần nào lượng paclo trong đất bị rửa trôi và được bồi đắp một tí phù sa màu mỡ, còn mảnh vườn còn lại nước vô nhưng không ra được nên đành chịu trận luôn.
+Hai năm nay cứ hễ đến mùa lũ là vườn cây nhà tôi đều bị ngập nước gần cả tháng trời, năm 2022 vừa qua lượng cây chết khoảng 45% và năm 2023 tuy ngập nhưng bơm nước kịp thời nên một vài cây có dấu hiệu bị suy yếu và vàng lá. Một vườn nước ra vô tự nhiên theo thủy triều nên phần nào lượng paclo trong đất bị rửa trôi và được bồi đắp một tí phù sa màu mỡ, còn mảnh vườn còn lại nước ngập nhưng do hệ thống bơm bị "trục trặc" nên không bơm nước ra được, đành chịu trận luôn.
 
 Năm ngoái sau khi nước rút thì tôi tiến hành diệt nấm và sâu đục thân, tới khi cây ổn định thì pha humic với phân bón hữu cơ dạng nước để tưới phục hồi cây, cũng thấy cây khỏe lại nhưng kết quả không được cao lắm nên lần này tôi tự pha dung dịch đạm cá để tưới. Tập quán của nông dân trồng xoài chỉ chú trọng năng suất chứ không quan tâm đến sức khỏe và dinh dưỡng của cây, mấy năm trước năng suất cũng được nhưng từ hồi dịch covid xảy ra khủng hoảng kinh tế trầm trọng dường như cũng lây lan sang làm khủng hoảng năng suất của cây xoài và đặc biệt là rất khó ra bông.
 
