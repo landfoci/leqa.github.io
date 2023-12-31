@@ -15,6 +15,6 @@ Và rồi mình lại va vào con Leopold fc660bt có bluetooth (con trước th
 
 Bàn phím này tuy không phải cao cấp nhưng gõ văn bản đúng ngon và mình hoàn toàn hài lòng với nó!
 
-Chúc mừng năm mới 2024!
-
 ![Bàn phím Leopold](/assets/images/leopold.jpg)
+
+Chúc mừng năm mới 2024!
