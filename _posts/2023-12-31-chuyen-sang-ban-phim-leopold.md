@@ -1,5 +1,8 @@
 ---
-published: false
+layout: post
+title: Chuyển sang bàn phím Leopold
+tag: diary
+published: true
 ---
 
 Khoảng 1 năm nay mình với một người anh [**Trí Thông**](hithesun.com) thi đua sống tối giản và chỉ dùng những thứ hiện có và bỏ mua sắm linh tinh. Cuối cùng thì mình thua cuộc!
