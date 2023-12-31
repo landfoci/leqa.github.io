@@ -5,7 +5,7 @@ tag: diary
 published: true
 ---
 
-Khoảng một năm nay mình với một người anh [**Trí Thông**](hithesun.com) thi đua sống tối giản và chỉ dùng những thứ hiện có và bỏ mua sắm linh tinh. Cuối cùng thì mình thua cuộc!
+Khoảng một năm nay mình với một người anh **[Trí Thông](https://hithesun.com/)** thi đua sống tối giản và chỉ dùng những thứ hiện có và bỏ mua sắm linh tinh. Cuối cùng thì mình thua cuộc!
 
 Hồi năm 2015 sau quá trình đi làm thêm và nhịn ăn nhịn uống để mua con macbook pro MF839 hơn 29 củ, đó là một trải nghiệm cực kì sung sướng vì nhà nghèo chỉ xài một con laptop 12 củ thôi là đã quá sức đối với mình ấy vậy mà đú được con macbook là một trải nghiệm cực sung sướng. Rồi bắt đầu tìm hiểu cách setup không gian bàn học này kia và mua được con phím logitech K380, công nhận hồi đó mua được nó và gõ văn bản thật sự sướng mặc dù có thể gõ trực tiếp từ bàn phím macbook, một phần để con macbook trên cái stand nên gõ bàn phím rời thực sự là một trải nghiệm thú vị. Sau này mình chuyển hẳn sang phím cơ và lần đầu tiên mình trải nghiệm là con Akko 3084, lần đầu xài phím cơ nói chung là sướng hơn chữ sướng mặc dù hơi ồn. Dần dà mình lên mấy cái group phím cơ và phát hiện mình bị nghiện hồi nào không hay, thế là bán vội con Akko để chuyển sang Leopold fc660m (brown switch) rồi sang chơi hệ custom (NJ68Ap). 
 
