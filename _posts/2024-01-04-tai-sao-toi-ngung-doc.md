@@ -1,11 +1,9 @@
 ---
 layout: post
-title: Tại sao tôi ngừng đọc?
+title: Tại sao tôi ngừng đọc
 published: true
 tag: diary
 ---
-
-
 
 ![Tải sách nhiều](/assets/images/taisachnhieu.png)
 
