@@ -1,5 +1,8 @@
 ---
-published: false
+layout: post
+title: Ngưỡng mộ rồi bắt chước
+published: true
+tag: diary
 ---
 Cách đây 8 năm, khi tôi 24 tuổi vừa mới ra trường với nhiều hoài bão và hy vọng về một cuộc sống tốt đẹp hơn, thành công hơn rồi bắt đầu nỗ lực cho công việc, một người sếp của tôi đã cho tôi một số lời khuyên có giá trị khi tôi đang trên con đường cố gắng: “Đừng hỏi một người kiếm được 60 triệu một năm làm thế nào để để kiếm được 600 triệu.”
 
