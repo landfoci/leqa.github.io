@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ngưỡng mộ rồi bắt chước
+title: Ngưỡng mộ và bắt chước
 published: true
 tag: diary
 ---
