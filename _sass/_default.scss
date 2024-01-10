@@ -15,7 +15,6 @@ body {
   font-family: 'Inter', sans-serif;
   margin: 0 auto;
   max-width: 35rem;
-  padding: 3rem 0;
   
 }
   
@@ -34,9 +33,7 @@ body::after {
   position: relative;
   background: var(--background);
   z-index: 100;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  padding: 3rem;
+  padding: 2rem;
 
 
 
