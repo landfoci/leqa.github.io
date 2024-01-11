@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article role="article">
-<time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: ""%d-%m-%Y" }}</time>
+<time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d-%m-%Y" }}</time>
 <h2>{{ page.title }}</h2>
   {{ content }}
 </article>
