@@ -86,7 +86,7 @@ time {
 
 a,
 a:visited {
-  color: #333;
+  color: var(--foreground);
   text-decoration: underline;
   text-decoration-color: #e6e6e6;
   text-underline-offset: 0.25em;
