@@ -1,12 +1,12 @@
 
 :root {
-  --foreground: #333;
+  --foreground: rgb(196, 196, 197);
   --background: rgb(29 30 33);
   --accent: #cf2e2e;
 }
 
 body {
-  color: #333;
+  color: var(--foreground);
   background-color: var(--background);
   font-size: 0.938rem;
   line-height: 1.75;
