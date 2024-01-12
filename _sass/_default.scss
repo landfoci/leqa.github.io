@@ -99,6 +99,12 @@ a:visited {
 
   &:hover {
     color: var(--accent2);
+    text-decoration: underline;
+    text-decoration-color: #ffec3d66;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: 0.3rem;
+    text-underline-offset: -0.15rem;
+    transition: text-decoration .3s;
   }
 }
 
