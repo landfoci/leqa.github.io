@@ -3,11 +3,9 @@ published: false
 ---
 Chuyện sợ viết là một điều bình thường và phổ biến ở rất rất nhiều người, nhất là dân học kinh tế, kỹ thuật, công nghệ..., không biết từ đâu bị gắn cho cái mác khô khan. Rất nhiều người than vãn là không dám viết, không có khả năng viết.
 
-Cũng là người hay viết linh tinh và đã từng rất ngại khi không biết viết gì nên mình cũng muốn chia sẻ một chút về chuyện này, hy vọng đọc xong các bạn sẽ cảm thấy tự tin hơn một tí.
+Cũng là người hay viết linh tinh và đã từng rất ngại khi không biết phải viết gì nên mình cũng muốn chia sẻ một chút về chuyện này, hy vọng đọc xong các bạn sẽ cảm thấy tự tin hơn một tí.
 
-Trong suốt những năm học phổ thông, chưa bao giờ mình tự tin về khả năng chém gió của mình. Điểm kiểm tra tập làm văn của mình chưa bao giờ quá con số 7 cả, còn mấy con số ở dưới mức đó thì nhiều vô kể. Đó là nguyên nhân khiến cho mình không thể trở thành nhà văn hay nhà thơ.
-
-Thế rồi không biết sao mà mình cũng đâm đầu vào viết lách rồi, thật hên là chỉ viết cho vui chớ không phải viết kiếm cơm, và mình cũng không chắc là bài mình viết ra nhắm có ai đọc hay không? Mình cũng không quan tâm quá nhiều, hễ thích viết thì viết thôi nhưng hy vọng những điều mình chia sẻ dưới đây có thể giúp ích được cho một ai đó tự tin chém gió.
+Trong suốt những năm học phổ thông, chưa bao giờ mình tự tin về khả năng chém gió của mình. Điểm kiểm tra tập làm văn của mình chưa bao giờ quá con số 7 cả, còn mấy con số ở dưới mức đó thì nhiều vô kể. Đó là nguyên nhân khiến cho mình không thể trở thành nhà văn hay nhà thơ. Thế rồi không biết sao mà mình cũng đâm đầu vào viết lách rồi, hên là chỉ viết cho vui chớ không phải viết kiếm cơm, gặp content nói chuyện xà lơ chắc gạch đá đủ để xây villa quá! Thật tình thì mình cũng không chắc là bài mình viết ra nhắm có ai đọc hay không? Mình cũng không quan tâm quá nhiều, hễ thích viết thì viết thôi nhưng hy vọng những điều mình chia sẻ dưới đây có thể giúp ích được cho một ai đó tự tin chém gió.
 
 Quay trở lại câu chuyện tại sao một thằng dốt văn lại dám đi viết, thì ngay cả mình cũng không hiểu tại sao những bài mình viết được nhiều người ủng hộ. Nếu có thì theo mình, đó là nhờ giọng điệu trong bài viết nó không quá xa lạ hoặc khuông phép, gọi là formal quá, và mình hay bỏ thêm vài hình linh tinh zô đó, chắc nhìn nó hài hài. Về kinh nghiệm viết lách chủ quan của mình, thì cũng đã có một bài viết nói về chuyện này, các bạn có thể tham khảo bài Làm thế nào để viết blog kĩ thuật?.
 
