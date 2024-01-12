@@ -1,7 +1,7 @@
 ---
 published: false
 ---
-Chuyện sợ viết là một điều bình thường và phổ biến ở rất rất nhiều người, nhất là dân học kinh tế, kỹ thuật, hoặc công nghệ, ngay từ đâu bị gắn cho cái mác khô khan. Rất nhiều người than vãn là không dám viết, không có khả năng viết.
+Chuyện sợ viết là một điều bình thường và phổ biến ở rất rất nhiều người, nhất là dân học kinh tế, kỹ thuật, công nghệ..., không biết từ đâu bị gắn cho cái mác khô khan. Rất nhiều người than vãn là không dám viết, không có khả năng viết.
 
 Cũng là người hay viết linh tinh và đã từng rất ngại khi không biết viết gì nên mình cũng muốn chia sẻ một chút về chuyện này, hy vọng đọc xong các bạn sẽ cảm thấy tự tin hơn một tí.
 
