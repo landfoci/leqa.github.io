@@ -3,7 +3,6 @@ layout: default2
 ---
 
 <article role="article">
-<time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d-%m-%Y" }}</time>
 <a href="/" {% if page.url=="/" %}class="active" {% endif %}><h2>{{ page.title }}</h2></a>
   {{ content }}
 </article>
