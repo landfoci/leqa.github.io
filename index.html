@@ -11,12 +11,12 @@ permalink: /
         {% if year != nyear %}
           <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
         {% endif %}
-    <div>
-    <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m" }}</time>
-    </div>
     <span>
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </span>
+     <div>
+    <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m" }}</time>
+    </div>
   </li>
   {% endfor %}
 </ul> 
