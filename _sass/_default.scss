@@ -15,7 +15,6 @@ body {
   text-rendering: optimizeLegibility;
   font-family: 'Inter', sans-serif;
   margin: 0 auto;
-  padding: 2rem;
   max-width: 31.25rem;
   
 }
@@ -35,6 +34,7 @@ body::after {
   position: relative;
   background: var(--background);
   z-index: 100;
+  padding: 2rem;
 }
 
 #container::after {
