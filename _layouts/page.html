@@ -3,6 +3,6 @@ layout: default
 ---
 
 <article role="article">
-<h2>{{ page.title }}</h2>
+<a href="/" {% if page.url=="/" %}class="active" {% endif %}><h2>{{ page.title }}</h2></a>
   {{ content }}
 </article>
