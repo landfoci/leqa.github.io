@@ -27,7 +27,12 @@ body::after {
   content: "";
   width: 100vw;
   height: 100vh;
-  background: none;
+  background: repeating-linear-gradient(0deg,
+      color-mix(in srgb, var(--foreground) 10%, transparent) 0 1px,
+      transparent 1px 20px),
+    repeating-linear-gradient(90deg,
+      color-mix(in srgb, var(--foreground) 10%, transparent) 0 1px,
+      transparent 1px 20px);
   pointer-events: none;
 }
 
