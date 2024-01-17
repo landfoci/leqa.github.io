@@ -3,7 +3,7 @@
   --foreground: #333;
   --background: #FFEFDB;
   --accent: #fff;
-  --accent2: #f495c6;
+  --accent2: #FFEC3DE6;
 }
 
 body {
@@ -96,7 +96,7 @@ a:visited {
 
   &:hover {
     color: var(--foreground);
-    background-color: none;
+    background-color: var(--accent2);
     text-decoration-color: none;
     text-decoration: none;
   }
