@@ -6,9 +6,6 @@ permalink: /
 <ul class="posts">
   {% for post in site.posts limit:12 %}
   <li>
-        {% if year != nyear %}
-          <h3 class="category-title">{{ post.date | date: '%Y' }}</h3>
-        {% endif %}
     <span>
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </span>
