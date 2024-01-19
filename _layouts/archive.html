@@ -10,7 +10,7 @@ title: All posts
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </span>
      <div>
-   <time class="date" datetime="{{ post.date | date_to_xmlschema }}">&ensp;{{ post.date | date: "%d/%m/%y" }}</time>
+   <time class="date" datetime="{{ post.date | date_to_xmlschema }}">&ensp;({{ post.date | date: "%d/%m/%y" }})</time>
     </div>
   </li>
   {% endfor %}
