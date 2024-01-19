@@ -116,10 +116,6 @@ a.active {
   li {
     line-height: 2;
     display: flex;
-    white-space:nowrap;
-	  overflow:hidden;
-	  text-overflow:ellipsis;
-	  text-decoration: none;
   
     div {
       min-width: 8ch;
