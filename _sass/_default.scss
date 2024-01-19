@@ -14,7 +14,7 @@ body {
   font-weight: 400;
   text-rendering: optimizeLegibility;
   font-family: 'Inter', sans-serif;
-  margin: 0 0 120px 120px;
+  margin: 0 auto;
   padding-top: 5rem;
   max-width: 32rem;
   
@@ -45,7 +45,6 @@ body::after {
   content: "";
   background: none;
   pointer-events: none;
-  margin: 0 auto;
 }
 
 nav {
