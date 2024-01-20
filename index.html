@@ -3,14 +3,17 @@ layout: default
 permalink: /
 ---
 
-{% for post in paginator.posts %}
-<article role="article">
-  <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m/%y" }}</time>
-  <span><a href="{{ site.baseurl }}{{ post.url }}">
-    {{ post.title }}
-  </a></span>
-</article>
-{% endfor %}
-{% include paginator.html %}
+<ul class="posts">
+  {% for post in site.posts limit:10 %}
+  <li>
+    <span>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </span>
+    <div>
+   <time class="date" datetime="{{ post.date | date_to_xmlschema }}">&ensp;({{ post.date | date: "%d/%m/%y" }})</time>
+    </div>
+  </li>
+  {% endfor %}
+</ul> 
 <hr>
 <a href="/archive" {% if page.url=="/archive" %}class="active" {% endif %}>Tất cả bài viết</a> | <a href="/search" {% if page.url=="/search" %}class="active" {% endif %}>Tìm kiếm</a>
