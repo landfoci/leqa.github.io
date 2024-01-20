@@ -3,7 +3,7 @@ layout: default
 permalink: /
 ---
 
-{% for post in site.posts %}
+{% for post in site.posts limit:12 %}
 <article role="article">
   <h2><a href="{{ site.baseurl }}{{ post.url }}">
     {{ post.title }}
