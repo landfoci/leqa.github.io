@@ -33,10 +33,9 @@ body::after {
   background: var(--background);
   position: relative;
   z-index: 100;
-  padding: 2rem;
+  padding: 3rem;
   box-sizing: border-box;
-  border: 2px solid #ebc3c3;
-  box-shadow: 12px 12px 0 -1px #ebc3c3;
+  border: 1px solid #c1c1c1;
 }
 
 #container::after {
