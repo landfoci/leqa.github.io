@@ -13,8 +13,8 @@ title: Archive
       <a href="/" {% if page.url=="/" %}class="active" {% endif %}><h2 id="{{ this_year }}-ref">{{ this_year }}</h2></a>
       <ul>
     {% endif %}
-    <div><time class="date" datetime="{{ post.date | date_to_xmlschema }}">({{ post.date | date: "%d/%m/%y" }})</time></div>
     <li><span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span></a></li>
+    <div><time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m/%y" }}</time></div>
     {% if forloop.last %}
       </ul>
     </article>
