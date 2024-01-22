@@ -21,7 +21,7 @@ title: Archive
           </ul>
         </article>
         <article>
-          <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
+          <a href="/" {% if page.url=="/" %}class="active" {% endif %}><h2 id="{{ next_year }}-ref">{{next_year}}</h2></a>
           <ul>
         {% endif %}
     {% endif %}
