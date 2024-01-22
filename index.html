@@ -16,6 +16,7 @@ permalink: /
     <div>
    <time class="date" datetime="{{ post.date | date_to_xmlschema }}">&ensp;({{ post.date | date: "%d/%m/%y" }})</time>
     </div>
+    {% if forloop.last %}
   </li>
   {% endfor %}
 </ul> 
