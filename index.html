@@ -4,29 +4,21 @@ permalink: /
 ---
 
 <ul class="posts">
-  {% for post in site.posts %}
-    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-    {% if forloop.first %}
-  <h2 id="{{ this_year }}-ref">{{ this_year }}</h2>
-  <li>
-    <span>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </span>
-    <div>
-   <time class="date" datetime="{{ post.date | date_to_xmlschema }}">&ensp;({{ post.date | date: "%d/%m/%y" }})</time>
-    </div>
-    {% if forloop.last %}
-    {% else %}
-        {% if this_year != next_year %}
-          </ul>
-        </article>
-        <article>
-          <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
-          <ul>
+ {% for post in site.posts %}
+      {% unless post.next %}
+        <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
+      {% else %}
+        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+        {% if year != nyear %}
+          <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
         {% endif %}
-  </li>
-  {% endfor %}
+      {% endunless %}
+      <article class="post-item">
+        <span class="post-meta date-label">{{ post.date | date: "%b %d" }}</span>
+        <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></div>
+      </article>
+    {% endfor %}
 </ul> 
 <hr>
 <a href="/archive" {% if page.url=="/archive" %}class="active" {% endif %}>Archive</a> | <a href="/search" {% if page.url=="/search" %}class="active" {% endif %}>Search</a>
