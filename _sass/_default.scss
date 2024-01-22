@@ -92,14 +92,14 @@ a:visited {
   text-decoration-color: #ffec3d66;
   text-decoration-skip-ink: none;
   text-decoration-thickness: 0.5rem;
-  text-underline-offset: -0.20rem;
+  text-underline-offset: -0.2rem;
   transition: text-decoration .3s;
 
 
 
   &:hover {
     color: var(--foreground);
-    background-color: var(--accent2);
+    background-color: none;
     text-decoration-color: none;
     text-decoration: none;
   }
