@@ -30,10 +30,14 @@ body::after {
 }
 
 #container {
+  background: var(--background);
   position: relative;
   z-index: 100;
   padding: 2rem;
-  background: var(--background);
+  box-sizing: border-box;
+  border: 2px solid #ebc3c3;
+  box-shadow: 12px 12px 0 -1px #ebc3c3;
+}
 }
 
 #container::after {
