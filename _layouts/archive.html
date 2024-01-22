@@ -9,7 +9,7 @@ title: Archive
 
     {% if forloop.first %}
     <article>
-      <h2 id="{{ this_year }}-ref">{{ this_year }}</h2>
+      <a href="/" {% if page.url=="/" %}class="active" {% endif %}><h2 id="{{ this_year }}-ref">{{ this_year }}</h2></a>
       <ul>
     {% endif %}
         <li><a class="tag-post-title"href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title | escape }}">{{ post.title | escape }}</a></li>
