@@ -17,6 +17,14 @@ permalink: /
    <time class="date" datetime="{{ post.date | date_to_xmlschema }}">&ensp;({{ post.date | date: "%d/%m/%y" }})</time>
     </div>
     {% if forloop.last %}
+    {% else %}
+        {% if this_year != next_year %}
+          </ul>
+        </article>
+        <article>
+          <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
+          <ul>
+        {% endif %}
   </li>
   {% endfor %}
 </ul> 
