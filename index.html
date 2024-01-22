@@ -4,7 +4,7 @@ permalink: /
 ---
 
 <ul class="posts">
- {% for post in site.posts %}
+ {% for post in site.posts limit:10 %}
       {% unless post.next %}
         <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
       {% else %}
