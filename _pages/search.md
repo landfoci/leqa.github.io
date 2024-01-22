@@ -12,7 +12,7 @@ title: Tìm kiếm
 	  font-size: normal;
 	  outline: none;
 	  padding: 1rem;
-          background: #FFF;
+          background: #ddd;
 	  width: 80%;
 		-webkit-appearance: none;
 		font-family: inherit;
