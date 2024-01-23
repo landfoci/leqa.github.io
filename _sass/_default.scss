@@ -33,7 +33,8 @@ body::after {
   background: var(--background);
   position: relative;
   z-index: 100;
-  padding: 2rem;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 #container::after {
