@@ -48,29 +48,6 @@ body::after {
   pointer-events: none;
 }
 
-nav {
-  img {
-    height: 1.5rem;
-    transform: translateY(2.15rem);
-    float: left;
-  }
-
-  ul {
-    list-style: none;
-    padding: 0 0 2rem 0;
-    text-align: left;
-    
-    li {
-      display: inline-block;
-    }
-  }
-
-  a {
-    margin-right: 1rem;
-    text-decoration: none;
-  }
-}
-
 hr {
     background: #d9d9d9;
     border: 0;
