@@ -48,6 +48,30 @@ body::after {
   pointer-events: none;
 }
 
+nav {
+  img {
+    height: 2.5rem;
+    transform: translateY(-0.5rem);
+    float: left;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+
+    li {
+      display: inline-block;
+    }
+  }
+
+  a {
+    margin: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+
 hr {
     background: #d9d9d9;
     border: 0;
