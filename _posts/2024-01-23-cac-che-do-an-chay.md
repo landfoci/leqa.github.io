@@ -5,7 +5,7 @@ tag: diary
 published: true
 ---
 
-Bên dưới là một số chế độ ăn chay phổ biến hiện nay, tui ghi chú lại để phân loại và lựa chọn hình thức phù hợp với sở thích, công việc và cuộc sống...
+Để chuẩn bị tinh thần cho quá trình chuyển từ ăn thịt sang ăn chay nên tui liệt kê những chế độ ăn chay phổ biến hiện nay, trước là để bản thân tham khảo và chia sẻ cho những ai có ý định ăn chay.
 
 1. **Ăn chay thuần, thực phẩm chưa nấu chín (vegan, raw food)**: Các thực phẩm có nguồn gốc động vật được loại bỏ hoàn toàn, chỉ ăn thuần chay và loại bỏ tất cả các thức ăn nấu ở nhiệt độ lớn hơn 48°C.
 
