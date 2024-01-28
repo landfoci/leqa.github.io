@@ -35,6 +35,8 @@ body::after {
   z-index: 100;
   padding: 1rem;
   margin: 1rem;
+  border-left: 1px solid #ccc;
+  border-left-width: thick;
 }
 
 #container::after {
