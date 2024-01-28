@@ -5,7 +5,7 @@ tag: anchay
 published: true
 ---
 
-Để chuẩn bị tinh thần cho quá trình chuyển đổi từ bớt ăn thịt động vật sang ăn chay nên tui ghi chú lại những chế độ ăn chay phổ biến hiện nay, trước là để bản thân tham khảo sau đó là chia sẻ cho những ai có ý định như tui.
+Để chuẩn bị tinh thần cho quá trình chuyển đổi từ bớt ăn thịt động vật sang ăn chay nên tôi ghi chú lại những chế độ ăn chay phổ biến hiện nay, trước là để bản thân tham khảo sau đó là chia sẻ cho những ai có ý định như tôi.
 
 1. **Ăn chay thuần, thực phẩm chưa nấu chín (vegan, raw food)**: Các thực phẩm có nguồn gốc động vật được loại bỏ hoàn toàn, chỉ ăn thuần chay và loại bỏ tất cả các thức ăn nấu ở nhiệt độ lớn hơn 48°C.
 
