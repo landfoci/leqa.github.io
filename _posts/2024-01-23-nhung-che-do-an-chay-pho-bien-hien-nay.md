@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Những chế độ ăn chay phổ biến hiện nay
-tag: diary
+tag: anchay
 published: true
 ---
 
