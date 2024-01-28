@@ -16,7 +16,7 @@ body {
   font-family: 'Inter', sans-serif;
   margin: 0 auto;
   padding-top: 5rem;
-  max-width: 38rem;
+  max-width: 35rem;
 }
   
 body::after {
@@ -32,10 +32,8 @@ body::after {
   background: var(--background);
   position: relative;
   z-index: 100;
-  padding: 3rem;
+  padding: 2rem;
   margin: 1rem;
-  border-left: 1px solid #666;
-  border-left-width: unset;
 }
 
 #container::after {
