@@ -1,3 +1,10 @@
+---
+layout: post
+title: Cân đối dinh dưỡng trong ăn chay
+tag: diary
+published: false
+---
+
 ## Cân đối dinh dưỡng trong ăn chay
 
 Một trong những bận tâm nhất của tôi khi suy nghĩ về ăn chay là việc làm thế nào để cân đối dinh dưỡng trong quá trình ăn chay để tránh những nguy cơ sức khỏe có thể xảy ra. Bài viết dưới đây là một vài thông tin về vấn đề này.
