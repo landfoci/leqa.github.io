@@ -6,4 +6,5 @@ layout: default
 <a href="/" {% if page.url=="/" %}class="active" {% endif %}><h2>{{ page.title }}</h2></a>
   {{ content }}
 </article>
+<br>
 <small>Posted on:</small> <time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d/%m/%Y" }}</time> | <small>Tags:</small> <span>[{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %}<a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>{% endfor %}]</span>
