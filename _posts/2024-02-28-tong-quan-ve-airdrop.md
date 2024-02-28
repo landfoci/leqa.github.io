@@ -5,6 +5,7 @@ tag: tiendientu
 published: true
 ---
 
+<p>
 <details><summary><b>AIRDROP LÀ GÌ ?</b></summary>
   <br>
 Airdrop đơn giản là nếu mình có tương tác với một dự án, thì nó sẽ thưởng lại chúng ta.
@@ -44,7 +45,7 @@ zkSync thì đã trễ, vị thế xấu. Layerzero, Starknet thì tin đồn ra
 Scroll là một sự lựa chọn có vẻ ngon lành. Scroll là một layer 2, chỉ mới mainnet một thời gian ngắn.
 Các kèo stake to earn theo trend ETH Dencun sắp tới như ALT, Eigen, Swell...
 </details>
-
+</p>
 
 <details><summary><b>QUY TRÌNH CƠ BẢN LÀM AIRDROP!</b></summary>
 <br>
