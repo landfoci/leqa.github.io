@@ -61,10 +61,10 @@ Các kèo stake to earn theo trend ETH Dencun sắp tới như ALT, Eigen, Swell
 Mạng nào thì cần phí mạng đó... cái này thì khi lên bài kèo gì đó mình thường ghi chú đầy đủ.
 
 Có nhiều sàn nhưng đa phần mình dùng các sàn sau:
+  
+-[Binance](https://accounts.binance.com/vi/register?ref=UA34TN0X)
 
-- Binance: https://accounts.binance.com/vi/register?ref=UA34TN0X
-
-- Bybit: https://www.bybitglobal.com/invite?ref=O1YBOZ
+-[Bybit](https://www.bybitglobal.com/invite?ref=O1YBOZ)
 
 Vì sao phải dùng nhiều sàn, vì nhiều token sẽ list nhiều sàn khác nhau. Và dùng nhiều sàn để nạp rút cho nhiều ví, tránh dự án bắt cheat.
 
