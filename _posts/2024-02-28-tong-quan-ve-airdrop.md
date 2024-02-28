@@ -6,7 +6,7 @@ published: true
 ---
 
 <p>
-<details><summary><b>AIRDROP LÀ GÌ ?</b></summary>
+<details><summary><b>Airdrop là gì?</b></summary>
   <br>
 Airdrop đơn giản là nếu mình có tương tác với một dự án, thì nó sẽ thưởng lại chúng ta.
 Trong thế giới crypto này thì airdrop được dùng với mục đích quảng cáo dự án, càng nhiều người dùng dự án càng tốt. Đã từng nghe câu "no airdrop no community" ? Đúng rồi đó !
@@ -47,7 +47,7 @@ Các kèo stake to earn theo trend ETH Dencun sắp tới như ALT, Eigen, Swell
 </details>
 </p>
 <p>
-<details><summary><b>QUY TRÌNH CƠ BẢN LÀM AIRDROP!</b></summary>
+<details><summary><b>Quy trình cơ bản làm airdrop</b></summary>
 <br>
 1. Chuẩn bị
 
