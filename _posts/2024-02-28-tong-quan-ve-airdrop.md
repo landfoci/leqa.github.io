@@ -103,4 +103,4 @@ Layer 2 được gọi là lớp mở rộng của Layer 1, dùng luôn token c�
 
 Có thể thấy Arbitrum: ARB; Optimism: OP; Zksync: ???
 Quy trình cơ bản trên áp dụng cho cả các Dapp, dự án nhỏ lẻ....
-<details>
+</details>
