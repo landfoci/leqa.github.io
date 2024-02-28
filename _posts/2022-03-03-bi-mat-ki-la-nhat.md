@@ -125,7 +125,7 @@ Do đó, chúng ta nên đánh giá những thành quả mà chúng ta có về:
 Thành quả của bạn nói gì về cá tính của bạn?
 </details>
 
-<details><smummary>Earl Nightingale – Mục tiêu</smummary>
+<details><summary>Earl Nightingale – Mục tiêu</summary>
 
 Con người có những gì họ muốn, tại sao họ không hạnh phúc? Có thể là do họ không tiếp tục với những mục tiêu lớn hơn, đáng giá hơn?
 
@@ -141,7 +141,7 @@ Có mọi thứ nhưng không hạnh phúc, đó dường như là căn bệnh c
 </details>
 <details><summary>Earl Nightingale – Cân bằng</summary>
 Làm thế nào để gia tăng thu nhập để thỏa mãn nhu cầu hiện tại và tương lai? Điều đầu tiên cần nhận ra là người khác có mọi thứ chúng ta muốn và họ sẽ cho chúng ta nếu chúng ta xứng đáng. Nếu thu nhập hiện tại chưa đạt mức chúng ta muốn, chúng ta phải xem xét lại thành quả và khả năng quản lý của mình. Liệu chúng ta đã chưa đủ phẩm chất để đạt được hoặc không có đủ can đảm và ý tưởng để thực hiện.
-</details>
+
 Thoreau nói:
 
 >Nếu tự tin tiến bước với định hướng mà con người mong muốn..họ sẽ đạt được thành công ngay tức khắc
@@ -152,4 +152,5 @@ Thoreau nói:
 
 Một điều quan trọng nữa là liên tục xem xét đáng giá lại các ưu tiên của chúng ta. Người thành công hiểu cái nào quan trọng cái nào không – mục tiêu, mong muốn. Họ sẽ không mù quáng làm theo số đông. Họ sẽ đồng ý với câu nói này của Carl Jung:
 
->Mục tiêu tối thượng của con người là hoàn thành sứ mệnh của anh ta như là một cá nhân độc đáo nhất trong khả năng và giới hạn của thực tế
+>Mục tiêu tối thượng của con người là hoàn thành sứ mệnh của anh ta như là một cá nhân độc đáo nhất trong khả năng và giới hạn của thực tế.
+</details>
