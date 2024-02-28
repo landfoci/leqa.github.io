@@ -5,7 +5,8 @@ tag: tiendientu
 published: false
 ---
 
-<details><summary>AIRDROP LÀ GÌ ?</summary>
+<details><summary><b>AIRDROP LÀ GÌ ?</b></summary>
+  <br>
 Airdrop đơn giản là nếu mình có tương tác với một dự án, thì nó sẽ thưởng lại chúng ta.
 Trong thế giới crypto này thì airdrop được dùng với mục đích quảng cáo dự án, càng nhiều user dùng dự án càng tốt. Đã từng nghe câu "no airdrop no community" ? Đúng rồi đó !
 
@@ -44,7 +45,8 @@ Scroll là một sự lựa chọn có vẻ ngon lành. Scroll là một layer 2
 Các kèo stake to earn theo trend ETH Dencun sắp tới như ALT, Eigen, Swell...
 </details>
 
-<details><summary>Quy trình cơ bản làm airdrop !</summary>
+<details><summary><b>QUY TRÌNH CƠ BẢN LÀM AIRDROP!</b></summary>
+<br>
 1. Chuẩn bị
 
 - PC, laptop ngon tí.
