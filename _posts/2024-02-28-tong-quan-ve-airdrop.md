@@ -44,7 +44,7 @@ zkSync thì đã trễ, vị thế xấu. Layerzero, Starknet thì tin đồn ra
 Scroll là một sự lựa chọn có vẻ ngon lành. Scroll là một layer 2, chỉ mới mainnet một thời gian ngắn.
 Các kèo stake to earn theo trend ETH Dencun sắp tới như ALT, Eigen, Swell...
 </details>
-
+<br>
 <details><summary><b>QUY TRÌNH CƠ BẢN LÀM AIRDROP!</b></summary>
 <br>
 1. Chuẩn bị
