@@ -5,7 +5,7 @@ tag: tiendientu
 published: false
 ---
 
-<details><summary>Airdrop là gì ?</summary>
+<details><summary>AIRDROP LÀ GÌ ?</summary>
 Airdrop đơn giản là nếu mình có tương tác với một dự án, thì nó sẽ thưởng lại chúng ta.
 Trong thế giới crypto này thì airdrop được dùng với mục đích quảng cáo dự án, càng nhiều user dùng dự án càng tốt. Đã từng nghe câu "no airdrop no community" ? Đúng rồi đó !
 
