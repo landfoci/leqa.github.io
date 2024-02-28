@@ -47,7 +47,7 @@ Các kèo stake to earn theo trend ETH Dencun sắp tới như ALT, Eigen, Swell
 </details>
 </p>
 <p>
-<details><summary><b>Quy trình cơ bản làm airdrop</b></summary>
+<details><summary><b>Quy trình cơ bản làm airdrop.</b></summary>
 <br>
 1. Chuẩn bị
 
