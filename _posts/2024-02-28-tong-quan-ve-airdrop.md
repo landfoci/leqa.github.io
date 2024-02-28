@@ -2,7 +2,7 @@
 layout: post
 title: Tổng quan về airdrop
 tag: tiendientu
-published: false
+published: true
 ---
 
 <details><summary><b>AIRDROP LÀ GÌ ?</b></summary>
