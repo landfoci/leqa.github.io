@@ -46,7 +46,7 @@ Scroll là một sự lựa chọn có vẻ ngon lành. Scroll là một layer 2
 Các kèo stake to earn theo trend ETH Dencun sắp tới như ALT, Eigen, Swell...
 </details>
 </p>
-
+<p>
 <details><summary><b>QUY TRÌNH CƠ BẢN LÀM AIRDROP!</b></summary>
 <br>
 1. Chuẩn bị
@@ -106,3 +106,4 @@ Layer 2 được gọi là lớp mở rộng của Layer 1, dùng luôn token c�
 Có thể thấy Arbitrum: ARB; Optimism: OP; Zksync: ???
 Quy trình cơ bản trên áp dụng cho cả các Dapp, dự án nhỏ lẻ....
 </details>
+</p>
