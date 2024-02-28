@@ -11,11 +11,11 @@ Trong thế giới crypto này thì airdrop được dùng với mục đích qu
 
 Airdrop có rất nhiều mảng, theo kinh nghiệm của mình thì:
 
-- Testnet, raffle (xổ số): đa phần là free, nhưng phải làm nhiều nick mới có ăn.
+- ***Testnet, raffle (xổ số):*** đa phần là free, nhưng phải làm nhiều nick mới có ăn.
 
-- Retroactive: tin tưởng dự án, sử dụng dự án, tốn phí trước, và (có thể không) nhận reward sau.
+- ***Retroactive:*** tin tưởng dự án, sử dụng dự án, tốn phí trước, và (có thể không) nhận reward sau.
 
-- Node, mining: chạy node, đào coin, yêu cầu kiến thức và tài chính nhiều hơn.
+- ***Node, mining:*** chạy node, đào coin, yêu cầu kiến thức và tài chính nhiều hơn.
 
 Các dự án ngày càng gắt gao hơn trong việc lọc cheat, bắt sybil...Nên anh em hãy cân nhắc chọn mảng cho phù hợp và chơi:
 
@@ -25,16 +25,15 @@ Các dự án ngày càng gắt gao hơn trong việc lọc cheat, bắt sybil..
 
 - Chạy node thì phải thuê VPS, server...Đào coin thì mua máy, tốn điện...Thậm chí chạy node dự án cho đã, tới khi air nó random air.
 
-Tóm lại tất cả đều có rủi ro. Airdrop vẫn là một loại hình đầu tư, đương nhiên có rủi ro. Trong thị trường này những câu hỏi như "kèo đó thơm không ?", "làm giờ sau này được gì không ?"....sẽ không có ai dám trả lời cho bạn.
+Tóm lại tất cả đều có rủi ro, airdrop vẫn là một loại hình đầu tư nên đương nhiên có rủi ro. Trong thị trường này những câu hỏi như "kèo đó thơm không ?", "làm bây giờ sau này được gì không ?"....sẽ không có ai dám trả lời cho bạn.
 
 Đó là định kiến mà anh em phải hiểu rõ trước khi làm airdrop, hay đầu tư gì khác.
 
-Kèo mình ăn đa phần là retroactive, vì nó tốn phí, thanh lọc được user.
+Kèo tỉ lệ phần trăm an toàn cao là retroactive, vì nó tốn phí, thanh lọc được user.
 
-Ví dụ kèo SPACE ID, vốn chỉ ~ 10$ 1 ví, lại ăn lại 100$
-Arbitrum tốn chắc 1-200$ fee nhưng lại ăn lại mấy k...
+Ví dụ: kèo SPACE ID với vốn chỉ ~ 10$ 1 ví lại ăn lại 100$, Arbitrum tốn chắc 1-200$ fee nhưng lại ăn lại mấy ngàn đô...
 Cũng có những kèo ngon đột xuất, Aptos mint có cái NFT testnet thôi mà húp 2-3k. Arkham ARKM chỉ đăng ký nó thôi cũng ~ 200$.
-Hay mới đây Manta và Altlayer: Manta chỉ làm testnet thôi cũng húp 4-500$ (chưa tính làm retro mainnet), còn ALT thì làm free testnet Galxe húp ~ 500$ 1 ví.
+Hay mới đây Manta và Altlayer, Manta chỉ làm testnet thôi cũng húp 4-500$ (chưa tính làm retro mainnet), còn ALT thì làm free testnet Galxe húp ~ 500$ 1 ví.
 Chưa kể những kèo nhỏ lẻ khác.
 
 Anh em hỏi ngay thời điểm này còn kèo gì để làm ?
