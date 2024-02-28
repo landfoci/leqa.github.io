@@ -51,7 +51,7 @@ Các kèo stake to earn theo trend ETH Dencun sắp tới như ALT, Eigen, Swell
 
 - PC, laptop ngon tí.
 
-- Bộ tài khoản mạng xã hội: twitter, telegram, discord, facebook, github... Đăng ký bằng một email, sđt duy nhất, đồng bộ.
+- Bộ tài khoản mạng xã hội: twitter, telegram, discord, facebook, github... Đăng ký bằng một email, số điện thoại duy nhất...để dễ đồng bộ.
 
 - Cài ví MetaMask: các bước cài đặt rất dễ, chỉ chú ý phải lưu lại cụm 12 từ bí mật nhé, quên là thua.
 
@@ -60,11 +60,9 @@ Mạng nào thì cần phí mạng đó... cái này thì khi lên bài kèo gì
 
 Có nhiều sàn nhưng đa phần mình dùng các sàn sau:
 
-- Binance:
-https://accounts.binance.com/vi/register?ref=UA34TN0X
+- Binance: https://accounts.binance.com/vi/register?ref=UA34TN0X
 
-- Bybit:
-https://partner.bybitglobal.com/b/O1YBOZ
+- Bybit: https://www.bybitglobal.com/invite?ref=O1YBOZ
 
 Vì sao phải dùng nhiều sàn, vì nhiều token sẽ list nhiều sàn khác nhau. Và dùng nhiều sàn để nạp rút cho nhiều ví, tránh dự án bắt cheat.
 
