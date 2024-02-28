@@ -71,8 +71,8 @@ Trong Kinh thánh, Mark 9:23 có ghi: nếu có lòng tin, mọi thứ đều c�
 **William Shakespeare** viết: sự nghi ngờ của chúng ta là kẻ thù ngăn cản những điều tốt đẹp mà chúng ta lẽ ra đã có được. George Bernerd Shaw nói: con người đổ lỗi cho hoàn cảnh. Tôi không tin vào điều đó, những người thành công là những người tìm hoàn cảnh họ muốn, và nếu không tìm thấy, họ tự tạo ra.
 
 Thật là hiển nhiên phải không nào? Bất kỳ ai phát hiện ra điều này và tin tưởng là những người đầu tiên thành công. Chúng ta trở thành những gì mình nghĩ. Đó là lý do nếu con người có một mục tiêu đáng giá họ sẽ đạt được nó bởi vì đó là những gì họ nghĩ đến, và họ trở thành những gì mình nghĩ. Trái lại, nếu không có mục tiêu, họ không biết cuộc đời mình đi về đâu. Vì thế, suy nghĩ của họ sẽ toàn là lo lắng, sợ hãi và bối rối và họ trở thành những gì bạn nghĩ. Cuộc đời họ trở thành thất vọng, lo lắng và sợ hãi. Nếu họ không suy nghĩ gì, họ trở thành con số không.
-<details>
-<summary>***Tại sao lại như thế?***</summary>
+
+**Tại sao lại như thế?**
 
 Tôi sẽ chia sẻ với bạn những gì tôi biết. Để làm điều đó, tôi sẽ chia sẻ với bạn về một tình huống song song của tâm trí con người. Ví dụ một nông dân có mảnh đất màu mỡ. Mảnh đất đó cho họ lựa chọn: họ có thể gieo trồng tùy thích, mảnh đất không quan tâm họ sẽ gieo gì. Chúng ta so sánh tâm trí với mảnh đất, bởi vì tâm trí con người giống như mảnh đất. Nó không quan tâm bạn sẽ bỏ gì vào đó, nó sẽ trả lại những gì bạn bỏ vào. Nó không quan tâm bạn gieo gì. Ví dụ người nông dân có 2 hạt giống, một là bắp và một là cà dược (một loại độc dược chết người). Người nông dân gieo trồng cả 2 hạt. Điều gì sẽ xảy ra? dĩ nhiên mảnh đất sẽ trả lại những gì họ gieo, như Kinh thánh có viết: gieo gì gặt nấy. Mảnh đất không quan tâm, nó sẽ trả lại bắp cũng như cà được. Tâm trí con người thì phức tạp, màu mỡ và kỳ diệu hơn mảnh đất nhiều, nhưng nó hoạt động theo cách tương tự. Nó không quan tâm chúng ta gieo gì, thành công hay thất bại, mục tiêu đáng giá hay lo lắng và sợ hãi. Nhưng những gì chúng ta gieo, nó sẽ trả lại như thế.
 
@@ -95,9 +95,8 @@ Bất kỳ ai đều là kết quả cộng lại của chính suy nghĩ của h
 Tại sao nó kỳ lạ, và bí mật? Thật ra nó không phải bí mật gì cả. Nó đã được nhiều nhà thông thái nói tới và được Kinh thánh nhắc lại nhiều lần nhưng chỉ có rất ít người học và hiểu được nó. Đó là lý do vì sao nó kỳ lạ và là bí mật.
 
 Tôi tin rằng nếu bạn đi hỏi khắp nơi bí mật của thành công là gì, sẽ khó lòng gặp ai có thể nói cho bạn. Thông tin này có giá trị vô cùng lớn nếu chúng ta hiểu và áp dụng nó. Không chỉ cho chúng ta mà cho những người xung quanh có liên quan. Cuộc sống nên là một hành trình đầy phấn khích. Con người nên sống đầy đủ, hạnh phúc khi mỗi sáng thức dậy. họ nên làm những việc họ muốn vì họ làm nó tốt.
-</details>
 
-***Earl Nightingale – Hạnh phúc***
+<details><summary>Earl Nightingale – Hạnh phúc</summary>
 
 Những nhà nghiên cứu xuất sắc nhất trong lĩnh vực tâm lý học và thần học đã chỉ ra rằng xã hội dù dư thừa của cải vật chất cũng không mang đến hạnh phúc. Trái lại, con người trong những quốc gia phát triển dường như đau khổ bởi sự chán nản và thiếu vắng đi lòng nhiệt thành.
 
@@ -112,7 +111,8 @@ Trái lại, khi có một ý tưởng tốt, chúng ta ở trạng thái tốt 
 Có 3 lĩnh vực chủ chốt trong cuộc sống mà chúng ta phải thành công: cuộc sống gia đình, cách chúng ta sử dụng thời gian và thu nhập.
 
 Chúng ta tìm thấy thành công theo cách của riêng mỗi người, khi chúng ta tìm thấy chính mình. Khi đó, tất cả những gì chúng ta cần và muốn có sẽ đạt được. Hành trình tự tìm kiếm bản thân, tìm kiếm ý nghĩa là một hành trình thú vị nhất – và có ý nghĩa nhất.
-Earl Nightingale – Cá tính
+</details>
+<details><summary>Earl Nightingale – Cá tính </summary>
 
 Từ điển định nghĩa cá tính là: đặc điểm riêng đáng ngưỡng mộ ở một người. Bất kỳ ai có cơ hội sống đủ lâu sẽ bắt đầu hình thành  những đặc điểm riêng của họ. Nó là tấm gương phản ánh chân thực con người họ, bản chất của riêng họ.
 
@@ -123,8 +123,9 @@ Chúng ta có thể phát triển thông qua 2 khả năng: nhận thức và ng
 Do đó, chúng ta nên đánh giá những thành quả mà chúng ta có về: đời sống gia đình, kinh doanh và cách sử dụng thời gian rảnh.
 
 Thành quả của bạn nói gì về cá tính của bạn?
+</details>
 
-***Earl Nightingale – Mục tiêu***
+<details><smummary>Earl Nightingale – Mục tiêu</smummary>
 
 Con người có những gì họ muốn, tại sao họ không hạnh phúc? Có thể là do họ không tiếp tục với những mục tiêu lớn hơn, đáng giá hơn?
 
@@ -137,10 +138,10 @@ Trường lớp, gia đình và xã hội chỉ hướng chúng ta vào các khu
 Có mọi thứ nhưng không hạnh phúc, đó dường như là căn bệnh của xã hội hiện đại. Điều này xảy ra khi con người không còn mục tiêu. Đó là lúc họ cần được nhắc lại quy tắc nền tảng đầu tiên của cuộc sống thành công: con người phải có điều gì đó đáng giá để hướng về.
 
 Động lực đàng sau mỗi hành động của con người chính là mục tiêu. Mục tiêu của bạn là gì? Nó có rõ ràng trong tâm trí bạn.
-Earl Nightingale – Cân bằng
-
+</details>
+<details><summary>Earl Nightingale – Cân bằng</summary>
 Làm thế nào để gia tăng thu nhập để thỏa mãn nhu cầu hiện tại và tương lai? Điều đầu tiên cần nhận ra là người khác có mọi thứ chúng ta muốn và họ sẽ cho chúng ta nếu chúng ta xứng đáng. Nếu thu nhập hiện tại chưa đạt mức chúng ta muốn, chúng ta phải xem xét lại thành quả và khả năng quản lý của mình. Liệu chúng ta đã chưa đủ phẩm chất để đạt được hoặc không có đủ can đảm và ý tưởng để thực hiện.
-
+</details>
 Thoreau nói:
 
 >Nếu tự tin tiến bước với định hướng mà con người mong muốn..họ sẽ đạt được thành công ngay tức khắc
