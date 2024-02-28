@@ -1,4 +1,9 @@
-Tổng quan về airdrop
+---
+layout: post
+title: Tổng quan về airdrop
+tag: tiendientu
+published: false
+---
 
 <details><summary>Airdrop là gì ?</summary>
 Airdrop đơn giản là nếu mình có tương tác với một dự án, thì nó sẽ thưởng lại chúng ta.
