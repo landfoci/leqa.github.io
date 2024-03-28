@@ -131,7 +131,10 @@ footer {
 blockquote {
   border-left: 2px solid #999;
   margin: 0;
-  padding-left: 1rem;
+  padding-left: 2em;
+  border-left-width: 0.25rem;
+  margin-top: 1.6em;
+  margin-bottom: 1.6em;
 
   p {
     margin: 0;
