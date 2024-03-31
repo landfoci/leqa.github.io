@@ -3,8 +3,8 @@ layout: default
 permalink: /
 ---
 
-{% for post in paginator.posts %}
 <ul class="posts">
+  {% for post in site.posts limit:15 %}
   <li>
     <span>
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -15,4 +15,4 @@ permalink: /
   </li>
   {% endfor %}
 </ul> 
-{% include pagination.html %}
+<a href="/archive" {% if page.url=="/archive" %}class="active" {% endif %}>See all posts »</a> 
