@@ -3,16 +3,8 @@ layout: default
 permalink: /
 ---
 
-<ul class="posts">
-  {% for post in site.posts limit:15 %}
-  <li>
-    <span>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </span>
-    <div>
-   <time class="date" datetime="{{ post.date | date_to_xmlschema }}">&ensp;({{ post.date | date: "%Y" }})</time>
-    </div>
-  </li>
-  {% endfor %}
-</ul> 
-<a href="/archive" {% if page.url=="/archive" %}class="active" {% endif %}>See all posts »</a> 
+{% for post in paginator.posts %}
+   <li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li> 
+{% endfor %}
+
+{% include pagination.html %}
