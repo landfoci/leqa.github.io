@@ -4,7 +4,15 @@ permalink: /
 ---
 
 {% for post in paginator.posts %}
-   <li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li> 
-{% endfor %}
-
+<ul class="posts">
+  <li>
+    <span>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </span>
+    <div>
+   <time class="date" datetime="{{ post.date | date_to_xmlschema }}">&ensp;({{ post.date | date: "%Y" }})</time>
+    </div>
+  </li>
+  {% endfor %}
+</ul> 
 {% include pagination.html %}
