@@ -8,12 +8,12 @@
 body {
   color: var(--foreground);
   background-color: var(--background);
-  font-size: 0.813rem;
+  font-size: 0.913rem;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
   font-family: 'Inter', sans-serif;
   margin: 0 auto;
-  max-width: 50rem;
+  max-width: 40rem;
 }
 
 body::after {
