@@ -16,7 +16,7 @@ title: Archive
         {% endif %}
       {% endunless %}
      <li>
-     <div><time class="date" datetime="{{ post.date | date_to_xmlschema }}">&ensp;({{ post.date | date: "%d/%m" }})</time></div>
+     <div><time class="date" datetime="{{ post.date | date_to_xmlschema }}">&ensp;{{ post.date | date: "%d/%m" }}</time></div>
     <span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
    </li>
     {% endfor %}
