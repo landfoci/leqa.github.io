@@ -87,8 +87,10 @@ time {
 a,
 a:visited {
   color: var(--foreground);
-  border-bottom: 1px solid #000;
-  text-decoration: none;
+  text-decoration-thickness: 1px;
+  text-underline-offset: .25em;
+  text-decoration-color: #eee;
+}
 
   &:hover {
     color: var(--foreground);
