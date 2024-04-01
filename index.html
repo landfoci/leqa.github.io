@@ -4,15 +4,17 @@ permalink: /
 ---
 
 <ul class="posts">
-  {% for post in site.posts limit:15 %}
+  {% for post in site.posts %}
   <li>
-    <span>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </span>
     <div>
-   <time class="date" datetime="{{ post.date | date_to_xmlschema }}">&ensp;({{ post.date | date: "%Y" }})</time>
+      <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
     </div>
+    <span>
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </span>
   </li>
   {% endfor %}
-</ul> 
+</ul>
 <a href="/archive" {% if page.url=="/archive" %}class="active" {% endif %}>See all posts »</a> 
