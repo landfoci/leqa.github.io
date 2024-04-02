@@ -87,7 +87,7 @@ hr {
 
 time {
   font-style: italic;
-  font-size: smaller;
+  font-size: inherit;
 }
 
 a,
@@ -121,7 +121,7 @@ a.active {
 
   
     div {
-      min-width: 10ch;
+      min-width: 12ch;
     }
   }
 }
