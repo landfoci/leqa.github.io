@@ -18,7 +18,7 @@ body {
   -webkit-text-size-adjust: 100%;
   zoom: 1;
   font-family: "IBM Plex Mono", monospace;
-  margin: 0;
+  margin: 0 auto;
   padding-top: 2rem;
   max-width: 40rem;
 }
@@ -78,9 +78,11 @@ nav {
 
 hr {
     background: #d9d9d9;
-    border: 0;
     height: 1px;
-    width: 100%;
+    border: none;
+    max-width: 50ch;
+    padding: 0;
+    margin: 2rem auto;
 }
 
 time {
