@@ -6,9 +6,6 @@ permalink: /
 {% for post in paginator.posts %}
 <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
   <span class="date">{{ post.date }}</span>
-<div class="content">
-  {{ post.content }}
-</div>
 {% endfor %}
 
 <!-- Pagination links -->
