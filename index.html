@@ -6,12 +6,7 @@ permalink: /
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  <p class="author">
-    <span class="date">{{ post.date | date: "%d/%m/%y" }}</span>
-  </p>
-  <div class="content">
-    {{ post.content }}
-  </div>
+    <time class="date" datetime="{{ post.date | date_to_xmlschema }}">&ensp;({{ post.date | date: "%d/%m/%y" }})</time>
 {% endfor %}
 
 <!-- Pagination links -->
