@@ -7,4 +7,4 @@ layout: default
   {{ content }}
 </article>
 <br>
-Tag: <span>[{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %}<a href="/tag/{{ tag_name }}">#{{ tag_name }}</a>{% endfor %}]</span>
+Thẻ: <span>{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %}<a href="/tag/{{ tag_name }}">#{{ tag_name }}</a>{% endfor %}</span>
