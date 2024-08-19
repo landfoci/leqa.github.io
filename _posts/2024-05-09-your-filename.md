@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Quay về với macos
+title: Quay về với macos
 tag: diary
 published: true
 ---
