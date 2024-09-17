@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Archive
+title: Lưu trữ
 ---
 
 <ul class="posts">
