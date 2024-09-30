@@ -1,7 +1,6 @@
 ---
 layout: page1
 title: Intro
-published: true
 ---
 
 
