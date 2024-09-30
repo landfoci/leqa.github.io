@@ -1,6 +1,6 @@
 ---
 layout: page1
-title: Giới thiệu
+title: Intro
 published: true
 ---
 
