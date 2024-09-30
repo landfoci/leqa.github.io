@@ -3,7 +3,6 @@ layout: page1
 title: Intro
 ---
 
-
 Tôi muốn tạo cho mình một trang blog thật đơn giản, nơi tôi có thể ghi chép và chia sẻ bất kì điều gì tôi muốn về: tài chính, về nông nghiệp, về tôn giáo, về mẹo vặt, một bài viết hay nào đó... hoặc cũng có thể là vài dòng suy nghĩ bất chợt.
 
 Đúng với mục tiêu đặt ra, blog này chỉ gồm nhiều tệp văn bản đơn thuần, đôi khi tôi thêm vài hình ảnh mô tả cho dễ hiểu. 
