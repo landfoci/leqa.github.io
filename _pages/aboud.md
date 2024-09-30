@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page1
 title: Giới thiệu
 published: true
 ---
