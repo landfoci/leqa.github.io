@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hey
+title: Giới thiệu
 published: true
 ---
 
