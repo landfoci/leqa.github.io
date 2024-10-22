@@ -185,3 +185,12 @@ table {
     font-weight: bold;
   }
 }
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+.chivo-mono-<uniquifier> {
+  font-family: "Chivo Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
