@@ -10,3 +10,4 @@ title: Reading
 ## **2024**
 
 - Principles _ Ray Dalio ★
+- Ăn theo nhóm máu - Peter J. D’Adamo ★
