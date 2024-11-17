@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nhật ký con bàn phím
+title: Nhật ký cái bàn phím
 tag: diary
 ---
 
