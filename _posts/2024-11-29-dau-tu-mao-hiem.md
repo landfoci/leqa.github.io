@@ -29,4 +29,3 @@ Sau tất cả, với số vốn ban đầu 1.135$, sau 2 tháng thu lại đư�
 
 **BÀI HỌC RÚT RA LÀ:** Thứ miễn phí trên đời chỉ có cức chim và nước mưa. Mọi sự ngu dốt đều phải trả giá bằng tiền.
 Kết thúc năm 2024 bằng một sự ngu xuẩn tham lam…
-Tổng là: 340,69$ (30,34% tổng vốn)
