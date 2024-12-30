@@ -13,7 +13,7 @@ permalink: /
       </a>
     </span>
     <div>
-      <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+      <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%M-%D-%d" }}</time>
     </div>
   </li>
   {% endfor %}
