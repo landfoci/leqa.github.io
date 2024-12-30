@@ -7,7 +7,7 @@ title: Lưu trữ
   {% for post in site.posts %}
   <li>
     <div>
-      <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+      <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
     </div>
     <span>
       <a href="{{ site.baseurl }}{{ post.url }}">
