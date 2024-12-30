@@ -92,10 +92,12 @@ time {
 
 a,
 a:visited {
-  color: var(--foreground);
-  text-decoration-thickness: 1px;
-  text-underline-offset: .25em;
-  text-decoration-color: #333;
+    text-decoration: underline;
+    text-decoration-color: #fff7b1;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: .5em;
+    text-underline-offset: -.25em;
+    transition: text-decoration .3s;
 
   &:hover {
     color: var(--foreground);
