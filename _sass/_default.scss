@@ -92,6 +92,7 @@ time {
 
 a,
 a:visited {
+    color: var(--foreground);
     text-decoration: underline;
     text-decoration-color: #fff7b1;
     text-decoration-skip-ink: none;
