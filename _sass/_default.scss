@@ -37,7 +37,7 @@ body::after {
   align-items: flex-start; /* Căn chỉnh theo chiều dọc nếu cần */
   width: 100%;
   max-width: 1200px; /* Đặt chiều rộng tối đa */
-  margin: 0 auto; /* Căn giữa container */
+  margin: 0; /* Căn giữa container */
   padding: 20px;
   box-sizing: border-box;
 }
