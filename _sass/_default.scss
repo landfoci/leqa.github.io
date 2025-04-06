@@ -30,37 +30,23 @@ body::after {
   pointer-events: none;
 }
 
-/* Container chính */
-.container {
-  display: flex;
-  justify-content: flex-start; /* Đảm bảo phần tử nằm bên trái */
-  align-items: flex-start; /* Căn chỉnh theo chiều dọc nếu cần */
+#container {
+  background: var(--background);
+  position: relative;
+  z-index: 100;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+#container::after {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  max-width: 560px; /* Đặt chiều rộng tối đa */
-  margin: 0; /* Căn giữa container */
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-/* Nội dung chính */
-.main-content {
-  width: 100%; /* Nội dung chiếm toàn bộ chiều rộng */
-  background-color: #f4f4f4;
-  padding: 20px;
-  box-sizing: border-box;
-  border-radius: 8px;
-  /* Các thuộc tính khác như font, màu sắc, v.v. */
-}
-
-/* Đảm bảo responsive trên màn hình nhỏ */
-@media (max-width: 468px) {
-  .container {
-    padding: 10px; /* Giảm padding cho màn hình nhỏ */
-  }
-
-  .main-content {
-    padding: 15px; /* Điều chỉnh padding của nội dung chính */
-  }
+  height: 100%;
+  content: "";
+  background: none;
+  pointer-events: none;
 }
 
 nav {
