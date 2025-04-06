@@ -30,31 +30,38 @@ body::after {
   pointer-events: none;
 }
 
+/* Container chính */
 .container {
   display: flex;
-  justify-content: flex-start; /* Đảm bảo phần tử nằm ở bên trái */
-  align-items: center; /* Căn chỉnh theo chiều dọc nếu cần */
+  justify-content: flex-start; /* Đảm bảo phần tử nằm bên trái */
+  align-items: flex-start; /* Căn chỉnh theo chiều dọc nếu cần */
   width: 100%;
-  height: 100vh; /* Chiều cao toàn màn hình */
-  padding: 10px; /* Khoảng cách bên ngoài */
+  max-width: 1200px; /* Đặt chiều rộng tối đa */
+  margin: 0 auto; /* Căn giữa container */
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.left-element {
-  width: 250px; /* Độ rộng của phần tử bên trái */
-  background-color: #f4f4f4; /* Màu nền */
+/* Nội dung chính */
+.main-content {
+  width: 100%; /* Nội dung chiếm toàn bộ chiều rộng */
+  background-color: #f4f4f4;
   padding: 20px;
   box-sizing: border-box;
   border-radius: 8px;
-  margin-right: 20px; /* Khoảng cách bên phải */
+  /* Các thuộc tính khác như font, màu sắc, v.v. */
 }
 
+/* Đảm bảo responsive trên màn hình nhỏ */
 @media (max-width: 768px) {
-  .left-element {
-    width: 100%; /* Đảm bảo phần tử chiếm hết chiều rộng trên màn hình nhỏ */
-    margin-right: 0;
+  .container {
+    padding: 10px; /* Giảm padding cho màn hình nhỏ */
+  }
+
+  .main-content {
+    padding: 15px; /* Điều chỉnh padding của nội dung chính */
   }
 }
-
 
 nav {
   img {
