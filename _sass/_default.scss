@@ -36,7 +36,7 @@ body::after {
   justify-content: flex-start; /* Đảm bảo phần tử nằm bên trái */
   align-items: flex-start; /* Căn chỉnh theo chiều dọc nếu cần */
   width: 100%;
-  max-width: 1200px; /* Đặt chiều rộng tối đa */
+  max-width: 560px; /* Đặt chiều rộng tối đa */
   margin: 0; /* Căn giữa container */
   padding: 20px;
   box-sizing: border-box;
@@ -53,7 +53,7 @@ body::after {
 }
 
 /* Đảm bảo responsive trên màn hình nhỏ */
-@media (max-width: 768px) {
+@media (max-width: 468px) {
   .container {
     padding: 10px; /* Giảm padding cho màn hình nhỏ */
   }
