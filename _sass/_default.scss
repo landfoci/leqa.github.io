@@ -99,11 +99,13 @@ color: #5c5c5c;
 padding-right: 1rem;
 
   &:hover {
-    text-decoration-color: var(--gray-color);
-    text-decoration-thickness: 1px;
-    text-decoration-skip-ink: auto;
-    color: var(--text-color);
-    padding-right: 1rem;
+    color: var(--foreground);
+    text-decoration: underline;
+    text-decoration-color: #fff7b1;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: .5em;
+    text-underline-offset: -.25em;
+    transition: text-decoration .3s;
   }
 }
 
