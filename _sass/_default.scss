@@ -99,8 +99,12 @@ color: #5c5c5c;
 padding-right: 1rem;
 
   &:hover {
-    color: var(--foreground);
-    text-decoration-color: #FFEE50;
+    text-underline-offset: .3em;
+    text-decoration-color: var(--gray-color);
+    text-decoration-thickness: 1px;
+    text-decoration-skip-ink: auto;
+    color: var(--text-color);
+    padding-right: 1rem;
   }
 }
 
