@@ -101,6 +101,7 @@ padding-right: 1rem;
   &:hover {
     color: var(--foreground);
     text-decoration: underline;
+    text-decoration-skip-ink: none;
     text-decoration-color: #fff7b1;
     text-decoration-thickness: .5em;
     text-underline-offset: -.25em;
