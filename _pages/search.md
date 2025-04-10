@@ -5,7 +5,7 @@ title: Tìm kiếm
 
 <style>
 	#search-container {
-	    max-width: 100%;
+	    max-width: 90%;
 	}
 
 	input[type=text] {
@@ -13,7 +13,7 @@ title: Tìm kiếm
 	  outline: none;
 	  padding: 1rem;
           background: #ddd;
-	  width: 80%;
+	  width: 70%;
 		-webkit-appearance: none;
 		font-family: inherit;
 		font-size: 100%;
