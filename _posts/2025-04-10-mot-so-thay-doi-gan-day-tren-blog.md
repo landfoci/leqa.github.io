@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Một số thay đổi gần đây trên blog
-tag: notes
+tag: blogging
 published: true
 ---
 
