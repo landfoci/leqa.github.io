@@ -6,10 +6,9 @@ layout: compress
 <html lang="en">
   {% include head.html %}
   <body>
-  <div class="container">
-        <div class="blog">
-            <div class="blog-content">
-                {{ content }}
-            </div>
+     {% include masthead.html %}
+    <div id="container">
+      <main id="main" role="main">{{ content }}</main>
+    </div>
   </body>
 </html>
