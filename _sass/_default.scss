@@ -29,46 +29,23 @@ body::after {
   pointer-events: none;
 }
 
-// Container chính
-.container {
+#container {
+  background: var(--background);
+  position: relative;
+  z-index: 100;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+#container::after {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  padding: 0 15px;
-}
-
-// Blog layout
-.blog {
-  max-width: 1200px; // Chiều rộng tối đa
-  margin: 0 auto; // Căn giữa trên màn hình lớn
-  display: flex;
-  justify-content: flex-start; // Đưa nội dung về bên trái
-}
-
-// Nội dung blog
-.blog-content {
-  width: 100%;
-  max-width: 800px; // Chiều rộng nội dung blog
-  padding: 20px;
-  background: #fff;
-  border: 1px solid #e1e1e1;
-}
-
-// Responsive cho iPad và điện thoại
-@media (max-width: 768px) {
-  .blog {
-    margin: 0; // Bỏ margin auto trên thiết bị nhỏ
-    justify-content: center; // Căn giữa trên mobile
-  }
-
-  .blog-content {
-    max-width: 100%; // Full width trên thiết bị nhỏ
-    padding: 15px;
-  }
-}
-
-@media (max-width: 480px) {
-  .blog-content {
-    padding: 10px;
-  }
+  height: 100%;
+  content: "";
+  background: none;
+  pointer-events: none;
 }
 
 nav {
