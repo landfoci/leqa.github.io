@@ -4,8 +4,8 @@ layout: default
 
 <article role="article">
 <h2>{{ page.title }}</h2>
+Post on: <time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
   {{ content }}
 </article>
 <br>
 Thẻ: <span>{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %}<a href="/tag/{{ tag_name }}">#{{ tag_name }}</a>{% endfor %}</span>
-Post on: <div><time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m/%Y" }}</time></div>
