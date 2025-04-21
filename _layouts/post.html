@@ -8,4 +8,4 @@ layout: default
 </article>
 <br>
 Thẻ: <span>{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %}<a href="/tag/{{ tag_name }}">#{{ tag_name }}</a>{% endfor %}</span>
-Post on: <div></div><time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m/%Y" }}</time></div>
+Post on: <div><time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m/%Y" }}</time></div>
