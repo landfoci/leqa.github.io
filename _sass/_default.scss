@@ -10,7 +10,7 @@ body {
   background-color: var(--background);
   font-size: .9rem;
   text-rendering: optimizeLegibility;
-  font-optical-sizing: auto;
+  font-optical-sizing: 'wght' 372;
   letter-spacing: -.01em;
   line-height: 1.5;
   font-family:  inter, -apple-system, BlinkMacSystemFont, "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
