@@ -73,4 +73,4 @@ Cuốn sách tập trung vào 8 yếu tố cốt lõi hình thành nên giá tr�
 
 **🎯 Thông điệp chính của sách:**
 
-“Một người đàn ông không nhất thiết phải giỏi toàn diện, nhưng nếu rèn luyện được 8 tố chất cốt lõi này, anh ta có thể làm chủ cuộc sống và trở thành phiên bản xuất sắc nhất của chính mình.”'
+> “Một người đàn ông không nhất thiết phải giỏi toàn diện, nhưng nếu rèn luyện được 8 tố chất cốt lõi này, anh ta có thể làm chủ cuộc sống và trở thành phiên bản xuất sắc nhất của chính mình.”'
