@@ -4,7 +4,7 @@ layout: default
 
 <article role="article">
 <h2>{{ page.title }}</h2>
-Post on: <time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+Viết hồi: <time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d/%m/%Y" }}</time>
   {{ content }}
 </article>
 <br>
