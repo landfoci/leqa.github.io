@@ -8,4 +8,4 @@ layout: default
   {{ content }}
 </article>
 <br>
-🏷️ <span>{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %}<a href="/tag/{{ tag_name }}">#{{ tag_name }}</a>{% endfor %}</span>
+🏷<i class="fa-solid fa-tag"></i> <span>{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %}<a href="/tag/{{ tag_name }}">#{{ tag_name }}</a>{% endfor %}</span>
