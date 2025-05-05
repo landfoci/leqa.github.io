@@ -186,3 +186,46 @@ h1, h2, h3, h4, h5, b, strong {
     font-size: inherit;
     font-weight: 600;
 }
+
+
+.menu-wrapper {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 999;
+}
+
+.menu-toggle {
+  font-size: 24px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Menu tooltip-style ẩn */
+.nav-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: all 0.2s ease;
+}
+
+/* Hover: hiện menu (desktop) */
+.menu-wrapper:hover .nav-menu {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+/* Mobile hỗ trợ bật/tắt bằng JS */
+.nav-menu.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
