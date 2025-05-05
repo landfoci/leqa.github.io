@@ -48,30 +48,6 @@ body::after {
   pointer-events: none;
 }
 
-nav {
-  img {
-    height: 3rem;
-    transform: translateY(1.5rem);
-    float: left;
-    padding: 0 1rem 0;
-  }
-
-  ul {
-    list-style: none;
-    padding: 5rem 1.5rem 0;
-    text-align: left;
-
-    li {
-      display: inline-block;
-    }
-  }
-
-  a {
-    margin: .5rem;
-    text-decoration: none;
-    font-weight: bold;
-  }
-}
 
 hr {
     background: #d9d9d9;
@@ -186,3 +162,45 @@ h1, h2, h3, h4, h5, b, strong {
     font-size: inherit;
     font-weight: 600;
 }
+
+
+/* Cố định header ở trên cùng */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 1000;
+}
+
+/* Thanh navigation ẩn mặc định */
+nav {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Khi rê chuột vào header, nav hiện ra */
+header:hover nav {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+/* Style cơ bản cho nav */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 1rem;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
