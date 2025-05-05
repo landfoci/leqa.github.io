@@ -34,7 +34,8 @@ body::after {
   background: var(--background);
   position: relative;
   z-index: 100;
-  margin: 1rem;
+  margin-left: 0; /* canh trái trên desktop */
+  margin-right: auto;
   padding: 1rem;
 }
 
@@ -48,6 +49,13 @@ body::after {
   background: none;
   pointer-events: none;
 }
+
+/* Trên mobile & tablet thì canh giữa khối #container */
+@media (max-width: 768px) {
+  #container {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 nav {
   img {
@@ -186,27 +194,4 @@ table {
 h1, h2, h3, h4, h5, b, strong {
     font-size: inherit;
     font-weight: 600;
-}
-
-@media (max-width: 768px) {
-  #container {
-    margin: 0 auto;
-  }
-
-  nav ul {
-    text-align: center;
-  }
-
-  .posts li {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  footer {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 1rem;
-  }
 }
