@@ -8,7 +8,6 @@
 body {
   color: var(--foreground);
   background-color: var(--background);
-  letter-spacing: -.01em;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.6;
@@ -17,7 +16,7 @@ body {
   word-break: break-word;
   max-width: 35rem;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
 }
   
 body::after {
@@ -34,8 +33,7 @@ body::after {
   background: var(--background);
   position: relative;
   z-index: 100;
-  margin-left: 0; /* canh trái trên desktop */
-  margin-right: auto;
+  margin: 1rem;
   padding: 1rem;
 }
 
@@ -49,13 +47,6 @@ body::after {
   background: none;
   pointer-events: none;
 }
-
-/* Trên mobile & tablet thì canh giữa khối #container */
-@media (max-width: 768px) {
-  #container {
-    margin-left: auto;
-    margin-right: auto;
-  }
 
 nav {
   img {
