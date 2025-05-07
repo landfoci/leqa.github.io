@@ -8,11 +8,11 @@ layout: default
 </article>
 
 <div class="post-meta-bottom">
-  <i class="fa-solid fa-clock"></i><span class="post-date">{{ page.date | date: "%d/%m/%Y" }}</span>
+  <span class="post-date">{{ page.date | date: "%d/%m/%Y" }}</span>
   {% if page.tags %}
     <span class="post-tags">
       {% for tag in page.tags %}
-        <i class="fa-solid fa-tag"></i><a href="{{ '/tags/' | append: tag | relative_url }}" class="tag">{{ tag }}</a>
+        <a href="{{ '/tags/' | append: tag | relative_url }}" class="tag">{{ tag }}</a>
       {% endfor %}
     </span>
   {% endif %}
