@@ -186,3 +186,31 @@ h1, h2, h3, h4, h5, b, strong {
     font-size: inherit;
     font-weight: 600;
 }
+
+
+
+
+.post-meta-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 2rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.post-meta-bottom .post-tags a {
+  text-decoration: none;
+  margin-left: 0.5rem;
+  color: #007acc;
+  background: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.post-meta-bottom .post-date {
+  white-space: nowrap;
+}
