@@ -6,16 +6,13 @@ layout: default
 <h2>{{ page.title }}</h2>
   {{ content }}
 </article>
-<br>
-<i class="fa-solid fa-tag"></i> <span>{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %}<a href="/tag/{{ tag_name }}">#{{ tag_name }}</a>{% endfor %}</span>
-<i class="fa-solid fa-clock"></i> <time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d/%m/%Y" }}</time>
 
 <div class="post-meta-bottom">
-  <span class="post-date">{{ page.date | date: "%d/%m/%Y" }}</span>
+  <i class="fa-solid fa-clock"></i><span class="post-date">{{ page.date | date: "%d/%m/%Y" }}</span>
   {% if page.tags %}
     <span class="post-tags">
       {% for tag in page.tags %}
-        <a href="{{ '/tags/' | append: tag | relative_url }}" class="tag">{{ tag }}</a>
+        <i class="fa-solid fa-tag"></i><a href="{{ '/tags/' | append: tag | relative_url }}" class="tag">{{ tag }}</a>
       {% endfor %}
     </span>
   {% endif %}
