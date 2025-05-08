@@ -34,8 +34,8 @@ body::after {
   background: var(--background);
   position: relative;
   z-index: 100;
-  margin-left: 220px; /* Lớn hơn nav width một chút */
-  padding: 2rem
+  margin: 1rem;
+  padding: 1rem;
 }
 
 #container::after {
@@ -56,39 +56,43 @@ body::after {
   }
 }
 
+/* Container menu */
 nav {
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
-  height: 100vh; /* toàn bộ chiều cao màn hình */
-  width: 200px; /* chiều rộng thanh menu */
-  background-color: #f5f5f5;
-  padding-top: 2rem;
-  border-right: 1px solid #ddd;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 2rem;
   z-index: 1000;
 }
 
+/* Danh sách menu */
 nav ul {
   list-style: none;
-  padding: 0;
+  display: flex;
+  gap: 2rem;
   margin: 0;
+  padding: 0;
 }
 
+/* Item menu */
 nav ul li {
   margin: 0;
-  padding: 1rem;
-  border-bottom: 1px solid #eee;
 }
 
+/* Link trong menu */
 nav ul li a {
   text-decoration: none;
   color: #333;
-  display: block;
+  font-weight: 500;
+  transition: color 0.2s ease;
 }
 
+/* Hover */
 nav ul li a:hover {
-  background-color: #e0e0e0;
+  color: #007acc;
 }
+
 
 
 hr {
