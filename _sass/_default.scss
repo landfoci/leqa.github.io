@@ -56,44 +56,30 @@ body::after {
   }
 }
 
-/* Container menu */
 nav {
-  position: sticky;
-  top: 0;
-  background-color: #ffffff;
-  border-bottom: 1px solid #ddd;
-  padding: 1rem 2rem;
-  z-index: 1000;
+  img {
+    height: 3rem;
+    transform: translateY(1.5rem);
+    float: left;
+    padding: 0 1rem 0;
+  }
+
+  ul {
+    list-style: none;
+    padding: 5rem 1.5rem 0;
+    text-align: left;
+
+    li {
+      display: inline-block;
+    }
+  }
+
+  a {
+    margin: .5rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
 }
-
-/* Danh sách menu */
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 2rem;
-  margin: 0;
-  padding: 0;
-}
-
-/* Item menu */
-nav ul li {
-  margin: 0;
-}
-
-/* Link trong menu */
-nav ul li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  transition: color 0.2s ease;
-}
-
-/* Hover */
-nav ul li a:hover {
-  color: #007acc;
-}
-
-
 
 hr {
     background: #d9d9d9;
