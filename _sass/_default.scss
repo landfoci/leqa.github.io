@@ -34,8 +34,8 @@ body::after {
   background: var(--background);
   position: relative;
   z-index: 100;
-  margin: 1rem;
-  padding: 1rem;
+  margin-left: 220px; /* Lớn hơn nav width một chút */
+  padding: 2rem
 }
 
 #container::after {
