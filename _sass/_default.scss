@@ -220,3 +220,29 @@ h1, h2, h3, h4, h5, b, strong {
   white-space: nowrap;
 }
 
+/* Định dạng danh sách không có dấu đầu dòng */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Định dạng các mục trong danh sách */
+li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Định dạng liên kết trong danh sách */
+li a {
+  text-decoration: none;
+  color: #007acc;
+  transition: color 0.3s ease;
+}
+
+/* Hiệu ứng hover cho liên kết */
+li a:hover {
+  color: #005f99;
+}
