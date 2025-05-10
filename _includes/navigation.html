@@ -1,8 +1,8 @@
-<nav>
+<nav role="navigation">
   <ul>
-    <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
-    <li><a href="/about.html/" {% if page.url == "/about/" %}class="active"{% endif %}>About</a></li>
-    <li><a href="/tags.html/" {% if page.url == "/tags/" %}class="active"{% endif %}>Tags</a></li>
-    <li><a href="/archive.html/" {% if page.url == "/archive/" %}class="active"{% endif %}>Archive</a></li>
+    <li> <a href="/" {% if page.url=="/" %}class="active" {% endif %}>home</a><li>
+    <li><a href="/about" {% if page.url=="/about" %}class="active" {% endif %}>about</a></li>
+    <li><a href="/search" {% if page.url=="/search" %}class="active" {% endif %}>search</a></li>
+    <li> <a href="/archive" {% if page.url=="/archive" %}class="active" {% endif %}>archive</a><li>
   </ul>
 </nav>
