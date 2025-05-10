@@ -219,11 +219,3 @@ h1, h2, h3, h4, h5, b, strong {
 .post-meta-bottom .post-date {
   white-space: nowrap;
 }
-
-ul li::before {
-  content: "•"; /* Hoặc sử dụng một biểu tượng Unicode khác */
-  color: #007acc; /* Màu sắc của biểu tượng */
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-}
