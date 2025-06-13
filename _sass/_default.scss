@@ -115,9 +115,9 @@ color: #5c5c5c;
 }
 
 a.active {
-  background: none;
-  padding: 0;
-  color: var(--foreground);
+  background: var(--foreground);
+  padding: 0.5rem;
+  color: var(--background);
   font-weight: bold;
   text-decoration: none;
 }
