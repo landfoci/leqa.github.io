@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tìm kiếm
+title:
 ---
 
 <style>
