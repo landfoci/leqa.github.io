@@ -96,6 +96,7 @@ a.active {
   padding: 0;
   list-style: none; /* bỏ dấu chấm */
   margin: 0;
+  padding-left: 1.5rem; /* ✅ canh ngang với nav */
 }
 
 .posts li {
