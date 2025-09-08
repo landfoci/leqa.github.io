@@ -15,16 +15,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
   word-break: break-word;
   max-width: 35rem;
-  margin-left: 5vw;
-  margin-right: auto;
-  padding: 2rem 0;
+  margin: 0 auto;       /* canh giữa nội dung */
+  padding: 2rem 1rem;   /* chừa 1rem lề hai bên */
 }
 
 #container {
   background: var(--background);
   position: relative;
   z-index: 100;
-  margin: 1rem;
+  margin: 1rem 0;
   padding: 1rem;
 }
 
@@ -37,9 +36,9 @@ nav img {
 
 nav ul {
   list-style: none;
-  padding: 5rem 1.5rem 0; /* canh lề bên trái */
-  text-align: left;
+  padding: 5rem 0 0; /* canh chuẩn lề */
   margin: 0;
+  text-align: left;
 }
 
 nav ul li {
@@ -98,7 +97,6 @@ a.active {
   padding: 0;
   list-style: none; /* bỏ dấu chấm */
   margin: 0;
-  padding-left: 1.5rem; /* canh ngang với nav */
 }
 
 .posts li {
@@ -197,24 +195,35 @@ h1, h2, h3, h4, h5, b, strong {
   white-space: nowrap;
 }
 
-/* ✅ Responsive: canh giữa nội dung, nav giữ nguyên bên trái */
+/* ✅ Responsive giữ đúng lề 1rem */
 @media (max-width: 768px) {
   body {
-    margin-left: auto;
-    margin-right: auto;
     padding: 1rem;
   }
 
   #container {
-    margin: 0 auto;
+    margin: 0;
     padding: 1rem;
   }
 
   nav ul {
-    padding: 5rem 1rem 0; /* giảm padding để đỡ thụt */
+    padding: 5rem 0 0; /* giữ canh chuẩn */
   }
 
   .posts {
-    padding-left: 1rem; /* giữ thẳng hàng với nav khi mobile */
+    margin: 0;
+    padding: 0;
   }
+}
+/* Guideline bên trái */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 1rem;        /* cùng lề với nav & posts */
+  width: 1px;
+  height: 100%;
+  background: rgba(0,0,0,0.08); /* line xám nhạt */
+  z-index: 0;
+  pointer-events: none;
 }
