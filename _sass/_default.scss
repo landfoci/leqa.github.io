@@ -1,34 +1,35 @@
-/* === Minimalism-like layout — final tuned === */
+/* === Minimalism-like layout — Final Version === */
 :root{
-  --foreground: #222;        /* main text */
-  --muted: #666;             /* paragraph muted color */
-  --background: #faf9f5;
-  --link: #007acc;
-  --link-hover: #005ea8;
-  --max-width: 40rem;        /* ~640px giống site gốc */
-  --gutter: 2rem;            /* left inner gutter */
+  --foreground: #333;       /* main text darker, easy to read */
+  --muted: #777;            /* paragraph muted color */
+  --background: #fafafa;    /* slightly lighter background */
+  --link: #005eb8;          /* softer blue */
+  --link-hover: #004080;
+  --max-width: 37.5rem;     /* 600px */
+  --gutter: 2rem;           /* left inner gutter */
 }
 
-/* reset & box model */
+/* box model stable */
 *,
 *::before,
 *::after { box-sizing: border-box; }
 
-html, body { height: 100%; margin: 0; }
-
+/* page base */
+html,body { height: 100%; }
 body{
+  margin: 0;
   background: var(--background);
   color: var(--foreground);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1rem;           /* ~16px desktop */
-  line-height: 1.65;
+  font-size: 1rem;          /* 16px */
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   word-break: break-word;
   padding: 2rem 1rem;
 }
 
-/* main wrapper */
+/* main container */
 #container{
   max-width: var(--max-width);
   margin: 0 auto;
@@ -36,88 +37,84 @@ body{
   padding-right: 1rem;
 }
 
-/* NAVIGATION */
+/* NAV */
 nav{
-  margin: 0 0 1.25rem 0;
-  font-size: 0.95rem;
+  margin: 0 0 1.2rem 0;
+  font-size: 0.9rem;        /* smaller than body */
+  font-weight: 500;
+  padding-left: 0;
 }
 nav ul{
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  gap: 1.2rem;
 }
-nav li{ margin: 0; }
+nav li{
+  display: inline-block;
+  margin-right: 1rem;
+}
 nav a{
   color: var(--foreground);
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
 }
 nav a:hover{ text-decoration: underline; }
 
-/* POST LIST */
+/* POSTS list */
 .posts{
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.posts li{ margin: 0.9rem 0; }
+.posts li{
+  margin: 0.8rem 0;
+}
 .posts a{
   color: var(--foreground);
   text-decoration: none;
-  font-weight: 600;
+  font-size: 0.95rem;       /* slightly smaller */
+  font-weight: 500;
 }
 .posts a:hover{ text-decoration: underline; }
 
-/* TYPOGRAPHY */
-h1, h2, h3, h4{
+/* HEADINGS */
+h1, h2, h3, h4 {
   font-family: Georgia, serif;
   font-weight: 600;
-  line-height: 1.35;
-  margin: 1.6rem 0 1rem;
+  line-height: 1.25;
+  margin: 1.5rem 0 0.9rem;
+  color: var(--foreground);
 }
-h1{
-  font-size: clamp(1.2rem, 2.6vw, 1.35rem); /* 19–21px */
-  margin-top: 0;
-}
-h2{ font-size: clamp(1.05rem, 2.2vw, 1.2rem); }
-h3{ font-size: 1rem; }
-h4{ font-size: 0.95rem; }
+h1 { font-size: clamp(1.15rem, 3.2vw, 1.375rem); margin-top: 0; }
+h2 { font-size: clamp(1.05rem, 2.6vw, 1.2rem); }
+h3 { font-size: clamp(1rem, 2.0vw, 1.1rem); }
+h4 { font-size: 1rem; }
 
-p{
-  margin: 0.9rem 0;
-  color: var(--muted);
-}
+/* paragraphs & inline text */
+p { margin: 0.85rem 0; color: var(--muted); }
 strong, b { font-weight: 600; color: var(--foreground); }
 
-time{
-  font-size: 0.85rem;
-  font-style: italic;
-  color: #777;
-}
-
-/* LINKS */
-a, a:visited{
+/* links inside content */
+a, a:visited {
   color: var(--link);
   text-decoration: underline;
   text-underline-offset: 0.14em;
 }
-a:hover{ color: var(--link-hover); }
+a:hover { color: var(--link-hover); }
 
-/* BLOCKQUOTE */
+/* blockquote */
 blockquote{
   border-left: 3px solid #e0e0e0;
   padding-left: 1rem;
-  margin: 1.4rem 0;
+  margin: 1.3rem 0;
   color: #555;
   font-style: italic;
 }
 blockquote p{ margin: 0; }
 
-/* CODE */
+/* code & pre */
 code{
-  font-family: "Fira Code", Menlo, monospace;
+  font-family: "Fira Code", "Menlo", monospace;
   font-size: 0.9rem;
   background: #f5f5f5;
   padding: 0.15em 0.35em;
@@ -132,27 +129,33 @@ pre{
 }
 pre code{ background: none; padding: 0; }
 
-/* TABLES */
+/* tables */
 table{ width:100%; border-collapse: collapse; margin:1rem 0; }
-table th, table td{
-  padding: 0.5rem;
-  border-bottom: 1px solid #eee;
-  text-align:left;
-}
+table th, table td { padding: 0.5rem; border-bottom: 1px solid #eee; text-align:left; }
 table th{ font-weight:600; }
 
-/* MEDIA — mobile & tablet */
-@media (max-width: 900px){
-  body{
+/* small helpers */
+hr{ border: none; height:1px; background:#eee; margin:1.5rem 0; }
+img{ max-width:100%; height:auto; display:block; margin: 0.8rem 0; }
+
+/* Responsive tweaks */
+@media (max-width: 900px) {
+  body {
     padding: 1.5rem 1rem;
-    font-size: 0.97rem;
-    line-height: 1.6;
+    font-size: 0.98rem;
+    line-height: 1.65;
   }
-  #container{
+
+  #container {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
   }
-  nav{ margin-bottom: 1rem; }
-  h1{ font-size: 1.2rem; }  /* ~19px */
-  h2{ font-size: 1.05rem; }
+
+  nav { margin-bottom: 1rem; padding-left: 0; }
+  nav li { margin-right: 0.9rem; }
+  .posts li { margin: 0.95rem 0; }
+
+  h1 { font-size: 1.25rem; }
+  h2 { font-size: 1.05rem; }
+  h3 { font-size: 1rem; }
 }
