@@ -8,17 +8,17 @@ body {
   color: var(--foreground);
   background-color: var(--background);
   font-family: "Georgia", serif;
-  font-size: 1.125rem;   /* ✅ 18px */
-  line-height: 1.75;     /* ✅ thoáng như site mẫu */
+  font-size: 1.125rem;   /* 18px desktop */
+  line-height: 1.75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   word-break: break-word;
   margin: 0;
   padding: 2rem 1rem;
-  max-width: 38rem;      /* ✅ chiều rộng y hệt */
+  max-width: 38rem;      /* chiều rộng y hệt site gốc */
 }
 
-/* Container chính */
+/* Container */
 #container {
   margin: 0 auto;
   padding-left: 2rem;
@@ -29,7 +29,7 @@ body {
 nav {
   margin-bottom: 2rem;
   padding-left: 2rem;
-  font-size: 0.95rem;    /* ✅ nav nhỏ hơn nội dung một chút */
+  font-size: 0.95rem;
 }
 
 nav ul {
@@ -75,7 +75,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Heading */
+/* Heading với fluid typography */
 h1, h2, h3, h4 {
   font-family: "Georgia", serif;
   font-weight: 600;
@@ -85,23 +85,23 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 2rem;       /* ✅ 32px */
+  font-size: clamp(1.6rem, 5vw, 2rem);  /* 25px → 32px */
   margin-top: 0;
 }
 
 h2 {
-  font-size: 1.5rem;     /* ✅ 24px */
+  font-size: clamp(1.3rem, 4vw, 1.5rem); /* 21px → 24px */
 }
 
 h3 {
-  font-size: 1.25rem;    /* ✅ 20px */
+  font-size: clamp(1.1rem, 3vw, 1.25rem); /* 18px → 20px */
 }
 
 h4 {
   font-size: 1.1rem;
 }
 
-/* Paragraphs */
+/* Paragraph */
 p {
   margin: 1rem 0;
 }
@@ -146,7 +146,7 @@ pre code {
   font-size: 0.95rem;
 }
 
-/* Tables */
+/* Table */
 table {
   border-collapse: collapse;
   width: 100%;
@@ -164,14 +164,13 @@ table th {
   font-weight: 600;
 }
 
-/* Responsive cho tablet & mobile */
+/* Responsive */
 @media (max-width: 900px) {
   body {
-    margin: 0 auto;
-    padding: 1.5rem 1rem;
     max-width: 100%;
-    font-size: 1.05rem;   /* ✅ chữ hơi nhỏ hơn trên mobile */
+    font-size: 1rem;     /* 16px trên mobile */
     line-height: 1.7;
+    padding: 1.5rem 1rem;
   }
 
   #container {
@@ -186,17 +185,5 @@ table th {
 
   .posts li {
     margin: 1rem 0;
-  }
-
-  h1 {
-    font-size: 1.7rem;
-  }
-
-  h2 {
-    font-size: 1.4rem;
-  }
-
-  h3 {
-    font-size: 1.2rem;
   }
 }
