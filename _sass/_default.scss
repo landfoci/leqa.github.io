@@ -94,23 +94,15 @@ a.active {
 
 .posts {
   padding: 0;
-  list-style: none; /* bỏ dấu chấm */
-  margin: 0;
 }
 
 .posts li {
-  margin: 0.5rem 0;
+  display: flex;
 }
 
-.posts a {
-  font-weight: bold;
-  text-decoration: none;
+.posts li div {
+  min-width: 10ch;
 }
-
-.posts a:hover {
-  text-decoration: underline;
-}
-
 
 footer {
   display: flex;
@@ -184,4 +176,34 @@ h1, h2, h3, h4, h5, b, strong {
   text-decoration: none;
   margin-left: 0.5rem;
   color: #007acc;
-  background: #f0
+  background: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.post-meta-bottom .post-date {
+  white-space: nowrap;
+}
+
+/* ✅ Responsive: canh giữa nội dung, nav giữ nguyên bên trái */
+@media (max-width: 768px) {
+  body {
+    max-width: 100%;   /* full màn hình */
+    margin: 0;         /* bỏ margin thụt trái */
+    padding: 1rem;
+  }
+
+  #container {
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 35rem;  /* giữ khung nội dung gọn */
+  }
+
+  nav {
+    margin-left: 0;    /* nav luôn sát trái */
+    padding-left: 1rem;
+  }
+}
+
+
