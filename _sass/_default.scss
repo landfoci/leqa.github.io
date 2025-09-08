@@ -16,8 +16,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   word-break: break-word;
   max-width: 35rem;
-  margin: 0 auto;
-  padding: 2rem 1rem;
+  margin-left: 5vw;  /* canh lề trái desktop */
+  margin-right: auto;
+  padding: 2rem 0;
 }
 
 /* Container */
@@ -58,8 +59,8 @@ nav a {
 /* Bài viết */
 .posts {
   padding: 0;
-  list-style: none;
-  margin: 2rem 0 0; 
+  list-style: none; /* bỏ dấu chấm */
+  margin: 2rem 0 0; /* thẳng hàng với nav */
 }
 
 .posts li {
@@ -128,93 +129,4 @@ footer {
 /* Quote */
 blockquote {
   border-left: 0.25rem solid #999;
-  margin: 1.6em 0;
-  padding-left: 1.5em;
-}
-
-blockquote p {
-  margin: 0;
-}
-
-/* Code */
-code,
-pre {
-  font-family: "Fira Code", monospace;
-  font-size: 90%;
-}
-
-pre {
-  overflow: auto;
-  padding: 1em;
-}
-
-/* Ảnh */
-img {
-  margin: auto;
-  display: block;
-  max-width: 100%;
-}
-
-/* Bảng */
-table {
-  border-collapse: collapse;
-  text-align: left;
-  width: 100%;
-}
-
-table tr {
-  border-bottom: 1px solid var(--foreground);
-}
-
-table th,
-table td {
-  padding: 0.5rem;
-}
-
-table td:first-child {
-  font-weight: bold;
-}
-
-/* Headings */
-h1, h2, h3, h4, h5, b, strong {
-  font-size: inherit;
-  font-weight: 600;
-}
-
-/* Meta dưới bài viết */
-.post-meta-bottom {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 0.813rem;
-  color: #888;
-  margin-top: 2rem;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.post-meta-bottom .post-tags a {
-  text-decoration: none;
-  margin-left: 0.5rem;
-  color: #007acc;
-  background: #f0f0f0;
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-size: 0.85rem;
-}
-
-.post-meta-bottom .post-date {
-  white-space: nowrap;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  body {
-    padding: 1rem;
-  }
-
-  #container {
-    margin: 0 auto;
-    padding: 1rem 0;
-  }
-}
+ 
