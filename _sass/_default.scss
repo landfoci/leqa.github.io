@@ -5,6 +5,7 @@
   --accent2: #FFEC3DE6;
 }
 
+/* Body */
 body {
   color: var(--foreground);
   background-color: var(--background);
@@ -15,12 +16,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   word-break: break-word;
   max-width: 35rem;
-  margin-left: 5vw;
-  margin-right: auto;
-  padding: 2rem 0;
+  margin: 0 auto;
+  padding: 2rem 1rem;
 }
 
-/* Container chính */
+/* Container */
 #container {
   background: var(--background);
   position: relative;
@@ -40,7 +40,7 @@ nav img {
 /* Menu nav */
 nav ul {
   list-style: none;
-  padding: 5rem 0 0; /* bỏ thụt lề ngang */
+  padding: 5rem 0 0; /* bỏ thụt ngang */
   margin: 0;
   text-align: left;
 }
@@ -58,8 +58,8 @@ nav a {
 /* Bài viết */
 .posts {
   padding: 0;
-  list-style: none; /* bỏ dấu chấm */
-  margin: 2rem 0 0; /* thẳng hàng với nav */
+  list-style: none;
+  margin: 2rem 0 0; 
 }
 
 .posts li {
@@ -75,7 +75,7 @@ nav a {
   text-decoration: underline;
 }
 
-/* Line phân cách */
+/* Line */
 hr {
   background: #d9d9d9;
   height: 1px;
@@ -207,31 +207,14 @@ h1, h2, h3, h4, h5, b, strong {
   white-space: nowrap;
 }
 
-/* ✅ Responsive */
+/* Responsive */
 @media (max-width: 768px) {
   body {
-    margin-left: auto;
-    margin-right: auto;
     padding: 1rem;
   }
 
   #container {
     margin: 0 auto;
     padding: 1rem 0;
-  }
-}
-
-/* ✅ Guideline bên trái chỉ hiện desktop */
-@media (min-width: 769px) {
-  body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 5vw; /* cùng lề body */
-    width: 1px;
-    height: 100%;
-    background: rgba(0,0,0,0.08);
-    z-index: 0;
-    pointer-events: none;
   }
 }
