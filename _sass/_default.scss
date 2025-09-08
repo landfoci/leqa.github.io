@@ -3,19 +3,19 @@
   --background: #faf9f5;
 }
 
-/* Body chung */
+/* Body */
 body {
   color: var(--foreground);
   background-color: var(--background);
   font-family: "Georgia", serif;
-  font-size: 1.125rem;   /* 18px desktop */
-  line-height: 1.75;
+  font-size: 1rem;       /* 16px, nhỏ gọn như site gốc */
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   word-break: break-word;
   margin: 0;
   padding: 2rem 1rem;
-  max-width: 38rem;      /* chiều rộng y hệt site gốc */
+  max-width: 37.5rem;    /* ~600px */
 }
 
 /* Container */
@@ -29,7 +29,7 @@ body {
 nav {
   margin-bottom: 2rem;
   padding-left: 2rem;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 
 nav ul {
@@ -41,7 +41,7 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  margin-right: 1.2rem;
+  margin-right: 1rem;
 }
 
 nav a {
@@ -54,7 +54,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Danh sách bài viết */
+/* Posts */
 .posts {
   padding: 0;
   list-style: none;
@@ -62,7 +62,7 @@ nav a:hover {
 }
 
 .posts li {
-  margin: 1rem 0;
+  margin: 0.8rem 0;
 }
 
 .posts a {
@@ -75,39 +75,35 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Heading với fluid typography */
+/* Heading */
 h1, h2, h3, h4 {
   font-family: "Georgia", serif;
   font-weight: 600;
   line-height: 1.3;
-  margin: 2rem 0 1rem;
+  margin: 1.5rem 0 1rem;
   color: var(--foreground);
 }
 
 h1 {
-  font-size: clamp(1.6rem, 5vw, 2rem);  /* 25px → 32px */
+  font-size: 1.4rem;   /* ~22px */
   margin-top: 0;
 }
 
 h2 {
-  font-size: clamp(1.3rem, 4vw, 1.5rem); /* 21px → 24px */
+  font-size: 1.2rem;   /* ~19px */
 }
 
 h3 {
-  font-size: clamp(1.1rem, 3vw, 1.25rem); /* 18px → 20px */
+  font-size: 1.1rem;   /* ~17px */
 }
 
 h4 {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 /* Paragraph */
 p {
   margin: 1rem 0;
-}
-
-strong, b {
-  font-weight: 600;
 }
 
 /* Blockquote */
@@ -126,7 +122,7 @@ blockquote p {
 /* Code & Pre */
 code {
   font-family: "Fira Code", monospace;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   background: #f5f5f5;
   padding: 0.2em 0.4em;
   border-radius: 4px;
@@ -137,13 +133,12 @@ pre {
   padding: 1rem;
   overflow-x: auto;
   border-radius: 6px;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 
 pre code {
   background: none;
   padding: 0;
-  font-size: 0.95rem;
 }
 
 /* Table */
@@ -168,8 +163,8 @@ table th {
 @media (max-width: 900px) {
   body {
     max-width: 100%;
-    font-size: 1rem;     /* 16px trên mobile */
-    line-height: 1.7;
+    font-size: 0.95rem;   /* 15px mobile */
+    line-height: 1.65;
     padding: 1.5rem 1rem;
   }
 
@@ -184,6 +179,6 @@ table th {
   }
 
   .posts li {
-    margin: 1rem 0;
+    margin: 0.9rem 0;
   }
 }
