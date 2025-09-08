@@ -1,27 +1,25 @@
-/* === Minimalism-like layout — Final Version === */
+/* === Minimalism-like layout — clean & aligned === */
 :root{
-  --foreground: #333;       /* main text darker, easy to read */
-  --muted: #777;            /* paragraph muted color */
-  --background: #fafafa;    /* slightly lighter background */
-  --link: #005eb8;          /* softer blue */
-  --link-hover: #004080;
-  --max-width: 37.5rem;     /* 600px */
-  --gutter: 2rem;           /* left inner gutter */
+  --foreground: #222;
+  --muted: #666;
+  --background: #faf9f5;
+  --link: #007acc;
+  --link-hover: #005ea8;
+  --max-width: 37.5rem;   /* 600px */
+  --gutter: 2rem;         /* left inner gutter */
 }
 
-/* box model stable */
 *,
 *::before,
 *::after { box-sizing: border-box; }
 
-/* page base */
 html,body { height: 100%; }
 body{
   margin: 0;
   background: var(--background);
   color: var(--foreground);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1rem;          /* 16px */
+  font-size: 1rem;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -29,7 +27,7 @@ body{
   padding: 2rem 1rem;
 }
 
-/* main container */
+/* container centers content + left gutter */
 #container{
   max-width: var(--max-width);
   margin: 0 auto;
@@ -37,12 +35,10 @@ body{
   padding-right: 1rem;
 }
 
-/* NAV */
+/* NAV (now inside container, shares gutter) */
 nav{
-  margin: 0 0 1.2rem 0;
-  font-size: 0.9rem;        /* smaller than body */
-  font-weight: 500;
-  padding-left: 0;
+  margin: 0 0 1.25rem 0;
+  font-size: 0.95rem;
 }
 nav ul{
   list-style: none;
@@ -51,111 +47,100 @@ nav ul{
 }
 nav li{
   display: inline-block;
-  margin-right: 1rem;
+  margin-right: 1.1rem;
 }
 nav a{
   color: var(--foreground);
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
 }
 nav a:hover{ text-decoration: underline; }
 
-/* POSTS list */
-.posts{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.posts li{
-  margin: 0.8rem 0;
-}
+/* POSTS */
+.posts{ list-style:none; margin:0; padding:0; }
+.posts li{ margin:0.9rem 0; }
 .posts a{
   color: var(--foreground);
   text-decoration: none;
-  font-size: 0.95rem;       /* slightly smaller */
-  font-weight: 500;
+  font-weight: 600;
 }
 .posts a:hover{ text-decoration: underline; }
 
 /* HEADINGS */
-h1, h2, h3, h4 {
+h1,h2,h3,h4{
   font-family: Georgia, serif;
   font-weight: 600;
   line-height: 1.25;
   margin: 1.5rem 0 0.9rem;
   color: var(--foreground);
 }
-h1 { font-size: clamp(1.15rem, 3.2vw, 1.375rem); margin-top: 0; }
-h2 { font-size: clamp(1.05rem, 2.6vw, 1.2rem); }
-h3 { font-size: clamp(1rem, 2.0vw, 1.1rem); }
-h4 { font-size: 1rem; }
+h1{ font-size: clamp(1.15rem,3.2vw,1.375rem); margin-top:0; }
+h2{ font-size: clamp(1.05rem,2.6vw,1.2rem); }
+h3{ font-size: clamp(1rem,2vw,1.1rem); }
+h4{ font-size:1rem; }
 
-/* paragraphs & inline text */
-p { margin: 0.85rem 0; color: var(--muted); }
-strong, b { font-weight: 600; color: var(--foreground); }
+/* text */
+p{ margin:0.85rem 0; color:var(--muted); }
+strong,b{ font-weight:600; color:var(--foreground); }
 
-/* links inside content */
-a, a:visited {
-  color: var(--link);
+/* links in content */
+a,a:visited{
+  color:var(--link);
   text-decoration: underline;
-  text-underline-offset: 0.14em;
+  text-underline-offset:0.14em;
 }
-a:hover { color: var(--link-hover); }
+a:hover{ color:var(--link-hover); }
 
 /* blockquote */
 blockquote{
-  border-left: 3px solid #e0e0e0;
-  padding-left: 1rem;
-  margin: 1.3rem 0;
-  color: #555;
-  font-style: italic;
+  border-left:3px solid #e0e0e0;
+  padding-left:1rem;
+  margin:1.3rem 0;
+  color:#555;
+  font-style:italic;
 }
-blockquote p{ margin: 0; }
+blockquote p{ margin:0; }
 
-/* code & pre */
+/* code */
 code{
-  font-family: "Fira Code", "Menlo", monospace;
-  font-size: 0.9rem;
-  background: #f5f5f5;
-  padding: 0.15em 0.35em;
-  border-radius: 3px;
+  font-family:"Fira Code","Menlo",monospace;
+  font-size:0.9rem;
+  background:#f5f5f5;
+  padding:0.15em 0.35em;
+  border-radius:3px;
 }
 pre{
-  background: #f5f5f5;
-  padding: 1rem;
-  border-radius: 6px;
-  overflow-x: auto;
-  font-size: 0.9rem;
+  background:#f5f5f5;
+  padding:1rem;
+  border-radius:6px;
+  overflow-x:auto;
+  font-size:0.9rem;
 }
-pre code{ background: none; padding: 0; }
+pre code{ background:none; padding:0; }
 
 /* tables */
-table{ width:100%; border-collapse: collapse; margin:1rem 0; }
-table th, table td { padding: 0.5rem; border-bottom: 1px solid #eee; text-align:left; }
+table{ width:100%; border-collapse:collapse; margin:1rem 0; }
+table th,table td{ padding:0.5rem; border-bottom:1px solid #eee; text-align:left; }
 table th{ font-weight:600; }
 
-/* small helpers */
-hr{ border: none; height:1px; background:#eee; margin:1.5rem 0; }
-img{ max-width:100%; height:auto; display:block; margin: 0.8rem 0; }
+/* misc */
+hr{ border:none; height:1px; background:#eee; margin:1.5rem 0; }
+img{ max-width:100%; height:auto; display:block; margin:0.8rem 0; }
 
-/* Responsive tweaks */
-@media (max-width: 900px) {
-  body {
-    padding: 1.5rem 1rem;
-    font-size: 0.98rem;
-    line-height: 1.65;
+/* responsive */
+@media (max-width:900px){
+  body{
+    padding:1.5rem 1rem;
+    font-size:0.98rem;
+    line-height:1.65;
   }
-
-  #container {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+  #container{
+    padding-left:1.25rem;
+    padding-right:1.25rem;
   }
-
-  nav { margin-bottom: 1rem; padding-left: 0; }
-  nav li { margin-right: 0.9rem; }
-  .posts li { margin: 0.95rem 0; }
-
-  h1 { font-size: 1.25rem; }
-  h2 { font-size: 1.05rem; }
-  h3 { font-size: 1rem; }
+  nav{ margin-bottom:1rem; }
+  nav li{ margin-right:0.9rem; }
+  h1{ font-size:1.25rem; }
+  h2{ font-size:1.05rem; }
+  h3{ font-size:1rem; }
 }
