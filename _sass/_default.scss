@@ -158,3 +158,29 @@ img{ max-width:100%; height:auto; display:block; margin: 0.8rem 0; }
   h2 { font-size: 1.05rem; }
   h3 { font-size: 1rem; }
 }
+
+
+/* Căn chỉnh layout toàn site cho đồng bộ */
+.site-content,
+.site-main,
+.content-area,
+#primary,
+#main {
+  margin: 0 auto !important;
+  max-width: 720px;  /* chỉnh theo ý muốn, ví dụ 720px */
+  padding: 0 1rem !important;
+  box-sizing: border-box;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 2rem;
+  justify-content: flex-start; /* hoặc center nếu bạn muốn ở giữa */
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
