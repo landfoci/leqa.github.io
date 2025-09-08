@@ -18,29 +18,31 @@ body {
   margin-left: 5vw;
   margin-right: auto;
   padding: 2rem 0;
-  position: relative;
 }
 
+/* Container chính */
 #container {
   background: var(--background);
   position: relative;
   z-index: 100;
-  margin: 1rem;
-  padding: 1rem;
+  margin: 1rem 0;
+  padding: 1rem 0;
 }
 
+/* Logo nav */
 nav img {
   height: 3rem;
   transform: translateY(1.5rem);
   float: left;
-  padding: 0 1rem 0;
+  padding: 0 1rem 0 0;
 }
 
+/* Menu nav */
 nav ul {
   list-style: none;
-  padding: 5rem 1.5rem 0;
-  text-align: left;
+  padding: 5rem 0 0; /* bỏ thụt lề ngang */
   margin: 0;
+  text-align: left;
 }
 
 nav ul li {
@@ -53,6 +55,27 @@ nav a {
   font-weight: bold;
 }
 
+/* Bài viết */
+.posts {
+  padding: 0;
+  list-style: none; /* bỏ dấu chấm */
+  margin: 2rem 0 0; /* thẳng hàng với nav */
+}
+
+.posts li {
+  margin: 0.5rem 0;
+}
+
+.posts a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.posts a:hover {
+  text-decoration: underline;
+}
+
+/* Line phân cách */
 hr {
   background: #d9d9d9;
   height: 1px;
@@ -66,6 +89,7 @@ time {
   font-size: 12px;
 }
 
+/* Link */
 a,
 a:visited {
   text-underline-offset: 0.3em;
@@ -94,31 +118,14 @@ a.active {
   text-underline-offset: 0.4em;
 }
 
-.posts {
-  padding: 0;
-  list-style: none; /* bỏ dấu chấm */
-  margin: 0;
-}
-
-.posts li {
-  margin: 0.5rem 0;
-}
-
-.posts a {
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.posts a:hover {
-  text-decoration: underline;
-}
-
+/* Footer */
 footer {
   display: flex;
   justify-content: space-between;
   padding-top: 1rem;
 }
 
+/* Quote */
 blockquote {
   border-left: 0.25rem solid #999;
   margin: 1.6em 0;
@@ -129,6 +136,7 @@ blockquote p {
   margin: 0;
 }
 
+/* Code */
 code,
 pre {
   font-family: "Fira Code", monospace;
@@ -140,12 +148,14 @@ pre {
   padding: 1em;
 }
 
+/* Ảnh */
 img {
   margin: auto;
   display: block;
   max-width: 100%;
 }
 
+/* Bảng */
 table {
   border-collapse: collapse;
   text-align: left;
@@ -165,11 +175,13 @@ table td:first-child {
   font-weight: bold;
 }
 
+/* Headings */
 h1, h2, h3, h4, h5, b, strong {
   font-size: inherit;
   font-weight: 600;
 }
 
+/* Meta dưới bài viết */
 .post-meta-bottom {
   display: flex;
   justify-content: space-between;
@@ -205,24 +217,21 @@ h1, h2, h3, h4, h5, b, strong {
 
   #container {
     margin: 0 auto;
-    padding: 1rem;
-  }
-
-  /* Ẩn guideline ở mobile cho gọn */
-  body::before {
-    display: none;
+    padding: 1rem 0;
   }
 }
 
-/* ✅ Guideline bên trái cho desktop */
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 1rem;
-  width: 1px;
-  height: 100%;
-  background: rgba(0,0,0,0.08);
-  z-index: 0;
-  pointer-events: none;
+/* ✅ Guideline bên trái chỉ hiện desktop */
+@media (min-width: 769px) {
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 5vw; /* cùng lề body */
+    width: 1px;
+    height: 100%;
+    background: rgba(0,0,0,0.08);
+    z-index: 0;
+    pointer-events: none;
+  }
 }
