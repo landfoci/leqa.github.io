@@ -33,7 +33,7 @@ nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  text-align: left; /* desktop: nằm bên trái */
+  text-align: left; /* luôn bên trái */
 }
 
 nav ul li {
@@ -76,15 +76,18 @@ nav a:hover {
 @media (max-width: 900px) {
   body {
     margin: 0 auto;
-    text-align: center; /* căn giữa */
+    padding: 1.5rem 1rem;
+    max-width: 100%;
+    font-size: 1.05rem;   /* chữ to hơn một chút */
+    line-height: 1.7;     /* giãn dòng thoáng hơn */
   }
 
   nav ul {
-    text-align: center;
+    text-align: left;
   }
 
   .posts {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
   }
 
