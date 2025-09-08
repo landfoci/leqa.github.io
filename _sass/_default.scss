@@ -1,5 +1,5 @@
 :root {
-  --foreground: #444;
+  --foreground: #333;
   --background: #faf9f5;
 }
 
@@ -8,28 +8,28 @@ body {
   color: var(--foreground);
   background-color: var(--background);
   font-family: "Georgia", serif;
-  font-size: 1rem;        /* chữ to hơn mặc định */
-  line-height: 1.7;       /* giãn dòng thoáng */
+  font-size: 1rem;
+  line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   word-break: break-word;
   margin: 0;
   padding: 2rem 1rem;
-  max-width: 42rem;       /* giữ nội dung gọn */
+  max-width: 42rem;
 }
 
 /* Container chính */
 #container {
   margin: 0 auto;
-  padding-left: 2rem;     /* ✅ lề trái thoáng như mẫu */
+  padding-left: 2rem;
   padding-right: 1rem;
 }
 
 /* Nav */
 nav {
-  margin-bottom: 1rem;    /* ✅ ít khoảng cách hơn */
-  padding-left: 2rem;     /* ✅ thụt đều với nội dung */
-  font-size: 0.9rem;      /* ✅ nav nhỏ gọn hơn nội dung */
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+  font-size: 0.9rem;
 }
 
 nav ul {
@@ -62,7 +62,7 @@ nav a:hover {
 }
 
 .posts li {
-  margin: 0.8rem 0;       /* khoảng cách hợp lý giữa các post */
+  margin: 1rem 0;
 }
 
 .posts a {
@@ -75,27 +75,128 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* Heading */
+h1, h2, h3, h4 {
+  font-family: "Georgia", serif;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 2rem 0 1rem;
+  color: var(--foreground);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+}
+
+/* Paragraphs */
+p {
+  margin: 1rem 0;
+}
+
+strong, b {
+  font-weight: 600;
+}
+
+/* Blockquote */
+blockquote {
+  border-left: 3px solid #ccc;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  color: #555;
+  font-style: italic;
+}
+
+blockquote p {
+  margin: 0.5rem 0;
+}
+
+/* Code & Pre */
+code {
+  font-family: "Fira Code", monospace;
+  font-size: 0.9rem;
+  background: #f5f5f5;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
+pre {
+  background: #f5f5f5;
+  padding: 1rem;
+  overflow-x: auto;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+table th,
+table td {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  font-weight: 600;
+}
+
 /* Responsive cho tablet & mobile */
 @media (max-width: 900px) {
   body {
     margin: 0 auto;
     padding: 1.5rem 1rem;
     max-width: 100%;
-    font-size: 1.05rem;   /* chữ to hơn một chút */
+    font-size: 1.05rem;
     line-height: 1.7;
   }
 
   #container {
-    padding-left: 1.25rem; /* ✅ nội dung vẫn có khoảng cách lề trái */
+    padding-left: 1.25rem;
     padding-right: 1.25rem;
   }
 
   nav {
-    padding-left: 1.25rem; /* ✅ nav thụt bằng nội dung */
-    margin-bottom: 1rem;
+    padding-left: 1.25rem;
+    margin-bottom: 1.5rem;
   }
 
   .posts li {
     margin: 1rem 0;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
   }
 }
