@@ -8,26 +8,16 @@
 body {
   color: var(--foreground);
   background-color: var(--background);
-  font-family:  "Georgia",serif;
+  font-family: "Georgia", serif;
   font-size: 0.9rem;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   word-break: break-word;
-  max-width:  35rem;
-  margin-left: 5vw; 
+  max-width: 35rem;
+  margin-left: 5vw;
   margin-right: auto;
   padding: 2rem 0;
-}
-  
-body::after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
-  width: 100vw;
-  height: 100vh;
-  pointer-events: none;
 }
 
 #container {
@@ -38,56 +28,35 @@ body::after {
   padding: 1rem;
 }
 
-#container::after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: "";
-  background: none;
-  pointer-events: none;
+nav img {
+  height: 3rem;
+  transform: translateY(1.5rem);
+  float: left;
+  padding: 0 1rem 0;
 }
 
-@media (max-width: 768px) {
-  .container {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
+nav ul {
+  list-style: none;
+  padding: 5rem 1.5rem 0;
+  text-align: left;
 }
 
-nav {
-  img {
-    height: 3rem;
-    transform: translateY(1.5rem);
-    float: left;
-    padding: 0 1rem 0;
-  }
+nav ul li {
+  display: inline-block;
+}
 
-  ul {
-    list-style: none;
-    padding: 5rem 1.5rem 0;
-    text-align: left;
-
-    li {
-      display: inline-block;
-    }
-  }
-
-  a {
-    margin: .5rem;
-    text-decoration: none;
-    font-weight: bold;
-  }
+nav a {
+  margin: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 hr {
-    background: #d9d9d9;
-    height: 1px;
-    border: none;
-    max-width: 70ch;
-    padding: 0;
-    margin: 2rem auto;
+  background: #d9d9d9;
+  height: 1px;
+  border: none;
+  max-width: 70ch;
+  margin: 2rem auto;
 }
 
 time {
@@ -97,44 +66,42 @@ time {
 
 a,
 a:visited {
-text-underline-offset: .3em;
-text-decoration-color: #aaa;
-text-decoration-thickness: 1px;
-text-decoration-skip-ink: auto;
-color: #5c5c5c;
+  text-underline-offset: 0.3em;
+  text-decoration-color: #aaa;
+  text-decoration-thickness: 1px;
+  text-decoration-skip-ink: auto;
+  color: #5c5c5c;
+}
 
-  &:hover {
-    color: var(--foreground);
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    text-decoration-color: #fff7b1;
-    text-decoration-thickness: .5em;
-    text-underline-offset: -.25em;
-    transition: text-decoration .3s;
-  }
+a:hover {
+  color: var(--foreground);
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  text-decoration-color: #fff7b1;
+  text-decoration-thickness: 0.5em;
+  text-underline-offset: -0.25em;
+  transition: text-decoration 0.3s;
 }
 
 a.active {
-  padding: 0;
   color: var(--foreground);
   font-weight: bold;
   text-decoration: underline;
   text-decoration-color: #fff7b1;
-  text-decoration-thickness: .2em;
-  text-underline-offset: .4em;
+  text-decoration-thickness: 0.2em;
+  text-underline-offset: 0.4em;
 }
 
 .posts {
   padding: 0;
-  
-  li {
-    display: flex;
+}
 
-  
-    div {
-      min-width: 10ch;
-    }
-  }
+.posts li {
+  display: flex;
+}
+
+.posts li div {
+  min-width: 10ch;
 }
 
 footer {
@@ -144,16 +111,13 @@ footer {
 }
 
 blockquote {
-  border-left: 2px solid #999;
-  margin: 0;
+  border-left: 0.25rem solid #999;
+  margin: 1.6em 0;
   padding-left: 1.5em;
-  border-left-width: 0.25rem;
-  margin-top: 1.6em;
-  margin-bottom: 1.6em;
+}
 
-  p {
-    margin: 0;
-  }
+blockquote p {
+  margin: 0;
 }
 
 code,
@@ -177,24 +141,24 @@ table {
   border-collapse: collapse;
   text-align: left;
   width: 100%;
+}
 
-  tr {
-    border-bottom: 1px solid var(--foreground);
-  }
+table tr {
+  border-bottom: 1px solid var(--foreground);
+}
 
-  th,
-  td {
-    padding: 0.5rem;
-  }
+table th,
+table td {
+  padding: 0.5rem;
+}
 
-  td:first-child {
-    font-weight: bold;
-  }
+table td:first-child {
+  font-weight: bold;
 }
 
 h1, h2, h3, h4, h5, b, strong {
-    font-size: inherit;
-    font-weight: 600;
+  font-size: inherit;
+  font-weight: 600;
 }
 
 .post-meta-bottom {
@@ -220,4 +184,36 @@ h1, h2, h3, h4, h5, b, strong {
 
 .post-meta-bottom .post-date {
   white-space: nowrap;
+}
+
+/* ✅ Responsive cho mobile */
+@media (max-width: 768px) {
+  body {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+  }
+
+  #container {
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  nav img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    transform: none;
+    padding: 0;
+  }
+
+  nav ul {
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 0.5rem 0;
+  }
 }
