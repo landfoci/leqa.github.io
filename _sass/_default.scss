@@ -1,125 +1,162 @@
-:root {
-  --foreground: #333;
+/* === Minimalism-like layout — audited & tuned === */
+:root{
+  --foreground: #222;        /* main text */
+  --muted: #666;             /* paragraph muted color */
   --background: #faf9f5;
-  --accent: #fff7b1;
+  --link: #007acc;
+  --link-hover: #005ea8;
+  --max-width: 37.5rem;      /* 600px */
+  --gutter: 2rem;            /* left inner gutter */
 }
 
-body {
+/* box model stable */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+/* page base */
+html,body { height: 100%; }
+body{
+  margin: 0;
+  background: var(--background);
   color: var(--foreground);
-  background-color: var(--background);
-  font-family: "Georgia", serif;
-  font-size: 1.05rem;
-  line-height: 1.75;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;          /* 16px — matches source site */
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   word-break: break-word;
-  margin: 0;
-  padding: 0;
+  padding: 2rem 1rem;       /* outer breathing room */
 }
 
-/* Nav */
-nav {
-  max-width: 720px;
-  margin: 2rem auto 1.5rem auto;
-  padding: 0;
-}
-
-nav ul {
-  display: flex;
-  gap: 1.5rem;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-nav a {
-  font-weight: 600;
-  text-decoration: none;
-  color: var(--foreground);
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-a.active {
-  font-weight: 600;
-  text-decoration: underline;
-  text-decoration-color: var(--accent);
-  text-decoration-thickness: 0.25em;
-  text-underline-offset: 0.25em;
-}
-
-/* Container */
-#container {
-  max-width: 720px;
+/* main container: centered horizontally but content has left gutter */
+#container{
+  max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0 1rem;
+  padding-left: var(--gutter);  /* the left offset so content/nav align */
+  padding-right: 1rem;
 }
 
-/* Post list */
-.posts {
+/* NAV (nav sits inside container so uses the same gutter) */
+nav{
+  margin: 0 0 1.25rem 0;    /* small gap below nav like the reference */
+  font-size: 0.95rem;       /* slightly smaller than body */
+  padding-left: 0;          /* no extra padding — container handles gutter */
+}
+nav ul{
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
-
-.posts li {
-  margin: 0.75rem 0;
+nav li{
+  display: inline-block;
+  margin-right: 1.1rem;
 }
-
-.posts a {
-  font-weight: 600;
+nav a{
+  color: var(--foreground);
   text-decoration: none;
+  font-weight: 600;
+}
+nav a:hover{ text-decoration: underline; }
+
+/* POSTS list */
+.posts{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.posts li{
+  margin: 0.9rem 0;
+}
+.posts a{
+  color: var(--foreground);
+  text-decoration: none;
+  font-weight: 600;
+}
+.posts a:hover{ text-decoration: underline; }
+
+/* HEADINGS — fluid but conservative so not "huge" on desktop */
+h1, h2, h3, h4 {
+  font-family: Georgia, serif;
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 1.5rem 0 0.9rem;
   color: var(--foreground);
 }
 
-.posts a:hover {
+/* clamp used so headings shrink on small screens smoothly */
+h1 { font-size: clamp(1.15rem, 3.2vw, 1.375rem); /* ~18px → 22px */ margin-top: 0; }
+h2 { font-size: clamp(1.05rem, 2.6vw, 1.2rem);     /* ~17px → 19px */ }
+h3 { font-size: clamp(1rem, 2.0vw, 1.1rem);        /* ~16px → 17px */ }
+h4 { font-size: 1rem; }
+
+/* paragraphs & inline text */
+p { margin: 0.85rem 0; color: var(--muted); }
+strong, b { font-weight: 600; color: var(--foreground); }
+
+/* links inside content */
+a, a:visited {
+  color: var(--link);
   text-decoration: underline;
+  text-underline-offset: 0.14em;
 }
+a:hover { color: var(--link-hover); }
 
-/* Typography */
-h1, h2, h3, h4, h5 {
-  font-family: "Georgia", serif;
-  font-weight: 700;
-  line-height: 1.3;
-  margin: 2rem 0 1rem;
-}
-
-h1 { font-size: 1.75rem; }
-h2 { font-size: 1.35rem; }
-h3 { font-size: 1.15rem; }
-
-p { margin: 1rem 0; }
-
-time {
-  font-size: 0.85rem;
-  font-style: italic;
-  color: #777;
-}
-
-/* Footer */
-footer {
-  max-width: 720px;
-  margin: 3rem auto 2rem auto;
-  padding: 0 1rem;
-  font-size: 0.9rem;
+/* blockquote — thin left bar, italic */
+blockquote{
+  border-left: 3px solid #e0e0e0;
+  padding-left: 1rem;
+  margin: 1.3rem 0;
   color: #555;
+  font-style: italic;
 }
+blockquote p{ margin: 0; }
 
-/* Mobile */
-@media (max-width: 768px) {
+/* code & pre */
+code{
+  font-family: "Fira Code", "Menlo", monospace;
+  font-size: 0.9rem;
+  background: #f5f5f5;
+  padding: 0.15em 0.35em;
+  border-radius: 3px;
+}
+pre{
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 0.9rem;
+}
+pre code{ background: none; padding: 0; }
+
+/* tables */
+table{ width:100%; border-collapse: collapse; margin:1rem 0; }
+table th, table td { padding: 0.5rem; border-bottom: 1px solid #eee; text-align:left; }
+table th{ font-weight:600; }
+
+/* small helpers */
+hr{ border: none; height:1px; background:#eee; margin:1.5rem 0; }
+img{ max-width:100%; height:auto; display:block; margin: 0.8rem 0; }
+
+/* Responsive tweaks for tablet / mobile (keeps left gutter but reduces it) */
+@media (max-width: 900px) {
   body {
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-
-  nav {
-    margin: 1.5rem auto 1rem auto;
-    padding: 0 1rem;
+    padding: 1.5rem 1rem;
+    font-size: 0.98rem;   /* ~15.7px for better mobile rhythm */
+    line-height: 1.65;
   }
 
   #container {
-    padding: 0 1rem;
+    padding-left: 1.25rem;  /* smaller gutter on small screens */
+    padding-right: 1.25rem;
   }
+
+  nav { margin-bottom: 1rem; padding-left: 0; }
+  nav li { margin-right: 0.9rem; }
+  .posts li { margin: 0.95rem 0; }
+
+  /* slightly smaller headings on mobile */
+  h1 { font-size: 1.25rem; }   /* ~20px */
+  h2 { font-size: 1.05rem; }   /* ~17px */
+  h3 { font-size: 1rem; }      /* ~16px */
 }
