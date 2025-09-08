@@ -32,8 +32,8 @@ body{
 /* main container — fixed left (not centered) */
 #container{
   max-width: var(--max-width);
-  margin: 0;                   /* bỏ căn giữa */
-  padding-left: var(--gutter); /* luôn cách trái 1 khoảng */
+  margin: 0;
+  padding-left: var(--gutter);
   padding-right: 1rem;
 }
 
@@ -41,7 +41,7 @@ body{
 nav{
   margin: 0 0 1.25rem 0;
   font-size: 0.95rem;
-  padding-left: 0;
+  padding: 0;                /* bỏ padding để ngay hàng với posts */
 }
 nav ul{
   list-style: none;
@@ -52,12 +52,16 @@ nav li{
   display: inline-block;
   margin-right: 1.1rem;
 }
-nav a{
-  color: var(--foreground);
+nav a, nav a:visited{
+  color: var(--foreground);   /* màu chữ chính, không bị xanh */
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
 }
-nav a:hover{ text-decoration: underline; }
+nav a:hover{ 
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+  text-decoration-thickness: 1px;
+}
 
 /* POSTS list */
 .posts{
@@ -73,14 +77,18 @@ nav a:hover{ text-decoration: underline; }
   text-decoration: none;
   font-weight: 600;
 }
-.posts a:hover{ text-decoration: underline; }
+.posts a:hover{ 
+  text-decoration: underline; 
+  text-underline-offset: 0.1em;
+  text-decoration-thickness: 1px;
+}
 
 /* HEADINGS */
 h1, h2, h3, h4 {
   font-family: Georgia, serif;
   font-weight: 600;
   line-height: 1.25;
-  margin: 1.5rem 0 0.9rem;
+  margin: 1rem 0 0.6rem;
   color: var(--foreground);
 }
 h1 { font-size: clamp(1.15rem, 3.2vw, 1.375rem); margin-top: 0; }
@@ -149,7 +157,7 @@ img{ max-width:100%; height:auto; display:block; margin: 0.8rem 0; }
     padding-right: 1.25rem;
   }
 
-  nav { margin-bottom: 1rem; padding-left: 0; }
+  nav { margin-bottom: 1rem; }
   nav li { margin-right: 0.9rem; }
   .posts li { margin: 0.95rem 0; }
 
