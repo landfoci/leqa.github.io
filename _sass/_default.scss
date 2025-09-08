@@ -1,5 +1,4 @@
-/* === Minimalism-like layout — align left === */
-:root{
+:root {
   --foreground: #222;
   --muted: #666;
   --background: #faf9f5;
@@ -11,145 +10,65 @@
 
 *,
 *::before,
-*::after { box-sizing: border-box; }
+*::after {
+  box-sizing: border-box;
+}
 
-html,body { height: 100%; }
-body{
+html, body {
+  height: 100%;
   margin: 0;
+  padding: 0; /* quan trọng: bỏ padding body */
   background: var(--background);
   color: var(--foreground);
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1rem;
   line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  word-break: break-word;
-  padding: 2rem 1rem;
 }
 
-#container{
+#container {
   max-width: var(--max-width);
   margin: 0;
-  padding-left: var(--gutter);  /* tất cả đều theo lề này */
-  padding-right: 1rem;
+  padding: 2rem 1rem;      /* chỉ padding ở container */
+  padding-left: var(--gutter); /* nav + posts cùng 1 lề */
 }
 
 /* NAV */
-nav{
+nav {
   margin: 0 0 1.25rem 0;
   font-size: 0.95rem;
 }
-nav ul{
+nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-nav li{
+nav li {
   display: inline-block;
   margin-right: 1.1rem;
 }
-nav a, nav a:visited{
+nav a {
   color: var(--foreground);
   text-decoration: none;
   font-weight: 500;
 }
-nav a:hover{
+nav a:hover {
   text-decoration: underline;
-  text-underline-offset: 0.1em;
-  text-decoration-thickness: 1px;
 }
 
 /* POSTS */
-.posts{
+.posts {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.posts li{ margin: 0.9rem 0; }
-.posts a{
-  color: var(--foreground);
+.posts li {
+  margin: 0.9rem 0;
+}
+.posts a {
+  color: var(--link);
   text-decoration: none;
   font-weight: 600;
 }
-.posts a:hover{
+.posts a:hover {
   text-decoration: underline;
-  text-underline-offset: 0.1em;
-  text-decoration-thickness: 1px;
-}
-
-/* HEADINGS */
-h1, h2, h3, h4 {
-  font-family: Georgia, serif;
-  font-weight: 600;
-  line-height: 1.25;
-  margin: 1rem 0 0.6rem;
-  color: var(--foreground);
-}
-h1 { font-size: clamp(1.15rem, 3.2vw, 1.375rem); margin-top: 0; }
-h2 { font-size: clamp(1.05rem, 2.6vw, 1.2rem); }
-h3 { font-size: clamp(1rem, 2.0vw, 1.1rem); }
-h4 { font-size: 1rem; }
-
-p { margin: 0.85rem 0; color: var(--muted); }
-strong, b { font-weight: 600; color: var(--foreground); }
-
-a, a:visited {
-  color: var(--link);
-  text-decoration: underline;
-  text-underline-offset: 0.14em;
-}
-a:hover { color: var(--link-hover); }
-
-blockquote{
-  border-left: 3px solid #e0e0e0;
-  padding-left: 1rem;
-  margin: 1.3rem 0;
-  color: #555;
-  font-style: italic;
-}
-blockquote p{ margin: 0; }
-
-code{
-  font-family: "Fira Code", "Menlo", monospace;
-  font-size: 0.9rem;
-  background: #f5f5f5;
-  padding: 0.15em 0.35em;
-  border-radius: 3px;
-}
-pre{
-  background: #f5f5f5;
-  padding: 1rem;
-  border-radius: 6px;
-  overflow-x: auto;
-  font-size: 0.9rem;
-}
-pre code{ background: none; padding: 0; }
-
-table{ width:100%; border-collapse: collapse; margin:1rem 0; }
-table th, table td { padding: 0.5rem; border-bottom: 1px solid #eee; text-align:left; }
-table th{ font-weight:600; }
-
-hr{ border: none; height:1px; background:#eee; margin:1.5rem 0; }
-img{ max-width:100%; height:auto; display:block; margin: 0.8rem 0; }
-
-/* Responsive */
-@media (max-width: 900px) {
-  body {
-    padding: 1.5rem 1rem;
-    font-size: 0.98rem;
-    line-height: 1.65;
-  }
-
-  #container {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
-
-  nav { margin-bottom: 1rem; }
-  nav li { margin-right: 0.9rem; }
-  .posts li { margin: 0.95rem 0; }
-
-  h1 { font-size: 1.25rem; }
-  h2 { font-size: 1.05rem; }
-  h3 { font-size: 1rem; }
 }
