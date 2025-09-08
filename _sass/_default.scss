@@ -94,15 +94,23 @@ a.active {
 
 .posts {
   padding: 0;
+  list-style: none; /* bỏ dấu chấm */
+  margin: 0;
 }
 
 .posts li {
-  display: flex;
+  margin: 0.5rem 0;
 }
 
-.posts li div {
-  min-width: 10ch;
+.posts a {
+  font-weight: bold;
+  text-decoration: none;
 }
+
+.posts a:hover {
+  text-decoration: underline;
+}
+
 
 footer {
   display: flex;
