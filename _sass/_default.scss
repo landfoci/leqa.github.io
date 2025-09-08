@@ -15,15 +15,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
   word-break: break-word;
   max-width: 35rem;
-  margin: 0 auto;       /* canh giữa nội dung */
-  padding: 2rem 1rem;   /* chừa 1rem lề hai bên */
+  margin-left: 5vw;
+  margin-right: auto;
+  padding: 2rem 0;
+  position: relative;
 }
 
 #container {
   background: var(--background);
   position: relative;
   z-index: 100;
-  margin: 1rem 0;
+  margin: 1rem;
   padding: 1rem;
 }
 
@@ -36,9 +38,9 @@ nav img {
 
 nav ul {
   list-style: none;
-  padding: 5rem 0 0; /* canh chuẩn lề */
-  margin: 0;
+  padding: 5rem 1.5rem 0;
   text-align: left;
+  margin: 0;
 }
 
 nav ul li {
@@ -92,7 +94,6 @@ a.active {
   text-underline-offset: 0.4em;
 }
 
-/* ======= POSTS LIST ======= */
 .posts {
   padding: 0;
   list-style: none; /* bỏ dấu chấm */
@@ -111,7 +112,6 @@ a.active {
 .posts a:hover {
   text-decoration: underline;
 }
-/* ========================= */
 
 footer {
   display: flex;
@@ -195,35 +195,34 @@ h1, h2, h3, h4, h5, b, strong {
   white-space: nowrap;
 }
 
-/* ✅ Responsive giữ đúng lề 1rem */
+/* ✅ Responsive */
 @media (max-width: 768px) {
   body {
+    margin-left: auto;
+    margin-right: auto;
     padding: 1rem;
   }
 
   #container {
-    margin: 0;
+    margin: 0 auto;
     padding: 1rem;
   }
 
-  nav ul {
-    padding: 5rem 0 0; /* giữ canh chuẩn */
-  }
-
-  .posts {
-    margin: 0;
-    padding: 0;
+  /* Ẩn guideline ở mobile cho gọn */
+  body::before {
+    display: none;
   }
 }
-/* Guideline bên trái */
+
+/* ✅ Guideline bên trái cho desktop */
 body::before {
   content: "";
   position: fixed;
   top: 0;
-  left: 1rem;        /* cùng lề với nav & posts */
+  left: 1rem;
   width: 1px;
   height: 100%;
-  background: rgba(0,0,0,0.08); /* line xám nhạt */
+  background: rgba(0,0,0,0.08);
   z-index: 0;
   pointer-events: none;
 }
