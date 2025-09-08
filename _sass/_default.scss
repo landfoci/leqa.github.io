@@ -21,19 +21,19 @@ body{
   background: var(--background);
   color: var(--foreground);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1rem;          /* 16px — matches source site */
+  font-size: 1rem;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   word-break: break-word;
-  padding: 2rem 1rem;       /* outer breathing room */
+  padding: 2rem 1rem;
 }
 
-/* main container — fixed left (not centered) */
+/* main container */
 #container{
   max-width: var(--max-width);
   margin: 0;
-  padding-left: var(--gutter);
+  padding-left: 0;    /* bỏ padding trái, để nav + posts tự căn */
   padding-right: 1rem;
 }
 
@@ -41,7 +41,7 @@ body{
 nav{
   margin: 0 0 1.25rem 0;
   font-size: 0.95rem;
-  padding: 0;                /* bỏ padding để ngay hàng với posts */
+  padding-left: var(--gutter); /* cùng lề với posts */
 }
 nav ul{
   list-style: none;
@@ -53,7 +53,7 @@ nav li{
   margin-right: 1.1rem;
 }
 nav a, nav a:visited{
-  color: var(--foreground);   /* màu chữ chính, không bị xanh */
+  color: var(--foreground);
   text-decoration: none;
   font-weight: 500;
 }
@@ -67,7 +67,7 @@ nav a:hover{
 .posts{
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding-left: var(--gutter); /* thẳng với nav */
 }
 .posts li{
   margin: 0.9rem 0;
@@ -153,12 +153,16 @@ img{ max-width:100%; height:auto; display:block; margin: 0.8rem 0; }
   }
 
   #container {
-    padding-left: 1.25rem;
+    padding-left: 0;
     padding-right: 1.25rem;
   }
 
-  nav { margin-bottom: 1rem; }
+  nav { 
+    margin-bottom: 1rem;
+    padding-left: 1.25rem; 
+  }
   nav li { margin-right: 0.9rem; }
+  .posts { padding-left: 1.25rem; }
   .posts li { margin: 0.95rem 0; }
 
   h1 { font-size: 1.25rem; }
