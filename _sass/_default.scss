@@ -8,42 +8,45 @@ body {
   color: var(--foreground);
   background-color: var(--background);
   font-family: "Georgia", serif;
-  font-size: 0.95rem;
-  line-height: 1.6;
+  font-size: 1rem;        /* chữ to hơn mặc định */
+  line-height: 1.7;       /* giãn dòng thoáng */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   word-break: break-word;
   margin: 0;
   padding: 2rem 1rem;
-  max-width: 40rem; /* giữ nội dung gọn */
+  max-width: 42rem;       /* giữ nội dung gọn */
 }
 
 /* Container chính */
 #container {
   margin: 0 auto;
-  padding: 0;
+  padding-left: 2rem;     /* ✅ lề trái thoáng như mẫu */
+  padding-right: 1rem;
 }
 
 /* Nav */
 nav {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;    /* ✅ ít khoảng cách hơn */
+  padding-left: 2rem;     /* ✅ thụt đều với nội dung */
+  font-size: 0.9rem;      /* ✅ nav nhỏ gọn hơn nội dung */
 }
 
 nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  text-align: left; /* luôn bên trái */
+  text-align: left;
 }
 
 nav ul li {
   display: inline-block;
-  margin-right: 1rem;
+  margin-right: 1.2rem;
 }
 
 nav a {
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
   color: var(--foreground);
 }
 
@@ -59,11 +62,11 @@ nav a:hover {
 }
 
 .posts li {
-  margin: 0.5rem 0;
+  margin: 0.8rem 0;       /* khoảng cách hợp lý giữa các post */
 }
 
 .posts a {
-  font-weight: bold;
+  font-weight: 600;
   text-decoration: none;
   color: var(--foreground);
 }
@@ -79,19 +82,20 @@ nav a:hover {
     padding: 1.5rem 1rem;
     max-width: 100%;
     font-size: 1.05rem;   /* chữ to hơn một chút */
-    line-height: 1.7;     /* giãn dòng thoáng hơn */
+    line-height: 1.7;
   }
 
-  nav ul {
-    text-align: left;
+  #container {
+    padding-left: 1.25rem; /* ✅ nội dung vẫn có khoảng cách lề trái */
+    padding-right: 1.25rem;
   }
 
-  .posts {
-    margin: 0;
-    padding: 0;
+  nav {
+    padding-left: 1.25rem; /* ✅ nav thụt bằng nội dung */
+    margin-bottom: 1rem;
   }
 
   .posts li {
-    margin: 0.8rem 0;
+    margin: 1rem 0;
   }
 }
