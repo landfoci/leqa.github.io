@@ -186,34 +186,10 @@ h1, h2, h3, h4, h5, b, strong {
   white-space: nowrap;
 }
 
-/* ✅ Responsive cho mobile */
+/* ✅ Responsive: canh giữa nội dung, nav giữ nguyên bên trái */
 @media (max-width: 768px) {
   body {
     margin-left: auto;
     margin-right: auto;
     padding: 1rem;
   }
-
-  #container {
-    margin: 0 auto;
-    padding: 1rem;
-  }
-
-  nav img {
-    float: none;
-    display: block;
-    margin: 0 auto;
-    transform: none;
-    padding: 0;
-  }
-
-  nav ul {
-    padding: 1rem 0;
-    text-align: center;
-  }
-
-  nav ul li {
-    display: block;
-    margin: 0.5rem 0;
-  }
-}
