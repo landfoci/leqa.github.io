@@ -1,5 +1,5 @@
-/* === Minimalism-like layout — fixed align left + sticky nav === */
-:root {
+/* === Minimalism-like layout — fixed align left === */
+:root{
   --foreground: #222;        /* main text */
   --muted: #666;             /* paragraph muted color */
   --background: #faf9f5;
@@ -15,74 +15,67 @@
 *::after { box-sizing: border-box; }
 
 /* page base */
-html, body { height: 100%; }
-body {
+html,body { height: 100%; }
+body{
   margin: 0;
   background: var(--background);
   color: var(--foreground);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1rem;          /* 16px */
+  font-size: 1rem;          /* 16px — matches source site */
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   word-break: break-word;
-  padding: 2rem 0;          /* chỉ giữ khoảng cách trên dưới */
+  padding: 2rem 0;          /* bỏ padding ngang, chỉ giữ dọc */
 }
 
 /* main container — fixed left (not centered) */
-#container {
+#container{
   max-width: var(--max-width);
   margin: 0;
-  padding-left: var(--gutter); 
+  padding-left: var(--gutter); /* luôn cách trái 1 khoảng */
   padding-right: 1rem;
-  padding-bottom: 4rem;     /* thêm khoảng trống dưới */
+  padding-bottom: 4rem;        /* thêm khoảng trống dưới */
 }
 
-/* === Navigation sticky === */
-nav {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background: var(--background);
-  margin: 0 0 1.5rem 0;     
+/* NAV */
+nav{
+  margin: 0 0 1.5rem 0;     /* cách dưới rõ ràng */
   font-size: 0.95rem;
-  padding: 0.75rem var(--gutter) 0.75rem 0;
-  border-bottom: 1px solid #e5e5e5;
 }
-
-nav ul {
+nav ul{
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
-nav li {
+nav li{
   display: inline-block;
   margin-right: 1.1rem;
 }
-
-nav a {
+nav a{
   color: var(--foreground);
   text-decoration: none;
   font-weight: 600;
 }
-nav a:hover { text-decoration: underline; }
+nav a:hover{ text-decoration: underline; }
 
-/* === POSTS list === */
-.posts {
+/* POSTS list */
+.posts{
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.posts li { margin: 0.9rem 0; }
-.posts a {
+.posts li{
+  margin: 0.9rem 0;
+}
+.posts a{
   color: var(--foreground);
   text-decoration: none;
   font-weight: 600;
 }
-.posts a:hover { text-decoration: underline; }
+.posts a:hover{ text-decoration: underline; }
 
-/* === HEADINGS === */
+/* HEADINGS */
 h1, h2, h3, h4 {
   font-family: Georgia, serif;
   font-weight: 600;
@@ -108,40 +101,40 @@ a, a:visited {
 a:hover { color: var(--link-hover); }
 
 /* blockquote */
-blockquote {
+blockquote{
   border-left: 3px solid #e0e0e0;
   padding-left: 1rem;
   margin: 1.3rem 0;
   color: #555;
   font-style: italic;
 }
-blockquote p { margin: 0; }
+blockquote p{ margin: 0; }
 
 /* code */
-code {
+code{
   font-family: "Fira Code", "Menlo", monospace;
   font-size: 0.9rem;
   background: #f5f5f5;
   padding: 0.15em 0.35em;
   border-radius: 3px;
 }
-pre {
+pre{
   background: #f5f5f5;
   padding: 1rem;
   border-radius: 6px;
   overflow-x: auto;
   font-size: 0.9rem;
 }
-pre code { background: none; padding: 0; }
+pre code{ background: none; padding: 0; }
 
 /* tables */
-table { width:100%; border-collapse: collapse; margin:1rem 0; }
+table{ width:100%; border-collapse: collapse; margin:1rem 0; }
 table th, table td { padding: 0.5rem; border-bottom: 1px solid #eee; text-align:left; }
-table th { font-weight:600; }
+table th{ font-weight:600; }
 
 /* helpers */
-hr { border: none; height:1px; background:#eee; margin:1.5rem 0; }
-img { max-width:100%; height:auto; display:block; margin: 0.8rem 0; }
+hr{ border: none; height:1px; background:#eee; margin:1.5rem 0; }
+img{ max-width:100%; height:auto; display:block; margin: 0.8rem 0; }
 
 /* Responsive tweaks */
 @media (max-width: 900px) {
