@@ -1,20 +1,18 @@
-/* === Minimalism-like layout — fixed align left === */
+/* === Minimalism-like layout — align left === */
 :root{
-  --foreground: #222;        /* main text */
-  --muted: #666;             /* paragraph muted color */
+  --foreground: #222;
+  --muted: #666;
   --background: #faf9f5;
   --link: #007acc;
   --link-hover: #005ea8;
-  --max-width: 37.5rem;      /* 600px */
-  --gutter: 2rem;            /* left inner gutter */
+  --max-width: 37.5rem;   /* 600px */
+  --gutter: 2rem;         /* left gutter */
 }
 
-/* box model stable */
 *,
 *::before,
 *::after { box-sizing: border-box; }
 
-/* page base */
 html,body { height: 100%; }
 body{
   margin: 0;
@@ -29,11 +27,10 @@ body{
   padding: 2rem 1rem;
 }
 
-/* main container */
 #container{
   max-width: var(--max-width);
   margin: 0;
-  padding-left: 0;    /* bỏ padding trái, để nav + posts tự căn */
+  padding-left: var(--gutter);  /* tất cả đều theo lề này */
   padding-right: 1rem;
 }
 
@@ -41,7 +38,6 @@ body{
 nav{
   margin: 0 0 1.25rem 0;
   font-size: 0.95rem;
-  padding-left: var(--gutter); /* cùng lề với posts */
 }
 nav ul{
   list-style: none;
@@ -57,28 +53,26 @@ nav a, nav a:visited{
   text-decoration: none;
   font-weight: 500;
 }
-nav a:hover{ 
+nav a:hover{
   text-decoration: underline;
   text-underline-offset: 0.1em;
   text-decoration-thickness: 1px;
 }
 
-/* POSTS list */
+/* POSTS */
 .posts{
   list-style: none;
   margin: 0;
-  padding-left: var(--gutter); /* thẳng với nav */
+  padding: 0;
 }
-.posts li{
-  margin: 0.9rem 0;
-}
+.posts li{ margin: 0.9rem 0; }
 .posts a{
   color: var(--foreground);
   text-decoration: none;
   font-weight: 600;
 }
-.posts a:hover{ 
-  text-decoration: underline; 
+.posts a:hover{
+  text-decoration: underline;
   text-underline-offset: 0.1em;
   text-decoration-thickness: 1px;
 }
@@ -96,11 +90,9 @@ h2 { font-size: clamp(1.05rem, 2.6vw, 1.2rem); }
 h3 { font-size: clamp(1rem, 2.0vw, 1.1rem); }
 h4 { font-size: 1rem; }
 
-/* paragraphs */
 p { margin: 0.85rem 0; color: var(--muted); }
 strong, b { font-weight: 600; color: var(--foreground); }
 
-/* links inside content */
 a, a:visited {
   color: var(--link);
   text-decoration: underline;
@@ -108,7 +100,6 @@ a, a:visited {
 }
 a:hover { color: var(--link-hover); }
 
-/* blockquote */
 blockquote{
   border-left: 3px solid #e0e0e0;
   padding-left: 1rem;
@@ -118,7 +109,6 @@ blockquote{
 }
 blockquote p{ margin: 0; }
 
-/* code */
 code{
   font-family: "Fira Code", "Menlo", monospace;
   font-size: 0.9rem;
@@ -135,16 +125,14 @@ pre{
 }
 pre code{ background: none; padding: 0; }
 
-/* tables */
 table{ width:100%; border-collapse: collapse; margin:1rem 0; }
 table th, table td { padding: 0.5rem; border-bottom: 1px solid #eee; text-align:left; }
 table th{ font-weight:600; }
 
-/* helpers */
 hr{ border: none; height:1px; background:#eee; margin:1.5rem 0; }
 img{ max-width:100%; height:auto; display:block; margin: 0.8rem 0; }
 
-/* Responsive tweaks */
+/* Responsive */
 @media (max-width: 900px) {
   body {
     padding: 1.5rem 1rem;
@@ -153,16 +141,12 @@ img{ max-width:100%; height:auto; display:block; margin: 0.8rem 0; }
   }
 
   #container {
-    padding-left: 0;
+    padding-left: 1.25rem;
     padding-right: 1.25rem;
   }
 
-  nav { 
-    margin-bottom: 1rem;
-    padding-left: 1.25rem; 
-  }
+  nav { margin-bottom: 1rem; }
   nav li { margin-right: 0.9rem; }
-  .posts { padding-left: 1.25rem; }
   .posts li { margin: 0.95rem 0; }
 
   h1 { font-size: 1.25rem; }
