@@ -57,30 +57,29 @@ body::after {
 
 /* ===== Navigation sửa lại ===== */
 nav {
-  margin-bottom: 2rem;
+  display: flex;
+  justify-content: flex-start; /* căn sát lề trái */
+  margin-bottom: 2rem; /* cách bài viết một chút */
 }
 
 nav ul {
   list-style: none;
   padding: 0;
-  margin: 0 auto;    /* căn giữa khối menu */
+  margin: 0;
   display: flex;
-  gap: 3rem;         /* khoảng cách giữa các mục */
-  justify-content: center;
-  width: auto;       /* bỏ full width */
+  gap: 1rem;
 }
 
 nav li {
-  flex: unset;       /* bỏ giãn đều */
-  text-align: center;
+  display: inline;
 }
 
 nav a {
+  margin: 0;
   text-decoration: none;
   font-weight: bold;
-  display: inline-block;
-  padding: 0.5rem 0;
 }
+
 /* ============================== */
 
 hr {
