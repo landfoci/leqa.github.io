@@ -63,15 +63,16 @@ nav {
 nav ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;    /* căn giữa khối menu */
   display: flex;
-  justify-content: space-evenly; /* trải đều */
-  width: 100%;
+  gap: 3rem;         /* khoảng cách giữa các mục */
+  justify-content: center;
+  width: auto;       /* bỏ full width */
 }
 
 nav li {
-  flex: 1;               /* mỗi mục chiếm đều nhau */
-  text-align: center;    /* căn chữ vào giữa */
+  flex: unset;       /* bỏ giãn đều */
+  text-align: center;
 }
 
 nav a {
