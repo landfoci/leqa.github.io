@@ -1,8 +1,8 @@
 :root {
   --background: #fff;
   --text-color: #000;
-  --link-color: #0066cc;
-  --link-hover: #003366;
+  --link-color: #007acc;
+  --link-hover: #005f99;
   --active-color: #ff6600;
   --border-color: #ddd;
   --max-width: 35rem;
@@ -19,31 +19,33 @@ body {
   color: var(--text-color);
 }
 
-/* ===== NAVIGATION ===== */
+/* NAVIGATION */
 nav {
-  background: #222;
-  padding: 0.5rem 1.5rem;
+  background: var(--background);
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--border-color);
 }
 
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  gap: 1.5rem;
 }
 
 nav li {
-  display: inline-block;
-  margin-right: 1.5rem;
+  margin: 0;
 }
 
 nav a {
-  color: #fff;
+  color: var(--link-color);
   text-decoration: none;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: var(--active-color);
+  color: var(--link-hover);
 }
 
 nav a.active {
@@ -51,7 +53,7 @@ nav a.active {
   border-bottom: 2px solid var(--active-color);
 }
 
-/* ===== CONTAINER ===== */
+/* CONTAINER */
 #container {
   background: var(--background);
   margin: 0 auto;
@@ -59,7 +61,7 @@ nav a.active {
   max-width: var(--max-width);
 }
 
-/* ===== POSTS LIST ===== */
+/* POSTS */
 .posts {
   list-style: none;
   margin: 0;
