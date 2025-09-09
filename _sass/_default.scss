@@ -1,63 +1,75 @@
 /* === Minimalism-like layout — fixed align left === */
 :root{
-  --foreground: #222;
-  --muted: #666;
+  --foreground: #222;        /* main text */
+  --muted: #666;             /* paragraph muted color */
   --background: #faf9f5;
   --link: #007acc;
   --link-hover: #005ea8;
-  --max-width: 37.5rem; /* 600px */
-  --gutter: 2rem;
+  --max-width: 37.5rem;      /* 600px */
+  --gutter: 2rem;            /* left inner gutter */
 }
 
+/* box model stable */
 *,
 *::before,
 *::after { box-sizing: border-box; }
 
+/* page base */
 html,body { height: 100%; }
 body{
   margin: 0;
   background: var(--background);
   color: var(--foreground);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1rem;
+  font-size: 1rem;          /* 16px — matches source site */
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   word-break: break-word;
-  padding: 2rem 0;
+  padding: 0;
 }
 
-#container{
+/* wrapper chung để nav và content thẳng hàng */
+.site-wrapper {
   max-width: var(--max-width);
   margin: 0;
   padding-left: var(--gutter);
   padding-right: 1rem;
-  padding-bottom: 4rem;
 }
 
-nav{
+/* NAVIGATION */
+nav {
+  position: sticky;
+  top: 0;
+  background: var(--background);
+  padding: 1rem 0;
   margin: 0 0 1.5rem 0;
   font-size: 0.95rem;
-  padding-left: var(--gutter);
-  max-width: var(--max-width);
+  z-index: 1000;
+  border-bottom: 1px solid #e5e5e5;
 }
-nav ul{
+nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  gap: 1.5rem;
 }
-nav li{
-  display: inline-block;
-  margin-right: 1.1rem;
-}
-nav a{
+nav li { margin: 0; }
+nav a {
   color: var(--foreground);
   text-decoration: none;
   font-weight: 600;
 }
-nav a.active,
-nav a:hover{
+nav a:hover,
+nav a.active {
   text-decoration: underline;
+}
+
+/* main container — fixed left (not centered) */
+#container{
+  margin: 0;
+  padding-bottom: 4rem;        /* thêm khoảng trống dưới */
 }
 
 /* POSTS list */
@@ -66,9 +78,7 @@ nav a:hover{
   margin: 0;
   padding: 0;
 }
-.posts li{
-  margin: 0.9rem 0;
-}
+.posts li{ margin: 0.9rem 0; }
 .posts a{
   color: var(--foreground);
   text-decoration: none;
@@ -89,9 +99,11 @@ h2 { font-size: clamp(1.05rem, 2.6vw, 1.2rem); }
 h3 { font-size: clamp(1rem, 2.0vw, 1.1rem); }
 h4 { font-size: 1rem; }
 
+/* paragraphs */
 p { margin: 0.85rem 0; color: var(--muted); }
 strong, b { font-weight: 600; color: var(--foreground); }
 
+/* links inside content */
 a, a:visited {
   color: var(--link);
   text-decoration: underline;
@@ -99,6 +111,7 @@ a, a:visited {
 }
 a:hover { color: var(--link-hover); }
 
+/* blockquote */
 blockquote{
   border-left: 3px solid #e0e0e0;
   padding-left: 1rem;
@@ -108,6 +121,7 @@ blockquote{
 }
 blockquote p{ margin: 0; }
 
+/* code */
 code{
   font-family: "Fira Code", "Menlo", monospace;
   font-size: 0.9rem;
@@ -124,28 +138,31 @@ pre{
 }
 pre code{ background: none; padding: 0; }
 
+/* tables */
 table{ width:100%; border-collapse: collapse; margin:1rem 0; }
 table th, table td { padding: 0.5rem; border-bottom: 1px solid #eee; text-align:left; }
 table th{ font-weight:600; }
 
+/* helpers */
 hr{ border: none; height:1px; background:#eee; margin:1.5rem 0; }
 img{ max-width:100%; height:auto; display:block; margin: 0.8rem 0; }
 
 /* Responsive tweaks */
 @media (max-width: 900px) {
   body {
-    padding: 1.5rem 0;
     font-size: 0.98rem;
     line-height: 1.65;
   }
-  #container {
+
+  .site-wrapper {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-    padding-bottom: 3rem;
   }
-  nav { margin-bottom: 1rem; padding-left: 1.25rem; }
-  nav li { margin-right: 0.9rem; }
+
+  nav { margin-bottom: 1rem; }
+  nav ul { gap: 1rem; }
   .posts li { margin: 0.95rem 0; }
+
   h1 { font-size: 1.25rem; }
   h2 { font-size: 1.05rem; }
   h3 { font-size: 1rem; }
