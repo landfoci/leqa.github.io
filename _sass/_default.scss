@@ -55,30 +55,32 @@ body::after {
   }
 }
 
+/* ===== Navigation sửa lại ===== */
 nav {
-  img {
-    height: 3rem;
-    transform: translateY(1.5rem);
-    float: left;
-    padding: 0 1rem 0;
-  }
-
-  ul {
-    list-style: none;
-    padding: 5rem 1.5rem 0;
-    text-align: left;
-
-    li {
-      display: inline-block;
-    }
-  }
-
-  a {
-    margin: .5rem;
-    text-decoration: none;
-    font-weight: bold;
-  }
+  display: flex;
+  justify-content: flex-start; /* căn sát lề trái */
+  margin-bottom: 2rem; /* cách bài viết một chút */
 }
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  margin: 0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* ============================== */
 
 hr {
     background: #d9d9d9;
