@@ -3,17 +3,14 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="vi">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title | default: site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-</head>
-<body>
-  <div class="site-wrapper">
-    {% include navigation.html %}
-    {{ content }}
-  </div>
-</body>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <div id="container">
+      {% include masthead.html %}
+      <main id="main" role="main">{{ content }}</main>
+      <hr />
+      {% include footer.html %}
+    </div>
+  </body>
 </html>
