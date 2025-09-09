@@ -57,9 +57,7 @@ body::after {
 
 /* ===== Navigation sửa lại ===== */
 nav {
-  display: flex;
-  justify-content: flex-start; /* căn sát lề trái */
-  margin-bottom: 1rem; /* cách bài viết một chút */
+  margin-bottom: 2rem;
 }
 
 nav ul {
@@ -67,20 +65,21 @@ nav ul {
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-evenly; /* trải đều */
   width: 100%;
 }
 
 nav li {
-  display: inline;
+  flex: 1;               /* mỗi mục chiếm đều nhau */
+  text-align: center;    /* căn chữ vào giữa */
 }
 
 nav a {
-  margin: 0;
   text-decoration: none;
   font-weight: bold;
+  display: inline-block;
+  padding: 0.5rem 0;
 }
-
 /* ============================== */
 
 hr {
