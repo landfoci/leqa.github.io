@@ -1,18 +1,8 @@
-
----
-layout: default
-title: Trang chủ
-permalink: /
----
-
+--- 
+layout: default 
+permalink: / 
+--- 
 <div id="container">
-  <ul class="posts">
-    {% for post in site.posts limit:12 %}
-      <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          {{ post.title }}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
+  <ul class="posts"> {% for post in site.posts limit:12 %} 
+  <li> <span> <a href="{{ site.baseurl }}{{ post.url }}"> {{ post.title }} </a> </span> </li> {% endfor %} </ul> </div>
 </div>
