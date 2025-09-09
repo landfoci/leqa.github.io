@@ -67,8 +67,8 @@ nav ul {
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center;
-  gap: 3rem; /* tăng khoảng cách cho đều mắt */
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 nav li {
