@@ -8,15 +8,15 @@
 body {
   color: var(--foreground);
   background-color: var(--background);
-  font-family:  "Georgia",serif;
-  font-size: 0.9rem;
-  line-height: 1.6;
+  font-family: "Georgia", serif;
+  font-size: clamp(1rem, 1.2vw + 0.5rem, 1.125rem); /* chữ co giãn */
+  line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   word-break: break-word;
-  max-width:  35rem;
+  max-width: 60ch; /* rộng hơn để đọc thoáng */
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
 }
   
 body::after {
@@ -33,7 +33,7 @@ body::after {
   background: var(--background);
   position: relative;
   z-index: 100;
-  margin: 1rem;
+  margin: 0 auto;
   padding: 1rem;
 }
 
@@ -48,19 +48,12 @@ body::after {
   pointer-events: none;
 }
 
-@media (max-width: 768px) {
-  .container {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-}
-
 /* ===== Navigation sửa lại ===== */
 nav {
   display: flex;
-  justify-content: flex-start; /* căn sát lề trái */
-  gap: .5rem;
-  margin-bottom: 1rem; /* cách bài viết một chút */
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
 }
 
 nav ul {
@@ -68,7 +61,7 @@ nav ul {
   padding: 0;
   margin: 0;
   display: flex;
-  gap: .5rem;
+  gap: 1rem;
 }
 
 nav li {
@@ -79,17 +72,19 @@ nav a {
   margin: 0;
   text-decoration: none;
   font-weight: bold;
+  font-size: 0.95em;
+  color: var(--foreground);
 }
 
 /* ============================== */
 
 hr {
-    background: #d9d9d9;
-    height: 1px;
-    border: none;
-    max-width: 70ch;
-    padding: 0;
-    margin: 2rem auto;
+  background: #d9d9d9;
+  height: 1px;
+  border: none;
+  max-width: 70ch;
+  padding: 0;
+  margin: 2rem auto;
 }
 
 time {
@@ -99,11 +94,11 @@ time {
 
 a,
 a:visited {
-text-underline-offset: .3em;
-text-decoration-color: #aaa;
-text-decoration-thickness: 1px;
-text-decoration-skip-ink: auto;
-color: #5c5c5c;
+  text-underline-offset: .3em;
+  text-decoration-color: #aaa;
+  text-decoration-thickness: 1px;
+  text-decoration-skip-ink: auto;
+  color: #5c5c5c;
 
   &:hover {
     color: var(--foreground);
@@ -131,8 +126,6 @@ a.active {
   
   li {
     display: flex;
-
-  
     div {
       min-width: 10ch;
     }
@@ -195,8 +188,8 @@ table {
 }
 
 h1, h2, h3, h4, h5, b, strong {
-    font-size: inherit;
-    font-weight: 600;
+  font-size: inherit;
+  font-weight: 600;
 }
 
 .post-meta-bottom {
@@ -222,4 +215,24 @@ h1, h2, h3, h4, h5, b, strong {
 
 .post-meta-bottom .post-date {
   white-space: nowrap;
+}
+
+/* ========== Responsive tweaks ========== */
+@media (max-width: 1024px) {
+  body {
+    font-size: clamp(1rem, 1vw + 0.8rem, 1.05rem);
+    padding: 1.5rem;
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 1rem;
+    padding: 1rem;
+    max-width: 95%;
+  }
+  nav {
+    justify-content: center;
+  }
 }
