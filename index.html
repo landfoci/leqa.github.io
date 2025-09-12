@@ -3,14 +3,14 @@ layout: default
 permalink: / 
 --- 
 
-<ul class="posts">
-  <ul class="posts"> {% for post in site.posts limit:12 %} 
-  <li>
-    <span>
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </span>
-  </li>
+  <ul class="posts">
+  {% for post in paginator.posts %}
+    <li>
+      <div class="post-date">{{ post.date | date: "%Y-%m-%d" }}</div>
+      <div class="post-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <p class="post-excerpt">{{ post.excerpt }}</p>
+      </div>
+    </li>
   {% endfor %}
 </ul>
