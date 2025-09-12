@@ -3,30 +3,18 @@ layout: default
 permalink: / 
 --- 
 
-  <ul class="posts">
-  {% for post in paginator.posts %}
-    <li>
-      <div class="post-date">{{ post.date | date: "%Y-%m-%d" }}</div>
-      <div class="post-title">
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <p class="post-excerpt">{{ post.excerpt }}</p>
-      </div>
-    </li>
+
+<ul class="posts">
+  {% for post in site.posts %}
+  <li>
+    <div>
+      <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+    </div>
+    <span>
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </span>
+  </li>
   {% endfor %}
 </ul>
-
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}">« Prev</a>
-  {% else %}
-    <span>« Prev</span>
-  {% endif %}
-
-  <span class="current">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}">Next »</a>
-  {% else %}
-    <span>Next »</span>
-  {% endif %}
-</div>
