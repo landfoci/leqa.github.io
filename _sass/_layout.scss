@@ -1,0 +1,35 @@
+#container {
+  background: var(--background);
+  position: relative;
+  z-index: 100;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.95em;
+  color: var(--foreground);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
