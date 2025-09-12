@@ -1,3 +1,5 @@
+---
+---
 :root {
   --foreground: #888;
   --background: #faf9f5;
@@ -99,17 +101,16 @@ a:visited {
   text-decoration-thickness: 1px;
   text-decoration-skip-ink: auto;
   color: #5c5c5c;
-}
 
-a:hover,
-a:visited:hover {
-  color: var(--foreground);
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
-  text-decoration-color: #fff7b1;
-  text-decoration-thickness: .5em;
-  text-underline-offset: -.25em;
-  transition: text-decoration .3s;
+  &:hover {
+    color: var(--foreground);
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #fff7b1;
+    text-decoration-thickness: .5em;
+    text-underline-offset: -.25em;
+    transition: text-decoration .3s;
+  }
 }
 
 a.active {
@@ -124,14 +125,13 @@ a.active {
 
 .posts {
   padding: 0;
-}
-
-.posts li {
-  display: flex;
-}
-
-.posts li div {
-  min-width: 10ch;
+  
+  li {
+    display: flex;
+    div {
+      min-width: 10ch;
+    }
+  }
 }
 
 footer {
@@ -147,10 +147,10 @@ blockquote {
   border-left-width: 0.25rem;
   margin-top: 1.6em;
   margin-bottom: 1.6em;
-}
 
-blockquote p {
-  margin: 0;
+  p {
+    margin: 0;
+  }
 }
 
 code,
@@ -174,19 +174,19 @@ table {
   border-collapse: collapse;
   text-align: left;
   width: 100%;
-}
 
-table tr {
-  border-bottom: 1px solid var(--foreground);
-}
+  tr {
+    border-bottom: 1px solid var(--foreground);
+  }
 
-table th,
-table td {
-  padding: 0.5rem;
-}
+  th,
+  td {
+    padding: 0.5rem;
+  }
 
-table td:first-child {
-  font-weight: bold;
+  td:first-child {
+    font-weight: bold;
+  }
 }
 
 h1, h2, h3, h4, h5, b, strong {
