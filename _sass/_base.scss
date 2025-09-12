@@ -1,0 +1,49 @@
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+  font-family: "Georgia", serif;
+  font-size: clamp(1rem, 1.2vw + 0.5rem, 1.125rem);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  word-break: break-word;
+  max-width: 60ch;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+body::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+}
+
+hr {
+  background: #d9d9d9;
+  height: 1px;
+  border: none;
+  max-width: 70ch;
+  margin: 2rem auto;
+}
+
+a,
+a:visited {
+  text-underline-offset: .3em;
+  text-decoration-color: #aaa;
+  text-decoration-thickness: 1px;
+  color: #5c5c5c;
+}
+
+a:hover,
+a:visited:hover {
+  color: var(--foreground);
+  text-decoration: underline;
+  text-decoration-color: #fff7b1;
+  text-decoration-thickness: .5em;
+  text-underline-offset: -.25em;
+  transition: text-decoration .3s;
+}
