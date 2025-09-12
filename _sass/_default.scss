@@ -8,16 +8,15 @@
 body {
   color: var(--foreground);
   background-color: var(--background);
-  font-family:  "Georgia",serif;
-  font-size: 0.9rem;
-  line-height: 1.6;
+  font-family: "Georgia", serif;
+  font-size: clamp(1rem, 1.2vw + 0.5rem, 1.125rem); /* chữ co giãn */
+  line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   word-break: break-word;
-  max-width:  35rem;
-  margin-left: 5vw; 
-  margin-right: auto;
-  padding: 2rem 0;
+  max-width: 60ch; /* rộng hơn để đọc thoáng */
+  margin: 0 auto;
+  padding: 2rem 1rem;
 }
   
 body::after {
@@ -34,7 +33,7 @@ body::after {
   background: var(--background);
   position: relative;
   z-index: 100;
-  margin: 1rem;
+  margin: 0 auto;
   padding: 1rem;
 }
 
@@ -49,45 +48,43 @@ body::after {
   pointer-events: none;
 }
 
-@media (max-width: 768px) {
-  .container {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-}
-
+/* ===== Navigation sửa lại ===== */
 nav {
-  img {
-    height: 3rem;
-    transform: translateY(1.5rem);
-    float: left;
-    padding: 0 1rem 0;
-  }
-
-  ul {
-    list-style: none;
-    padding: 5rem 1.5rem 0;
-    text-align: left;
-
-    li {
-      display: inline-block;
-    }
-  }
-
-  a {
-    margin: .5rem;
-    text-decoration: none;
-    font-weight: bold;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
 }
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  margin: 0;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.95em;
+  color: var(--foreground);
+}
+
+/* ============================== */
 
 hr {
-    background: #d9d9d9;
-    height: 1px;
-    border: none;
-    max-width: 70ch;
-    padding: 0;
-    margin: 2rem auto;
+  background: #d9d9d9;
+  height: 1px;
+  border: none;
+  max-width: 70ch;
+  padding: 0;
+  margin: 2rem auto;
 }
 
 time {
@@ -97,21 +94,22 @@ time {
 
 a,
 a:visited {
-text-underline-offset: .3em;
-text-decoration-color: #aaa;
-text-decoration-thickness: 1px;
-text-decoration-skip-ink: auto;
-color: #5c5c5c;
+  text-underline-offset: .3em;
+  text-decoration-color: #aaa;
+  text-decoration-thickness: 1px;
+  text-decoration-skip-ink: auto;
+  color: #5c5c5c;
+}
 
-  &:hover {
-    color: var(--foreground);
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    text-decoration-color: #fff7b1;
-    text-decoration-thickness: .5em;
-    text-underline-offset: -.25em;
-    transition: text-decoration .3s;
-  }
+a:hover,
+a:visited:hover {
+  color: var(--foreground);
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  text-decoration-color: #fff7b1;
+  text-decoration-thickness: .5em;
+  text-underline-offset: -.25em;
+  transition: text-decoration .3s;
 }
 
 a.active {
@@ -126,15 +124,14 @@ a.active {
 
 .posts {
   padding: 0;
-  
-  li {
-    display: flex;
+}
 
-  
-    div {
-      min-width: 10ch;
-    }
-  }
+.posts li {
+  display: flex;
+}
+
+.posts li div {
+  min-width: 10ch;
 }
 
 footer {
@@ -150,10 +147,10 @@ blockquote {
   border-left-width: 0.25rem;
   margin-top: 1.6em;
   margin-bottom: 1.6em;
+}
 
-  p {
-    margin: 0;
-  }
+blockquote p {
+  margin: 0;
 }
 
 code,
@@ -177,24 +174,24 @@ table {
   border-collapse: collapse;
   text-align: left;
   width: 100%;
+}
 
-  tr {
-    border-bottom: 1px solid var(--foreground);
-  }
+table tr {
+  border-bottom: 1px solid var(--foreground);
+}
 
-  th,
-  td {
-    padding: 0.5rem;
-  }
+table th,
+table td {
+  padding: 0.5rem;
+}
 
-  td:first-child {
-    font-weight: bold;
-  }
+table td:first-child {
+  font-weight: bold;
 }
 
 h1, h2, h3, h4, h5, b, strong {
-    font-size: inherit;
-    font-weight: 600;
+  font-size: inherit;
+  font-weight: 600;
 }
 
 .post-meta-bottom {
@@ -220,4 +217,24 @@ h1, h2, h3, h4, h5, b, strong {
 
 .post-meta-bottom .post-date {
   white-space: nowrap;
+}
+
+/* ========== Responsive tweaks ========== */
+@media (max-width: 1024px) {
+  body {
+    font-size: clamp(1rem, 1vw + 0.8rem, 1.05rem);
+    padding: 1.5rem;
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 1rem;
+    padding: 1rem;
+    max-width: 95%;
+  }
+  nav {
+    justify-content: center;
+  }
 }
