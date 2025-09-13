@@ -1,24 +1,15 @@
-\<ul class="posts">
+---
+layout: default
+---
+
+<ul class="posts">
   {% for post in site.posts %}
   <li>
-    <div>
-      <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
-    </div>
     <span>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
     </span>
-
-    <!-- Post meta-bottom -->
-    <div class="post-meta-bottom">
-      <div class="post-tags">
-        {% for tag in post.tags %}
-        <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>
-        {% endfor %}
-      </div>
-      <div class="post-date">{{ post.date | date: "%Y-%m-%d" }}</div>
-    </div>
-
   </li>
   {% endfor %}
 </ul>
-
