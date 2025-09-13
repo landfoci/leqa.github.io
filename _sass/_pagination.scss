@@ -1,3 +1,4 @@
+/* Post meta bottom (tags + date dưới bài viết) */
 .post-meta-bottom {
   display: flex;
   justify-content: space-between;
@@ -23,7 +24,38 @@
   white-space: nowrap;
 }
 
-/* Responsive */
+/* Pagination (nút chuyển trang) */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 3rem 0;
+  font-size: 0.9rem;
+}
+
+.pagination a {
+  padding: 0.4rem 0.8rem;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: var(--foreground);
+  background: #fff;
+  transition: background 0.2s, color 0.2s;
+}
+
+.pagination a:hover {
+  background: #007acc;
+  color: #fff;
+  border-color: #007acc;
+}
+
+.pagination .page-number {
+  font-weight: bold;
+  color: #666;
+}
+
+/* Responsive tweaks */
 @media (max-width: 1024px) {
   body {
     font-size: clamp(1rem, 1vw + 0.8rem, 1.05rem);
