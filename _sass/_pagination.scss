@@ -1,25 +1,44 @@
-.pagination {
+.post-meta-bottom {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.813rem;
+  color: #888;
+  margin-top: 2rem;
   gap: 1rem;
-  margin: 2rem 0;
-  font-size: 0.9rem;
+  flex-wrap: wrap;
 }
 
-.pagination a,
-.pagination span {
-  padding: 0.3rem 0.7rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+.post-meta-bottom .post-tags a {
   text-decoration: none;
-  color: var(--foreground);
+  margin-left: 0.5rem;
+  color: #007acc;
+  background: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.85rem;
 }
 
-.pagination a:hover {
-  background: #f5f5f5;
+.post-meta-bottom .post-date {
+  white-space: nowrap;
 }
 
-.pagination .current {
-  font-weight: bold;
-  background: #eee;
+/* Responsive */
+@media (max-width: 1024px) {
+  body {
+    font-size: clamp(1rem, 1vw + 0.8rem, 1.05rem);
+    padding: 1.5rem;
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 1rem;
+    padding: 1rem;
+    max-width: 95%;
+  }
+  nav {
+    justify-content: center;
+  }
 }
