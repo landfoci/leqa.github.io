@@ -17,6 +17,7 @@ plugins:
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-compress-html
 
 paginate: 9
 paginate_path: "/page:num"
