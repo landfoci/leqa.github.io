@@ -30,11 +30,17 @@ hr {
   margin: 2rem auto;
 }
 
+time {
+  font-style: italic;
+  font-size: 12px;
+}
+
 a,
 a:visited {
   text-underline-offset: .3em;
   text-decoration-color: #aaa;
   text-decoration-thickness: 1px;
+  text-decoration-skip-ink: auto;
   color: #5c5c5c;
 }
 
@@ -42,8 +48,69 @@ a:hover,
 a:visited:hover {
   color: var(--foreground);
   text-decoration: underline;
+  text-decoration-skip-ink: none;
   text-decoration-color: #fff7b1;
   text-decoration-thickness: .5em;
   text-underline-offset: -.25em;
   transition: text-decoration .3s;
+}
+
+a.active {
+  color: var(--foreground);
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #fff7b1;
+  text-decoration-thickness: .2em;
+  text-underline-offset: .4em;
+}
+
+blockquote {
+  border-left: 0.25rem solid #999;
+  margin: 1.6em 0;
+  padding-left: 1.5em;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+code,
+pre {
+  font-family: "Fira Code", monospace;
+  font-size: 90%;
+}
+
+pre {
+  overflow: auto;
+  padding: 1em;
+}
+
+img {
+  margin: auto;
+  display: block;
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+}
+
+table tr {
+  border-bottom: 1px solid var(--foreground);
+}
+
+table th,
+table td {
+  padding: 0.5rem;
+}
+
+table td:first-child {
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, b, strong {
+  font-size: inherit;
+  font-weight: 600;
 }
